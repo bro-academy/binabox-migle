@@ -1,5 +1,5 @@
 # Binabox - homework project
 
-Student: 
+Student: Migle Matiukaite
 
-Mentor: 
+Mentor: Oleksandr Koshara
