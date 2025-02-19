@@ -8,27 +8,27 @@
   <body>
     <header class="page-header">
       <a class="page-header__logo" href="#">Binabox <img src="#" alt="Picutre of logo" /></a>
-      <nav class="page-header__nav">
-        <ul class="page-header__list">
-          <li>
-            <a class="page-header__list-item" href="#">Home</a>
+      <nav class="page-header__nav ">    
+        <ul class="page-header__nav-list">
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#">Home</a> <!--elemnt must have meaning, no rule like a i thought -->
           </li>
           <li>
-            <a class="page-header__list-item" href="#">Blog</a>
+            <a href="#">Blog</a>
           </li>
           <li>
-            <a class="page-header__list-item" href="#">Catalog</a>
+            <a  href="#">Catalog</a>
           </li>
           <li>
-            <a class="page-header__list-item" href="#">Contact us</a>
+            <a  href="#">Contact us</a>
           </li>
         </ul>
       </nav>
-      <a class="page-header__discord" href="#">Discord</a>
-      <a class="page-header__connect" href="#">Connect</a>
+      <a class="page-header__discord" href="#">Discord</a> <!--class="button button--secondary page-header_button"--> <!--three classes here-->
+      <a class="page-header__connect" href="#">Connect</a> <!--class="button button--primary page-header_button"--> <!--DO NOT NAME BUTTON WITH IT'S NAME-->
     </header>
     <main>
-      <section class="section-hero">
+      <section class="section-hero"> <!--main banner-->
         <article class="section-hero__article" >
           <h1 class="section-hero__title">with <span>binabox</span> explore nft collection</h1>
           <p class="section-hero__text">We are the best way to check rarity of NFT collection</p>
@@ -38,8 +38,8 @@
             <dt class="section-hero__list-term">1000+</dt>
             <dd class="section-hero__list-desc">Profiles whitelisted</dd>
           </dl>
-          <a class="section-hero__" href="#">Connect wallet</a>
-          <a class="section-hero__" href="#">Whitelist now</a>
+          <a class="section-hero__button" href="#">Connect wallet</a> block here
+          <a class="section-hero__button" href="#">Whitelist now</a>
         </article>
         <div>
           <img src="#" alt="Main-Image_Cube" />
@@ -48,13 +48,13 @@
       <section class="catalog">
         <h2 class="catalog__title">Catalog</h2>
         <a class="catalog__button" href="#">See all</a>
-        <button class="catalog__button-left">&lt;</button>
+        <button class="catalog__button-left">&lt;</button> <!--blocks-->>
         <button class="catalog__button-right">&gt;</button>
         <ul class="catalog__list">
           <li class="catalog__list-item">
-            <a class="catalog__list-item-link" href="#">
-              <article class="catalog__prdouct-card">
-                <span class="catalog__new">New</span>
+            <a href="#"> 
+              <article class="catalog__prdouct-card">  <!--class="product-card"-->
+                <span class="catalog__new">New</span>  <!--we can work with these labels as blocks as well--> <!--class="label label--updated"-->
                 <img class="catalog_image" src="#" alt="Card - Skeleton" />
                 <p class="catalog__price">$199</p>
                 <p class="catalog__product-name">Name product</p>
@@ -107,7 +107,7 @@
         <h2 class="blog-section__title">Our blog</h2>
         <ul class="blog-section__list">
           <li class="blog-section__list-item">
-            <article class="blog-section__card">
+            <article class="blog-section__card"> <!--block-->>
               <span class="blog-section__NFT">NFT</span>
               <img class="blog-section__image" src="#" alt="Face" />
               <p class="blog-section__article-writer">Tony Nguyen</p>
@@ -279,8 +279,8 @@
                 <dt>Jason Smith</dt>
                 <dd>Co-founder</dd>
               </dl>
-              <ul>
-                <li><a href="#">Twitter</a></li>
+              <ul class="social-icons">
+                <li><a class="social-icons__link" href="#">Twitter</a></li>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">Telegram</a></li>
                 <li><a href="#">YouTube</a></li>
