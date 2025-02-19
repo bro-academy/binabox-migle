@@ -28,36 +28,36 @@
       <a class="page-header__connect" href="#">Connect</a>
     </header>
     <main>
-      <section>
-        <article>
-          <h1>with <span>binabox</span> explore nft collection</h1>
-          <p>We are the best way to check rarity of NFT collection</p>
-          <dl>
-            <dt>2240+</dt>
-            <dd>Total iteam</dd>
-            <dt>1000+</dt>
-            <dd>Profiles whitelisted</dd>
+      <section class="section-hero">
+        <article class="section-hero__article" >
+          <h1 class="section-hero__title">with <span>binabox</span> explore nft collection</h1>
+          <p class="section-hero__text">We are the best way to check rarity of NFT collection</p>
+          <dl class="section-hero__list">
+            <dt class="section-hero__list-term">2240+</dt>
+            <dd class="section-hero__list-desc">Total iteam</dd>
+            <dt class="section-hero__list-term">1000+</dt>
+            <dd class="section-hero__list-desc">Profiles whitelisted</dd>
           </dl>
-          <a href="#">Connect wallet</a>
-          <a href="#">Whitelist now</a>
+          <a class="section-hero__" href="#">Connect wallet</a>
+          <a class="section-hero__" href="#">Whitelist now</a>
         </article>
         <div>
           <img src="#" alt="Main-Image_Cube" />
         </div>
       </section>
-      <section>
-        <h2>Catalog</h2>
-        <a href="#">See all</a>
-        <button>&lt;</button>
-        <button>&gt;</button>
-        <ul>
-          <li>
-            <a href="#">
-              <article>
-                <span>New</span>
-                <img src="#" alt="Card - Skeleton" />
-                <p>$199</p>
-                <p>Name product</p>
+      <section class="catalog">
+        <h2 class="catalog__title">Catalog</h2>
+        <a class="catalog__button" href="#">See all</a>
+        <button class="catalog__button-left">&lt;</button>
+        <button class="catalog__button-right">&gt;</button>
+        <ul class="catalog__list">
+          <li class="catalog__list-item">
+            <a class="catalog__list-item-link" href="#">
+              <article class="catalog__prdouct-card">
+                <span class="catalog__new">New</span>
+                <img class="catalog_image" src="#" alt="Card - Skeleton" />
+                <p class="catalog__price">$199</p>
+                <p class="catalog__product-name">Name product</p>
               </article>
             </a>
           </li>
@@ -103,21 +103,21 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our blog</h2>
-        <ul>
-          <li>
-            <article>
-              <span>NFT</span>
-              <img src="#" alt="Face" />
-              <p>Tony Nguyen</p>
-              <time datetime="2022-06-20">20 Jun 2022</time>
-              <h3>Sonic live</h3>
-              <p>
+      <section class="blog-section">
+        <h2 class="blog-section__title">Our blog</h2>
+        <ul class="blog-section__list">
+          <li class="blog-section__list-item">
+            <article class="blog-section__card">
+              <span class="blog-section__NFT">NFT</span>
+              <img class="blog-section__image" src="#" alt="Face" />
+              <p class="blog-section__article-writer">Tony Nguyen</p>
+              <time class="blog-section__date" datetime="2022-06-20">20 Jun 2022</time>
+              <h3 class="blog-section__card-title">Sonic live</h3>
+              <p class="blog-section__desc">
                 One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
                 nulla imperdiet...
               </p>
-              <a href="#">Read more</a>
+              <a class="blog-section__link" href="#">Read more</a>
             </article>
           </li>
           <li>
@@ -193,20 +193,20 @@
         </ul>
         <a href="#">Read more</a>
       </section>
-      <section>
-        <h2>About us</h2>
-        <p>
+      <section class="about-us">
+        <h2 class="about-us__title">About us</h2>
+        <p class="about-us__desc">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat
           non proident, sunt in culpa qui officia dese runt mollit anim id est
           laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint
           occaecat
         </p>
-        <ol>
-          <li>
-            <p>01</p>
-            <h3>High quality</h3>
-            <p>
+        <ol class="about-us__list">
+          <li class="about-us__list-item">
+            <p class="about-us__list-item-number">01</p>
+            <h3 class="about-us__list-item-title">High quality</h3>
+            <p class="about-us__list-item-description">
               Lorem Ipsum is simply dummy text of the printing and Ipsum
               typesetting industry.
             </p>
@@ -238,24 +238,38 @@
         </ol>
         <a href="#">Read more</a>
       </section>
-      <section>
-        <h2>Our team</h2>
-        <ul>
-          <li>
-            <article>
-              <img src="#" alt="Man's face" />
-              <dl>
-                <dt>Jason Smith</dt>
-                <dd>Co-founder</dd>
+      <section class="our-team">
+        <h2 class="our-team__title">Our team</h2>
+        <ul class="our-team__list">
+          <li class="our-team__list-item">
+            <article class="our-team__card">
+              <img src="#" alt="Man's face" /> <!--class="our-team_image" or class="our-team__card-image"-->
+              <dl class="our-team__desc-list">
+                <dt class="our-team__desc-term"></dt>>Jason Smith</dt>
+                <dd class="our-team__desc-def">Co-founder</dd>
               </dl>
-              <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">TikTok</a></li>
-                <li><a href="#">Reddit</a></li>
-              </ul>
+              <nav class="our-team__nav">
+                <ul class="our-team__list">
+                  <li class="our-team__list-item">
+                    <a href="#">Twitter</a> <!--here as well confused like in previous comment-->
+                  </li>
+                  <li class="our-team__list-item">
+                    <a href="#">Facebook</a>
+                  </li>
+                  <li class="our-team__list-item">
+                    <a href="#">Telegram</a>
+                  </li>
+                  <li class="our-team__list-item">
+                    <a href="#">YouTube</a>
+                  </li>
+                  <li class="our-team__list-item">
+                    <a href="#">TikTok</a>
+                  </li>
+                  <li class="our-team__list-item">
+                    <a href="#">Reddit</a>
+                  </li>
+                </ul>
+            </nav>
             </article>
           </li>
           <li>
@@ -362,11 +376,11 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>faqs</h2>
-        <ul>
-          <li>
-            <details>
+      <section class="faq">
+        <h2 class="faq_title">faqs</h2>
+        <ul class="faq_list">
+          <li class="faq_list-item">
+            <details > <!--same situation: block faq or faq_list item?-->
               <summary>What are the NFTs?</summary>
               <p>
                 Urna vitae erat et lacus, consectetur ac nulla vestibulum
