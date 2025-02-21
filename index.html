@@ -11,7 +11,7 @@
       <nav class="page-header__nav ">    
         <ul class="page-header__nav-list">
           <li class="page-header__nav-item">
-            <a class="page-header__nav-link" href="#">Home</a> <!--elemnt must have meaning, no rule like a i thought -->
+            <a class="page-header__nav-link page-header__nav-link--selected" href="#">Home</a> <!--elemnt must have meaning, no rule like a i thought -->
           </li>
           <li>
             <a href="#">Blog</a>
@@ -24,22 +24,22 @@
           </li>
         </ul>
       </nav>
-      <a class="page-header__discord" href="#">Discord</a> <!--class="button button--secondary page-header_button"--> <!--three classes here-->
-      <a class="page-header__connect" href="#">Connect</a> <!--class="button button--primary page-header_button"--> <!--DO NOT NAME BUTTON WITH IT'S NAME-->
+      <a class="page-header__button button button--secondary" href="#">Discord</a> <!--class="button button--secondary page-header_button"--> <!--three classes here-->
+      <a class="page-header__button button button--primary" href="#">Connect</a> <!--class="button button--primary page-header_button"--> <!--DO NOT NAME BUTTON WITH IT'S NAME-->
     </header>
     <main>
-      <section class="section-hero"> <!--main banner-->
-        <article class="section-hero__article" >
-          <h1 class="section-hero__title">with <span>binabox</span> explore nft collection</h1>
-          <p class="section-hero__text">We are the best way to check rarity of NFT collection</p>
-          <dl class="section-hero__list">
-            <dt class="section-hero__list-term">2240+</dt>
-            <dd class="section-hero__list-desc">Total iteam</dd>
-            <dt class="section-hero__list-term">1000+</dt>
-            <dd class="section-hero__list-desc">Profiles whitelisted</dd>
+      <section class="main-banner"> <!--main banner-->
+        <article class="main-banner__article" >
+          <h1 class="main-banner__title">with <span>binabox</span> explore nft collection</h1>
+          <p class="main-banner__text">We are the best way to check rarity of NFT collection</p>
+          <dl class="main-banner__list">
+            <dt class="main-banner__list-term">2240+</dt>
+            <dd class="main-banner__list-desc">Total iteam</dd>
+            <dt class="main-banner__list-term">1000+</dt>
+            <dd class="main-banner__list-desc">Profiles whitelisted</dd>
           </dl>
-          <a class="section-hero__button" href="#">Connect wallet</a> block here
-          <a class="section-hero__button" href="#">Whitelist now</a>
+          <a class="main-banner__button main-banner__button--primary" href="#">Connect wallet</a> block here
+          <a class="main-banner__button" href="#">Whitelist now</a>
         </article>
         <div>
           <img src="#" alt="Main-Image_Cube" />
@@ -49,15 +49,15 @@
         <h2 class="catalog__title">Catalog</h2>
         <a class="catalog__button" href="#">See all</a>
         <button class="catalog__button-left">&lt;</button> <!--blocks-->>
-        <button class="catalog__button-right">&gt;</button>
+        <button class="catalog__button-right catalog__button-right--primary">&gt;</button>
         <ul class="catalog__list">
           <li class="catalog__list-item">
             <a href="#"> 
-              <article class="catalog__prdouct-card">  <!--class="product-card"-->
-                <span class="catalog__new">New</span>  <!--we can work with these labels as blocks as well--> <!--class="label label--updated"-->
-                <img class="catalog_image" src="#" alt="Card - Skeleton" />
-                <p class="catalog__price">$199</p>
-                <p class="catalog__product-name">Name product</p>
+              <article class="prdouct-card">  <!--class="product-card"-->
+                <span class="prdouct-card__new">New</span>  <!--we can work with these labels as blocks as well--> <!--class="label label--updated"-->
+                <img class="prdouct-card_image" src="#" alt="Card - Skeleton" />
+                <p class="prdouct-card">$199</p>
+                <p class="prdouct-card__product-name">Name product</p>
               </article>
             </a>
           </li>
@@ -74,7 +74,7 @@
           <li>
             <a href="#">
               <article>
-                <span>Sold Out</span>
+                <span>Sold Out</span> 
                 <img src="#" alt="Card- Scissors" />
                 <p>$199</p>
                 <p>Name product</p>
@@ -107,17 +107,17 @@
         <h2 class="blog-section__title">Our blog</h2>
         <ul class="blog-section__list">
           <li class="blog-section__list-item">
-            <article class="blog-section__card"> <!--block-->>
-              <span class="blog-section__NFT">NFT</span>
-              <img class="blog-section__image" src="#" alt="Face" />
-              <p class="blog-section__article-writer">Tony Nguyen</p>
-              <time class="blog-section__date" datetime="2022-06-20">20 Jun 2022</time>
-              <h3 class="blog-section__card-title">Sonic live</h3>
-              <p class="blog-section__desc">
+            <article class="blog-card"> <!--block-->>
+              <span class="blog-section__label">NFT</span>
+              <img class="blog-card__image" src="#" alt="Face" />
+              <p class="blog-card__article-writer">Tony Nguyen</p>
+              <time class="blog-card_date" datetime="2022-06-20">20 Jun 2022</time>
+              <h3 class="blog-card__card-title">Sonic live</h3>
+              <p class="blog-card__desc">
                 One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
                 nulla imperdiet...
               </p>
-              <a class="blog-section__link" href="#">Read more</a>
+              <a class="blog-card__link" href="#">Read more</a>
             </article>
           </li>
           <li>
@@ -191,7 +191,7 @@
             </article>
           </li>
         </ul>
-        <a href="#">Read more</a>
+        <a class="blog-section__button button" href="#">Read more</a>
       </section>
       <section class="about-us">
         <h2 class="about-us__title">About us</h2>
@@ -203,6 +203,7 @@
           occaecat
         </p>
         <ol class="about-us__list">
+          <!--<p>01</p> or <span>01</span>-->
           <li class="about-us__list-item">
             <p class="about-us__list-item-number">01</p>
             <h3 class="about-us__list-item-title">High quality</h3>
@@ -380,9 +381,9 @@
         <h2 class="faq_title">faqs</h2>
         <ul class="faq_list">
           <li class="faq_list-item">
-            <details > <!--same situation: block faq or faq_list item?-->
-              <summary>What are the NFTs?</summary>
-              <p>
+            <details> 
+              <summary class="faq_question faq_question--open"
+              <p class="answer">
                 Urna vitae erat et lacus, consectetur ac nulla vestibulum
                 lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
               </p>
@@ -390,7 +391,7 @@
           </li>
           <li>
             <details>
-              <summary>How do i get NFTs?</summary>
+              <summary class="faq_question"> How do i get NFTs?</summary>
               <p>
                 Urna vitae erat et lacus, consectetur ac nulla vestibulum
                 lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
@@ -418,9 +419,9 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">BINABOX <img src="#" alt="Picture of logo" /></a>
-      <p>
+    <footer class="footer">
+      <a class="footer_logo" href="#">BINABOX <img src="#" alt="Picture of logo" /></a>
+      <p class="footer_desc">
         We are the best they to check rarity of <span> nft </span> collection
       </p>
       <section>
@@ -439,7 +440,7 @@
           <li><a href="#">Help Center</a></li>
         </ul>
       </section>
-      <p>BINABOX 2022 - All right reserved</p>
+      <p class="footer_text">BINABOX 2022 - All right reserved</p>
       <section>
         <ul>
           <li><a href="#">Twitter</a></li>
