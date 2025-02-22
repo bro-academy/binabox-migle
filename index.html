@@ -6,192 +6,190 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="page-header">
-      <a class="page-header__logo logo" href="#">Binabox <img src="#" alt="Picutre of logo" /></a>
-      <nav class="page-header__nav ">     <!--to aded blocks to each elements-->>
-        <ul class="page-header__nav-list">
-          <li class="page-header__nav-item">
-            <a class="page-header__nav-link page-header__nav-link--selected" href="#">Home</a> <!--elemnt must have meaning, no rule like a i thought -->
+    <header class="header">
+      <a class="header__logo logo" href="#">Binabox <img src="#" alt="Picutre of logo" /></a>
+      <nav class="header__nav nav">  
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link header__nav-link--selected" href="#">Home</a> 
           </li>
-          <li>
-            <a href="#">Blog</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link href="#">Blog</a>
           </li>
-          <li>
-            <a  href="#">Catalog</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link href="#">Catalog</a>
           </li>
-          <li>
-            <a  href="#">Contact us</a>
+          <li class="header__nav-item">
+            <a class="header__nav-link href="#">Contact us</a>
           </li>
         </ul>
       </nav>
-      <a class="page-header__button button button--secondary" href="#">Discord</a> <!--class="button button--secondary page-header_button"--> <!--three classes here-->
-      <a class="page-header__button button button--primary" href="#">Connect</a> <!--class="button button--primary page-header_button"--> <!--DO NOT NAME BUTTON WITH IT'S NAME-->
+      <a class="header__button button button--secondary button--discord-icon" href="#">Discord</a> 
+      <a class="header__button button button--primary button--wallet-icon " href="#">Connect</a> 
     </header>
     <main class="main">
-      <section class="main-banner"> <!--main banner-->
-        <article class="main-banner__article" >
-          <h1 class="main-banner__title">with <span>binabox</span> explore nft collection</h1>
-          <p class="main-banner__text">We are the best way to check rarity of NFT collection</p>
-          <dl class="main-banner__list"> <<!--class=statistics__dtl-->>
-            <dt class="main-banner__list-term">2240+</dt>
-            <dd class="main-banner__list-desc">Total iteam</dd>
-            <dt class="main-banner__list-term">1000+</dt>
-            <dd class="main-banner__list-desc">Profiles whitelisted</dd>
+      <section class="banner">
+        <article class="banner__article" >
+          <h1 class="banner__title">with <span>binabox</span> explore nft collection</h1>
+          <p class="banner__text">We are the best way to check rarity of NFT collection</p>
+          <dl class="banner__stats"> 
+            <dt class="banner__stats-term">2240+</dt>
+            <dd class="banner__stats-desc">Total iteam</dd>
+            <dt class="banner__stats-term">1000+</dt>
+            <dd class="banner__stats-desc">Profiles whitelisted</dd>
           </dl>
-          <a class="main-banner__button main-banner__button--primary button" href="#">Connect wallet</a> block here
-          <a class="main-banner__button main-banner__button--secondary button" href="#">Whitelist now</a>
+          <a class="banner__button banner__button--primary button" href="#">Connect wallet</a> block here
+          <a class="banner__button banner__button--secondary button" href="#">Whitelist now</a>
         </article>
-        <div>
           <img src="#" alt="Main-Image_Cube" />
-        </div>
       </section>
       <section class="catalog">
         <h2 class="catalog__title">Catalog</h2>
         <a class="catalog__button" href="#">See all</a>
-        <button class="catalog__button-left">&lt;</button> <!--blocks-->> <!--fix here -->>
+        <button class="catalog__button-left catalog__button-left--secondary">&lt;</button> 
         <button class="catalog__button-right catalog__button-right--primary">&gt;</button>
         <ul class="catalog__list">
           <li class="catalog__list-item">
             <a href="#"> 
-              <article class="prdouct-card">  <!--class="product-card"-->
-                <span class="prdouct-card__label label">New</span>  <!--we can work with these labels as blocks as well--> <!--class="label label--updated"-->
-                <img class="prdouct-card_image" src="#" alt="Card - Skeleton" />
-                <p class="prdouct-card">$199</p>
+              <article class="prdouct-card">  
+                <span class="prdouct-card__label label">New</span> 
+                <img class="prdouct-card__image" src="#" alt="Card - Skeleton" />
+                <p class="prdouct-card-price">$199</p>
                 <p class="prdouct-card__product-name">Name product</p>
               </article>
             </a>
           </li>
-          <li>
+          <li class="catalog__list-item">
             <a href="#">
-              <article>
-                <span>New</span>
-                <img src="#" alt="Card- Cat" />
-                <p>$199</p>
-                <p>Name product</p>
+              <article class="prdouct-card">
+                <span class="prdouct-card__label label label">New</span>
+                <img class="prdouct-card__image" src="#" alt="Card- Cat" />
+                <p class="prdouct-card__price">$199</p>
+                <p class="prdouct-card__product-name">Name product</p>
               </article>
             </a>
           </li>
-          <li>
+          <li class="catalog__list-item">
             <a href="#">
-              <article>
-                <span> Sold Out</span> <!--prdouct-card__label label--updated-->>
-                <img src="#" alt="Card- Scissors" />
-                <p>$199</p>
-                <p>Name product</p>
+              <article class="prdouct-card">
+                <span class="prdouct-card__label label"> Sold Out</span> 
+                <img class="prdouct-card__image" src="#" alt="Card- Scissors" />
+                <p class="prdouct-card__price">$199</p>
+                <p class="prdouct-card__product-name">Name product</p>
               </article>
             </a>
           </li>
-          <li>
+          <li class="catalog__list-item">
             <a href="#">
-              <article>
-                <span>New</span>
-                <img src="#" alt="Card- Memory Card" />
-                <p>$199</p>
-                <p>Name product</p>
+              <article class="prdouct-card">
+                <span class="prdouct-card__label label">New</span>
+                <img class="prdouct-card__image" src="#" alt="Card- Memory Card" />
+                <p class="prdouct-card__price">$199</p>
+                <p class="prdouct-card__product-name">Name product</p>
               </article>
             </a>
           </li>
-          <li>
+          <li class="catalog__list-item">
             <a href="#">
-              <article>
-                <span>New</span>
-                <img src="#" alt="Card- Console" />
-                <p>$199</p>
-                <p>Name product</p>
+              <article class="prdouct-card">
+                <span class="prdouct-card__label label">New</span>
+                <img class="prdouct-card__image" src="#" alt="Card- Console" />
+                <p class="prdouct-card__price">$199</p>
+                <p class="prdouct-card__product-name">Name product</p>
               </article>
             </a>
           </li>
         </ul>
       </section>
-      <section class="blog-section">
-        <h2 class="blog-section__title">Our blog</h2>
-        <ul class="blog-section__list">
-          <li class="blog-section__list-item">
-            <article class="blog-card"> <!--block-->>
-              <span class="blog-section__label">NFT</span>
+      <section class="blog">
+        <h2 class="blog__title">Our blog</h2>
+        <ul class="blog__list">
+          <li class="blog__list-item">
+            <article class="blog-card"> 
+              <span class="blog-card__label label">NFT</span> 
               <img class="blog-card__image" src="#" alt="Face" />
               <p class="blog-card__article-writer">Tony Nguyen</p>
-              <time class="blog-card_date" datetime="2022-06-20">20 Jun 2022</time>
+              <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
+              <h3 class="blog-card__card-title">Sonic live</h3>
+              <p class="blog-card__desc">
+                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
+                nulla imperdiet...
+              </p>
+              <a class="blog-card__link button button--arrow-icon" href="#">Read more</a>
+            </article>
+          </li>
+          <li class="blog__list-item">
+            <article class="blog-card">
+              <span class="blog-card__label label">NFT</span>
+              <img class="blog-card__image" src="#" alt="Skull" />
+              <p class="blog-card__article-writer">Tony Nguyen</p>
+              <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
+              <h3 class="blog-card__card-title">Sonic live</h3>
+              <p class="blog-card__desc">
+                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
+                nulla imperdiet...
+              </p>
+              <a class="blog-card__link button button--arrow-icon" href="#">Read more</a>
+            </article>
+          </li>
+          <li class="blog__list-item">
+            <article class="blog-card">
+              <span class="blog-card__label label">NFT</span>
+              <img class="blog-card__image" src="#" alt="Cat" />
+              <p class="blog-card__article-writer">Tony Nguyen</p>
+              <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
               <h3 class="blog-card__card-title">Sonic live</h3>
               <p class="blog-card__desc">
                 One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
                 nulla imperdiet...
               </p>
               <a class="blog-card__link" href="#">Read more</a>
-            </article>
+            </article class="blog-card button button--arrow-icon">
           </li>
-          <li>
+          <li class="blog__list-item">
             <article>
-              <span>NFT</span>
-              <img src="#" alt="Skull" />
-              <p>Tony Nguyen</p>
-              <time datetime="2022-06-20">20 Jun 2022</time>
-              <h3>Sonic live</h3>
-              <p>
+              <span class="blog-card__label label">NFT</span>
+              <img class="blog-card__image" src="#" alt="Monkey" />
+              <p class="blog-card__article-writer">Tony Nguyen</p>
+              <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
+              <h3 class="blog-card__card-title">Sonic live</h3>
+              <p class="blog-card__desc">
                 One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
                 nulla imperdiet...
               </p>
-              <a href="#">Read more</a>
+              <a class="blog-card__link button button--arrow-icon" href="#">Read more</a>
             </article>
           </li>
-          <li>
-            <article>
-              <span>NFT</span>
-              <img src="#" alt="Cat" />
-              <p>Tony Nguyen</p>
-              <time datetime="2022-06-20">20 Jun 2022</time>
-              <h3>Sonic live</h3>
-              <p>
+          <li class="blog__list-item">
+            <article class="blog-card">
+              <span class="blog-card__label label">NFT</span>
+              <img class="blog-card__image" src="#" alt="Duck" />
+              <p class="blog-card__article-writer ">Tony Nguyen</p>
+              <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
+              <h3 class="blog-card__card-title">Sonic live</h3>
+              <p class="blog-card__desc">
                 One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
                 nulla imperdiet...
               </p>
-              <a href="#">Read more</a>
+              <a class="blog-card__link button button--arrow-icon" href="#">Read more</a>
             </article>
           </li>
-          <li>
-            <article>
-              <span>NFT</span>
-              <img src="#" alt="Monkey" />
-              <p>Tony Nguyen</p>
-              <time datetime="2022-06-20">20 Jun 2022</time>
+          <li class="blog__list-item">
+            <article class="blog-card">
+              <span class="blog-card__label label">NFT</span>
+              <img class="blog-card__image" src="#" alt="Console" />
+              <p class="blog-card__article-writer">Tony Nguyen</p>
+              <time class="blog-card__date" datetime="2022-06-20">20 Jun 2022</time>
               <h3>Sonic live</h3>
-              <p>
+              <p class="blog-card__desc">
                 One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
                 nulla imperdiet...
               </p>
-              <a href="#">Read more</a>
-            </article>
-          </li>
-          <li>
-            <article>
-              <span>NFT</span>
-              <img src="#" alt="Duck" />
-              <p>Tony Nguyen</p>
-              <time datetime="2022-06-20">20 Jun 2022</time>
-              <h3>Sonic live</h3>
-              <p>
-                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
-                nulla imperdiet...
-              </p>
-              <a href="#">Read more</a>
-            </article>
-          </li>
-          <li>
-            <article>
-              <span>NFT</span>
-              <img src="#" alt="Console" />
-              <p>Tony Nguyen</p>
-              <time datetime="2022-06-20">20 Jun 2022</time>
-              <h3>Sonic live</h3>
-              <p>
-                One September 22, 2021 A volutpat nulla eros, nulla ultrices nec
-                nulla imperdiet...
-              </p>
-              <a href="#">Read more</a>
+              <a class="blog-card__link button button--arrow-icon" href="#">Read more</a>
             </article>
           </li>
         </ul>
-        <a class="blog-section__button button" href="#">Read more</a>
+        <a class="blog__button button" href="#">Read more</a>
       </section>
       <section class="about-us">
         <h2 class="about-us__title">About us</h2>
@@ -203,41 +201,40 @@
           occaecat
         </p>
         <ol class="about-us__list">
-          <!--<p>01</p> or <span>01</span>-->
           <li class="about-us__list-item">
-            <p class="about-us__list-item-number">01</p>
-            <h3 class="about-us__list-item-title">High quality</h3>
-            <p class="about-us__list-item-description">
+            <p class="about-us__list-number">01</p>
+            <h3 class="about-us__list-title">High quality</h3>
+            <p class="about-us__list-desc">
               Lorem Ipsum is simply dummy text of the printing and Ipsum
               typesetting industry.
             </p>
           </li>
-          <li>
-            <p>02</p>
-            <h3>Big collection</h3>
-            <p>
+          <li class="about-us__list-item">
+            <p class="about-us__list-number">02</p>
+            <h3 class="about-us__list-title">Big collection</h3>
+            <p class="about-us__list-desc">
               Lorem Ipsum is simply dummy text of the printing and Ipsum
               typesetting industry.
             </p>
           </li>
-          <li>
-            <p>03</p>
-            <h3>Top Resourse</h3>
-            <p>
+          <li class="about-us__list-item">
+            <p class="about-us__list-number">03</p>
+            <h3 class="about-us__list-title">Top Resourse</h3>
+            <p class="about-us__list-desc">
               Lorem Ipsum is simply dummy text of the printing and Ipsum
               typesetting industry.
             </p>
           </li>
-          <li>
-            <p>04</p>
-            <h3>Big community</h3>
-            <p>
+          <li class="about-us__list-item">
+            <p class="about-us__list-number">04</p>
+            <h3 class="about-us__list-title">Big community</h3>
+            <p class="about-us__list-desc">
               Lorem Ipsum is simply dummy text of the printing and Ipsum
               typesetting industry.
             </p>
           </li>
         </ol>
-        <a href="#">Read more</a>
+        <a class="about-us__button button" href="#">Read more</a>
       </section>
       <section class="our-team">
         <h2 class="our-team__title">Our team</h2>
@@ -245,172 +242,256 @@
           <li class="our-team__list-item">
             <article class="our-team__card">
               <img src="#" alt="Man's face" /> <!--class="our-team_image" or class="our-team__card-image"-->
-              <dl class="our-team__desc-list">
-                <dt class="our-team__desc-term"></dt>>Jason Smith</dt>
-                <dd class="our-team__desc-def">Co-founder</dd>
+              <dl class="our-team__dtl">
+                <dt class="our-team__dt"></dt>>Jason Smith</dt>
+                <dd class="our-team__dd">Co-founder</dd>
               </dl>
-              <nav class="our-team__nav">
-                <ul class="our-team__list">
-                  <li class="our-team__list-item">
-                    <a href="#">Twitter</a> <!--here as well confused like in previous comment-->
+              <nav class="our-team__nav-social nav-social">
+                <ul class="our-team__nav-list">
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Twitter</a> <!--here as well confused like in previous comment-->
                   </li>
-                  <li class="our-team__list-item">
-                    <a href="#">Facebook</a>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Facebook</a>
                   </li>
-                  <li class="our-team__list-item">
-                    <a href="#">Telegram</a>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Telegram</a>
                   </li>
-                  <li class="our-team__list-item">
-                    <a href="#">YouTube</a>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">YouTube</a>
                   </li>
-                  <li class="our-team__list-item">
-                    <a href="#">TikTok</a>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">TikTok</a>
                   </li>
-                  <li class="our-team__list-item">
-                    <a href="#">Reddit</a>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Reddit</a>
                   </li>
                 </ul>
             </nav>
             </article>
           </li>
           <li>
-            <article>
-              <img src="#" alt="Man's face" />
-              <dl>
-                <dt>Jason Smith</dt>
-                <dd>Co-founder</dd>
+            <article class="our-team__card">
+              <img src="#" alt="Man's face" /> <!--class="our-team_image" or class="our-team__card-image"-->
+              <dl class="our-team__dtl">
+                <dt class="our-team__dt"></dt>>Jason Smith</dt>
+                <dd class="our-team__dd">Co-founder</dd>
               </dl>
-              <ul class="social-icons">
-                <li><a class="social-icons__link" href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">TikTok</a></li>
-                <li><a href="#">Reddit</a></li>
-              </ul>
+              <nav class="our-team__nav-social nav-social">
+                <ul class="our-team__nav-list">
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Twitter</a> <!--here as well confused like in previous comment-->
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Facebook</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Telegram</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">YouTube</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">TikTok</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Reddit</a>
+                  </li>
+                </ul>
+            </nav>
             </article>
           </li>
           <li>
-            <article>
-              <img src="#" alt="Man's face" />
-              <dl>
-                <dt>Jason Smith</dt>
-                <dd>Co-founder</dd>
+            <article class="our-team__card">
+              <img src="#" alt="Man's face" /> <!--class="our-team_image" or class="our-team__card-image"-->
+              <dl class="our-team__dtl">
+                <dt class="our-team__dt"></dt>>Jason Smith</dt>
+                <dd class="our-team__dd">Co-founder</dd>
               </dl>
-              <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">TikTok</a></li>
-                <li><a href="#">Reddit</a></li>
-              </ul>
+              <nav class="our-team__nav-social nav-social">
+                <ul class="our-team__nav-list">
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Twitter</a> <!--here as well confused like in previous comment-->
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Facebook</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Telegram</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">YouTube</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">TikTok</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Reddit</a>
+                  </li>
+                </ul>
+            </nav>
             </article>
           </li>
           <li>
-            <article>
-              <img src="#" alt="Man's face" />
-              <dl>
-                <dt>Jason Smith</dt>
-                <dd>Co-founder</dd>
+            <article class="our-team__card">
+              <img src="#" alt="Man's face" /> <!--class="our-team_image" or class="our-team__card-image"-->
+              <dl class="our-team__dtl">
+                <dt class="our-team__dt"></dt>>Jason Smith</dt>
+                <dd class="our-team__dd">Co-founder</dd>
               </dl>
-              <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">TikTok</a></li>
-                <li><a href="#">Reddit</a></li>
-              </ul>
+              <nav class="our-team__nav-social nav-social">
+                <ul class="our-team__nav-list">
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Twitter</a> <!--here as well confused like in previous comment-->
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Facebook</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Telegram</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">YouTube</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">TikTok</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Reddit</a>
+                  </li>
+                </ul>
+            </nav>
             </article>
           </li>
           <li>
-            <article>
-              <img src="#" alt="Man's face" />
-              <dl>
-                <dt>Jason Smith</dt>
-                <dd>Co-founder</dd>
+            <article class="our-team__card">
+              <img src="#" alt="Man's face" /> <!--class="our-team_image" or class="our-team__card-image"-->
+              <dl class="our-team__dtl">
+                <dt class="our-team__dt"></dt>>Jason Smith</dt>
+                <dd class="our-team__dd">Co-founder</dd>
               </dl>
-              <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">TikTok</a></li>
-                <li><a href="#">Reddit</a></li>
-              </ul>
+              <nav class="our-team__nav-social nav-social">
+                <ul class="our-team__nav-list">
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Twitter</a> <!--here as well confused like in previous comment-->
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Facebook</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Telegram</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">YouTube</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">TikTok</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Reddit</a>
+                  </li>
+                </ul>
+            </nav>
             </article>
           </li>
           <li>
-            <article>
-              <img src="#" alt="Man's face" />
-              <dl>
-                <dt>Jason Smith</dt>
-                <dd>Co-founder</dd>
+            <article class="our-team__card">
+              <img src="#" alt="Man's face" /> <!--class="our-team_image" or class="our-team__card-image"-->
+              <dl class="our-team__dtl">
+                <dt class="our-team__dt"></dt>>Jason Smith</dt>
+                <dd class="our-team__dd">Co-founder</dd>
               </dl>
-              <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">TikTok</a></li>
-                <li><a href="#">Reddit</a></li>
-              </ul>
+              <nav class="our-team__nav-social nav-social">
+                <ul class="our-team__nav-list">
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Twitter</a> <!--here as well confused like in previous comment-->
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Facebook</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Telegram</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">YouTube</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">TikTok</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Reddit</a>
+                  </li>
+                </ul>
+            </nav>
             </article>
           </li>
           <li>
-            <article>
-              <img src="#" alt="Man's face" />
-              <dl>
-                <dt>Jason Smith</dt>
-                <dd>Co-founder</dd>
+            <article class="our-team__card">
+              <img src="#" alt="Man's face" /> <!--class="our-team_image" or class="our-team__card-image"-->
+              <dl class="our-team__dtl">
+                <dt class="our-team__dt"></dt>>Jason Smith</dt>
+                <dd class="our-team__dd">Co-founder</dd>
               </dl>
-              <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">TikTok</a></li>
-                <li><a href="#">Reddit</a></li>
-              </ul>
+              <nav class="our-team__nav-social nav-social">
+                <ul class="our-team__nav-list">
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Twitter</a> <!--here as well confused like in previous comment-->
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Facebook</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Telegram</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">YouTube</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">TikTok</a>
+                  </li>
+                  <li class="our-team__nav-item">
+                    <a class="our-team__nav-link" href="#">Reddit</a>
+                  </li>
+                </ul>
+            </nav>
             </article>
           </li>
         </ul>
       </section>
       <section class="faq">
-        <h2 class="faq_title">faqs</h2>
-        <ul class="faq_list">
-          <li class="faq_list-item">
-            <details> 
+        <h2 class="faq__title">faqs</h2>
+        <ul class="faq__list">
+          <li class="faq__list-item">
+            <details class="faq__item-wrapper"> 
               <summary class="faq_question faq_question--open"
-              <p class="answer">
+              <p class="faq_answer">
                 Urna vitae erat et lacus, consectetur ac nulla vestibulum
                 lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
               </p>
             </details>
           </li>
-          <li>
-            <details>
+          <li class="faq__list-item">
+            <details class="faq__item-wrapper">
               <summary class="faq_question"> How do i get NFTs?</summary>
-              <p>
+              <p class="faq_answer">
                 Urna vitae erat et lacus, consectetur ac nulla vestibulum
                 lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
               </p>
             </details>
           </li>
-          <li>
-            <details>
-              <summary>How can we buy your NFTs?</summary>
-              <p>
+          <li class="faq__list-item">
+            <details class="faq__item-wrapper">
+              <summary class="faq_question">How can we buy your NFTs?</summary>
+              <p class="faq_answer">
                 Urna vitae erat et lacus, consectetur ac nulla vestibulum
                 lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
               </p>
             </details>
           </li>
-          <li>
-            <details>
-              <summary>Who are the team behind the project??</summary>
-              <p>
+          <li class="faq__list-item">
+            <details class="faq__item-wrapper">
+              <summary class="faq_question">Who are the team behind the project??</summary>
+              <p class="faq_answer">
                 Urna vitae erat et lacus, consectetur ac nulla vestibulum
                 lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
               </p>
@@ -420,36 +501,54 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="footer_logo" href="#">BINABOX <img src="#" alt="Picture of logo" /></a>
+      <a class="footer_logo logo logo--colorful" href="#">BINABOX <img src="#" alt="Picture of logo" /></a>
       <p class="footer_desc">
         We are the best they to check rarity of <span> nft </span> collection
       </p>
-      <section>
-        <ul>
-          <li><a href="#">Subscribe</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Catalog</a></li>
-          <li><a href="#">Contact us</a></li>
+      <section class="footer__details-wrapper">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Subscribe</a></li>
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Home</a></li>
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Blog</a></li>
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Catalog</a></li>
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Contact us</a></li>
         </ul>
-        <ul>
-          <li><a href="#">Company</a></li>
-          <li><a href="#">Terms Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">WhitePaper</a></li>
-          <li><a href="#">Help Center</a></li>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Company</a></li>
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Terms Conditions</a></li>
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Privacy Policy</a></li>
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">WhitePaper</a></li>
+          <li class="footer__list-item">
+            <a class="footer__item-link" href="#">Help Center</a></li>
         </ul>
       </section>
       <p class="footer_text">BINABOX 2022 - All right reserved</p>
-      <section>
-        <ul>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Telegram</a></li>
-          <li><a href="#">YouTube</a></li>
-          <li><a href="#">TikTok</a></li>
-          <li><a href="#">Reddit</a></li>
-        </ul>
+      <section class="footer__social-wrapper">
+        <nav class="footer__nav-social nav-social">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Twitter</a></li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link href="#">Facebook</a></li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link href="#">Telegram</a></li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link href="#">YouTube</a></li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link href="#">TikTok</a></li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link href="#">Reddit</a></li>
+          </ul>
+      </nav>
       </section>
     </footer>
   </body>
