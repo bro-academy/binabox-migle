@@ -6,18 +6,26 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <a href="/index.html">Binabox <img src="#" alt="Picutre of logo" /></a>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Catalog</a></li>
-          <li><a href="#">Contact us</a></li>
+    <header class="header">
+      <a class="header__logo logo" href="#">Binabox <img src="#" alt="Picutre of logo" /></a>
+      <nav class="header__nav nav">  
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--selected" href="#">Home</a>  <!--This state can be called 'Active' too-->
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Catalog</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Contact us</a>
+          </li>
         </ul>
       </nav>
-      <a href="#">Discord</a>
-      <a href="#">Connect</a>
+      <a class="header__button button" href="#">Discord</a> 
+      <a class="header__button button button--secondary" href="#">Connect</a> 
     </header>
     <main>
       <section class="banner">
@@ -62,17 +70,17 @@
             </ul>
           </aside>
           <figure class="main__frame main__frame--large">
-            <img class="main__frame--image" src="#" alt="Dragon" />
-            <figcaption class="main__frame--caption">Photo caption</figcaption>
+            <img class="main__frame-image" src="#" alt="Dragon" />
+            <figcaption class="main__frame-caption">Photo caption</figcaption>
           </figure>
         <h2 class="main__title">The Basilisks NFT</h2>
         <a class="main__button button button--secondary" href="#">Gaming</a>
         <p class="main__article-writer">Tony Nguyen</p>
         <time class="main__date" datetime="2022-06-20">20 Jun 2022</time>
         <p class="main__text">
-          The Basilisks that <span class="">players</span> collect are represented with
+          The Basilisks that <span class="main__text-button button button--secondary">players</span> collect are represented with
           NFTs on Ethereum’s blockchain with real-world value. Players use the
-          <span class="">Basilisks they have</span> gathered to battle other players to
+          <span class="main__text-highlight">Basilisks they have</span> gathered to battle other players to
           win ether (ETH).
         </p>
         <p class="main__text">
@@ -93,7 +101,7 @@
             In Balthazar Dragons, players are immersed in a 3D open world to
             explore and capture dragon-like beasts called Basilisks. Balthazar
             Dragons is an upcoming fantasy role-playing
-            <span>game developed</span> on the Ethereum blockchain by a
+            <span class="main__text-highlight">game developed</span> on the Ethereum blockchain by a
             decentralized autonomous organization (DAO) called the Balthazar
             DAO.
           </li>
@@ -139,7 +147,7 @@
           You can find a range of NFT marketplaces where you can buy existing
           NFTs or list your own NFTs for sale.
         </p>                                                                     <!--Again 'Tags' and 'Share' were in tags, I delete it?-->>
-          <h4 class="main__title main__title--small ">Tags:</h4>
+          <h4 class="main__title">Tags:</h4>
           <ul class="main__title-list">
             <li class="main__title-item">
               <a class="main__title-btn btn btn--bordered" href="#">NFT</a></li>
@@ -148,7 +156,7 @@
             <li class="main__title-item">
               <a class="main__title-btn btn btn--bordered" href="#">Crypto</a></li>
           </ul>
-          <h4 class="main__title main__title--small" >Share:</h4>
+          <h4 class="main__title" >Share:</h4>
           <ul class="main__title-list">
             <li class="main__title-item">
               <a class="main__title-btn btn btn--bordered" href="#"><img src="#" alt="Twitter" /></a>
@@ -162,37 +170,53 @@
           </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">BINABOX <img src="#" alt="Picture of logo" /></a>
-      <p>
+    <footer class="footer">
+      <a class="footer__logo logo logo--secondary" href="#">BINABOX <img src="#" alt="Picture of logo" /></a>
+      <p class="footer__desc">
         We are the best they to check rarity of <span> nft </span> collection
       </p>
-      <section>
-        <ul>
-          <li><a href="#">Subscribe</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Catalog</a></li>
-          <li><a href="#">Contact us</a></li>
+      <section class="footer__wrapper">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Subscribe</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Home</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Blog</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Catalog</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Contact us</a></li>
         </ul>
-        <ul>
-          <li><a href="#">Company</a></li>
-          <li><a href="#">Terms Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">WhitePaper</a></li>
-          <li><a href="#">Help Center</a></li>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Company</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Terms Conditions</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Privacy Policy</a></li>
+          <li class="footer__item">
+            <a class="footer__ink" href="#">WhitePaper</a></li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Help Center</a></li>
         </ul>
       </section>
-      <p>BINABOX 2022 - All right reserved</p>
-      <section>
-        <ul>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Telegram</a></li>
-          <li><a href="#">YouTube</a></li>
-          <li><a href="#">TikTok</a></li>
-          <li><a href="#">Reddit</a></li>
-        </ul>
+      <p class="footer__copyright">BINABOX 2022 - All right reserved</p>
+      <section class="footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link" href="#">Twitter</a></li>
+            <li class="social__item">
+              <a class="social__link" href="#">Facebook</a></li>
+            <li class="social__item">
+              <a class="social__link" href="#">Telegram</a></li>
+            <li class="social__item">
+              <a class="social__link" href="#">YouTube</a></li>
+            <li class="social__item">
+              <a class="social__link" href="#">TikTok</a></li>
+            <li class="social__item">
+              <a class="social__link" href="#">Reddit</a></li>
+          </ul>
       </section>
     </footer>
   </body>
