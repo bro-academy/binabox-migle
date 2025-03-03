@@ -1,15 +1,13 @@
-body {
-  font-family: Inter;
-}
 
 .header {
   background-color: rgb(13, 13, 21, 1);
   color: rgb(245, 248, 251); 
 }
 
-ul {
-  list-style-type: none;
-}
+.nav__list {
+  list-style-type: none; 
+ }
+
 .nav__link {
 color: rgb(245, 248, 251);
 font-family: Poppins;
@@ -45,34 +43,42 @@ font-size: 18px;
   line-height: 28px;
   letter-spacing: 0px;
 }
-a {
+
+/* a {
   text-decoration: none;
-}
+} */
 
 .main {
   background-color: rgb(13, 13, 21, 1);
 }
 
-h1 {
-color:rgb(245, 248, 251, 1);
-font-family: Bakbak One;
-font-size: 52px;
-font-weight: 400;
-line-height: 62px;
-letter-spacing: -0.5px;
-}
 
-.binabox {
-  color: rgb(2, 101, 220);
-  text-transform: uppercase;
-}
 
 .main-banner__title {
   text-align: left;
   text-transform: uppercase;
+  color:rgb(245, 248, 251, 1);
+  font-family: Bakbak One;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: -0.5px;
 }
+
+  .binabox {
+    color: rgb(2, 101, 220);
+    text-transform: uppercase;
+  }
+  
+
 .banner__title {
   text-align: center;
+  color:rgb(245, 248, 251, 1);
+  font-family: Bakbak One;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: -0.5px;
 }
 
 .main-banner__text {
@@ -105,38 +111,56 @@ letter-spacing: 0px;
 text-align: left;
 }
 
-h2 {
+.catalog__title {
 color: rgb(248, 247, 255);
 font-family: Bakbak One;
 font-weight: 400;
 line-height: 32px;
 letter-spacing: 0px;
+text-align: left;
+font-size: 24px;
 }
 
-.catalog__title{
-  text-align: left;
-  font-size: 24px;
-}
 
 .blog__title {
-  text-align: center;
-  font-size: 36px;
+color: rgb(248, 247, 255);
+font-family: Bakbak One;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+font-size: 36px;
 
 }
 .about-us__title {
-  text-align: center;
-  font-size: 36px;
+color: rgb(248, 247, 255);
+font-family: Bakbak One;
+font-size: 36px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.5px;
+text-align: center;
 }
 
 .our-team__title {
-  text-align: center;
-  font-size: 36px;
+color: rgb(248, 247, 255);
+font-family: Bakbak One;
+font-size: 36px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.5px;
+text-align: center;
 }
 
 .faq__title {
-  text-align: center;
-  font-size: 36px;
-  text-transform: uppercase;
+color: rgb(248, 247, 255);
+font-family: Bakbak One;
+font-size: 36px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.5px;
+text-align: center;
+text-transform: uppercase;
 }
 
 .product-card__price {
@@ -199,7 +223,7 @@ line-height: 20px;
 letter-spacing: 0px;
 text-align: left;
 }
-h3 {
+.aside__title {
 color: rgba(245, 248, 251, 1);
 font-family: Bakbak One;
 font-size: 36px;
@@ -235,15 +259,6 @@ font-weight: 500;
 line-height: 28px;
 letter-spacing: 0px;
 text-align: center;
-}
-
-ol {
-list-style-type:none; }
-
-.about-us__list-number {
-border: 2px solid rgb(2, 101, 220);
-opacity: 0.5;
-
 }
 
 .about-us__list-title {
@@ -308,7 +323,7 @@ text-align: left;
 
 }
 
-footer {
+.footer {
   background-color: rgba(26, 25, 37, 1);
 }
 
