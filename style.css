@@ -1,17 +1,501 @@
 body {
   font-family: Inter;
 }
+
+.header {
+  background-color: rgb(13, 13, 21, 1);
+  color: rgb(245, 248, 251); 
+}
+
+ul {
+  list-style-type: none;
+}
+.nav__link {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+}
+
+.nav__link--selected {
+  border-bottom: 2px solid rgba(2, 101, 220, 1); 
+}
+
+.button {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+box-sizing: border-box;
+border: 2px solid rgba(208, 215, 251, 0.17);
+border-radius: 0;
+font-weight: 600;
+font-size: 18px;
+}
+
+.button--secondary {
+  background: rgb(2, 101, 220, 1);
+  border-style: none;
+  font-family: Poppins;
+  color: rgb(245, 248, 251);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.main {
+  background-color: rgb(13, 13, 21, 1);
+}
+
 h1 {
+color:rgb(245, 248, 251, 1);
+font-family: Bakbak One;
+font-size: 52px;
+font-weight: 400;
+line-height: 62px;
+letter-spacing: -0.5px;
+}
+
+.binabox {
+  color: rgb(2, 101, 220);
+  text-transform: uppercase;
+}
+
+.main-banner__title {
+  text-align: left;
+  text-transform: uppercase;
+}
+.banner__title {
+  text-align: center;
+}
+
+.main-banner__text {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.main-banner__stats-term {
+color: rgb(245, 248, 251);
 font-family: Bakbak One;
 font-size: 52px;
 font-weight: 400;
 line-height: 62px;
 letter-spacing: -0.5px;
 text-align: left;
-text-transform: uppercase;
+} 
+
+.main-banner__stats-desc {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
 }
 
-.binabox {
-  color: rgb(2, 101, 202
-  );
+h2 {
+color: rgb(248, 247, 255);
+font-family: Bakbak One;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
 }
+
+.catalog__title{
+  text-align: left;
+  font-size: 24px;
+}
+
+.blog__title {
+  text-align: center;
+  font-size: 36px;
+
+}
+.about-us__title {
+  text-align: center;
+  font-size: 36px;
+}
+
+.our-team__title {
+  text-align: center;
+  font-size: 36px;
+}
+
+.faq__title {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.product-card__price {
+color: rgb(245, 248, 251);
+font-family: Bakbak One;
+font-size: 36px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.5px;
+text-align: left;
+}
+
+.label {
+background-color: rgba(245, 248, 251, 1);
+color: rgba(2, 101, 220, 1);
+font-weight: 600px;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+font-family: Poppins;
+}
+
+.label--updated {
+
+  background-color: rgba(234, 56, 41, 1);
+  color: rgba(245, 248, 251, 1);
+  font-weight: 600px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-family: Poppins;
+}
+
+.product-card__name {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.blog-card__article-writer {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.blog-card__date {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+h3 {
+color: rgba(245, 248, 251, 1);
+font-family: Bakbak One;
+font-size: 36px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: -0.5px;
+text-align: left;
+}
+
+.blog-card__desc {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.blog__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 149px;
+  text-align: center;
+}
+
+.about-us__desc {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+}
+
+ol {
+list-style-type:none; }
+
+.about-us__list-number {
+border: 2px solid rgb(2, 101, 220);
+opacity: 0.5;
+
+}
+
+.about-us__list-title {
+color: rgb(245, 248, 251);
+font-family: Bakbak One;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.about-us__list-desc {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.member-card__dt {
+color: rgb(245, 248, 251);
+font-family: Bakbak One;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+}
+
+.member-card__dd {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+} 
+
+.social {
+  display: flex;
+}
+
+.faq__question {
+color: rgb(245, 248, 251);
+font-family: Bakbak One;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+}
+.faq__answer {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+footer {
+  background-color: rgba(26, 25, 37, 1);
+}
+
+.footer__desc {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+
+
+.footer__link {
+color: rgba(245, 248, 251, 1);
+font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0px;
+}
+
+.link--medium { 
+font-size: 20px;
+}
+
+
+.footer__copyright {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+}
+
+.social__list {
+  display: flex;
+}
+
+.banner__link {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+}
+
+.link--selected {
+  color: rgba(231, 238, 247, 0.66); 
+}
+
+.aside__title {
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0px;
+}
+
+.aside__link {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.link--bordered {
+  box-sizing: border-box;
+  border: 2px solid rgba(208, 215, 251, 0.17);
+}
+
+.page__frame-caption {
+color: rgb(248, 247, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.page__article-writer {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.page__date {
+color: rgba(239, 245, 250, 0.82);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+}
+
+.page__text {
+color: rgb(248, 247, 255);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.page__text-highlight {
+  color: rgba(120, 187, 250, 1);
+}
+
+.page__text-list {
+  list-style-type: circle;
+}
+.page__text-list-item {
+color: rgb(248, 247, 255);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.page__list-item {
+color: rgb(248, 247, 255);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.page__qoute {
+color: rgb(248, 247, 255);
+font-family: Bakbak One;
+font-size: 28px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.page__qoute-mark {
+color: rgb(248, 247, 255);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.mark {
+  color: rgba(239, 245, 250, 0.82);
+}
+.blockquote-box {
+border-radius: 16px;
+background-color:  rgb(0, 39, 84);
+}
+
+.page__title-link {
+color: rgb(245, 248, 251);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: center;
+}
+
+h4{
+color: rgb(248, 247, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
