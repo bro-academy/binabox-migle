@@ -14,7 +14,7 @@ font-family: Poppins;
 font-size: 16px;
 font-weight: 600;
 line-height: 24px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: center;
 }
 
@@ -41,18 +41,16 @@ font-size: 18px;
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
 }
 
-/* a {
+a {
   text-decoration: none;
-} */
+}
 
 .main {
   background-color: rgb(13, 13, 21, 1);
 }
-
-
 
 .main-banner__title {
   text-align: left;
@@ -70,7 +68,6 @@ font-size: 18px;
     text-transform: uppercase;
   }
   
-
 .banner__title {
   text-align: center;
   color:rgb(245, 248, 251, 1);
@@ -87,7 +84,7 @@ font-family: Poppins;
 font-size: 20px;
 font-weight: 500;
 line-height: 28px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -107,7 +104,7 @@ font-family: Poppins;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -116,7 +113,7 @@ color: rgb(248, 247, 255);
 font-family: Bakbak One;
 font-weight: 400;
 line-height: 32px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 font-size: 24px;
 }
@@ -179,18 +176,17 @@ color: rgba(2, 101, 220, 1);
 font-weight: 600px;
 font-size: 14px;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 font-family: Poppins;
 }
 
 .label--updated {
-
   background-color: rgba(234, 56, 41, 1);
   color: rgba(245, 248, 251, 1);
   font-weight: 600px;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   font-family: Poppins;
 }
 
@@ -200,7 +196,7 @@ font-family: Poppins;
 font-size: 20px;
 font-weight: 500;
 line-height: 28px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -210,7 +206,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -220,7 +216,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 .aside__title {
@@ -239,7 +235,7 @@ font-family: Poppins;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -257,7 +253,7 @@ font-family: Poppins;
 font-size: 20px;
 font-weight: 500;
 line-height: 28px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: center;
 }
 
@@ -267,7 +263,7 @@ font-family: Bakbak One;
 font-size: 24px;
 font-weight: 400;
 line-height: 32px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -277,7 +273,7 @@ font-family: Poppins;
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -287,7 +283,7 @@ font-family: Bakbak One;
 font-size: 24px;
 font-weight: 400;
 line-height: 32px;
-letter-spacing: 0px;
+letter-spacing: 0;
 }
 
 .member-card__dd {
@@ -296,20 +292,15 @@ font-family: Poppins;
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
-letter-spacing: 0px;
+letter-spacing: 0;
 } 
-
-.social {
-  display: flex;
-}
-
 .faq__question {
 color: rgb(245, 248, 251);
 font-family: Bakbak One;
 font-size: 24px;
 font-weight: 400;
 line-height: 32px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 .faq__answer {
@@ -318,7 +309,7 @@ font-family: Poppins;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 
 }
@@ -333,11 +324,9 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
-
-
 
 .footer__link {
 color: rgba(245, 248, 251, 1);
@@ -345,13 +334,12 @@ font-family: Poppins;
 font-size: 12px;
 font-weight: 600;
 line-height: 16px;
-letter-spacing: 0px;
+letter-spacing: 0;
 }
 
 .link--medium { 
 font-size: 20px;
 }
-
 
 .footer__copyright {
 color: rgb(245, 248, 251);
@@ -359,11 +347,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 400;
 line-height: 20px;
-letter-spacing: 0px;
-}
-
-.social__list {
-  display: flex;
+letter-spacing: 0;
 }
 
 .banner__link {
@@ -372,7 +356,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 }
 
 .link--selected {
@@ -382,7 +366,7 @@ letter-spacing: 0px;
 .aside__title {
 font-size: 24px;
 line-height: 32px;
-letter-spacing: 0px;
+letter-spacing: 0;
 }
 
 .aside__link {
@@ -391,7 +375,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -406,7 +390,7 @@ font-family: Poppins;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -416,7 +400,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -426,7 +410,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 }
 
 .page__text {
@@ -435,7 +419,7 @@ font-family: Poppins;
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -452,7 +436,7 @@ font-family: Poppins;
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -462,7 +446,7 @@ font-family: Poppins;
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -472,7 +456,7 @@ font-family: Bakbak One;
 font-size: 28px;
 font-weight: 400;
 line-height: 36px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -482,7 +466,7 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
@@ -500,17 +484,17 @@ font-family: Poppins;
 font-size: 14px;
 font-weight: 600;
 line-height: 20px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: center;
 }
 
-h4{
+.page__title {
 color: rgb(248, 247, 255);
 font-family: Poppins;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
-letter-spacing: 0px;
+letter-spacing: 0;
 text-align: left;
 }
 
