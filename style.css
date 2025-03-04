@@ -1,77 +1,111 @@
+:root {
+
+  --primary-color: rgba(248, 247, 255, 1);
+  --main-font: 'Bakbak One','Poppins', Helvetica, Arial, sans-serif;
+
+}
+
+body {
+
+  font-family: var(--main-font);
+  color: var(--primary-color);
+
+}
+
 
 .header {
-  background-color: rgb(13, 13, 21, 1);
-  color: rgb(245, 248, 251); 
+
+  background-color: rgba(13, 13, 21, 1);
+  color: rgba(245, 248, 251, 1); 
 }
 
 .nav__list {
+
   list-style-type: none; 
+
  }
 
 .nav__link {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0;
-text-align: center;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+
 }
 
 .nav__link--selected {
+
   border-bottom: 2px solid rgba(2, 101, 220, 1); 
+
 }
 
 .button {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-box-sizing: border-box;
-border: 2px solid rgba(208, 215, 251, 0.17);
-border-radius: 0;
-font-weight: 600;
-font-size: 18px;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  border: 2px solid rgba(208, 215, 251, 0.17);
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 18px;
+
 }
 
 .button--secondary {
-  background: rgb(2, 101, 220, 1);
+
+  background: rgba(2, 101, 220, 1);
   border-style: none;
-  font-family: Poppins;
-  color: rgb(245, 248, 251);
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
   letter-spacing: 0;
+
 }
 
 a {
+
   text-decoration: none;
+
 }
 
 .main {
-  background-color: rgb(13, 13, 21, 1);
+
+  background-color: rgba(13, 13, 21, 1);
+
 }
 
-.main-banner__title {
+.main-banner__title { 
+
   text-align: left;
   text-transform: uppercase;
-  color:rgb(245, 248, 251, 1);
-  font-family: Bakbak One;
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
   font-size: 52px;
   font-weight: 400;
   line-height: 62px;
   letter-spacing: -0.5px;
+
 }
 
-  .binabox {
-    color: rgb(2, 101, 220);
-    text-transform: uppercase;
+.binabox {
+
+  color: rgba(2, 101, 220, 1);
+  text-transform: uppercase;
+
   }
   
 .banner__title {
+
   text-align: center;
-  color:rgb(245, 248, 251, 1);
-  font-family: Bakbak One;
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
   font-size: 52px;
   font-weight: 400;
   line-height: 62px;
@@ -79,422 +113,609 @@ a {
 }
 
 .main-banner__text {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-font-size: 20px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .main-banner__stats-term {
-color: rgb(245, 248, 251);
-font-family: Bakbak One;
-font-size: 52px;
-font-weight: 400;
-line-height: 62px;
-letter-spacing: -0.5px;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+  text-align: left;
+
 } 
 
 .main-banner__stats-desc {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .catalog__title {
-color: rgb(248, 247, 255);
-font-family: Bakbak One;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0;
-text-align: left;
-font-size: 24px;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+  font-size: 24px;
+
 }
 
 
 .blog__title {
-color: rgb(248, 247, 255);
-font-family: Bakbak One;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0px;
-text-align: center;
-font-size: 36px;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  font-size: 36px;
 
 }
+
 .about-us__title {
-color: rgb(248, 247, 255);
-font-family: Bakbak One;
-font-size: 36px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: -0.5px;
-text-align: center;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: center;
+
 }
 
 .our-team__title {
-color: rgb(248, 247, 255);
-font-family: Bakbak One;
-font-size: 36px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: -0.5px;
-text-align: center;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: center;
+
 }
 
 .faq__title {
-color: rgb(248, 247, 255);
-font-family: Bakbak One;
-font-size: 36px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: -0.5px;
-text-align: center;
-text-transform: uppercase;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  text-transform: uppercase;
+
 }
 
+.catalog__list {
+
+  list-style-type: none;
+ 
+} 
+
 .product-card__price {
-color: rgb(245, 248, 251);
-font-family: Bakbak One;
-font-size: 36px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: -0.5px;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: left;
+
 }
 
 .label {
-background-color: rgba(245, 248, 251, 1);
-color: rgba(2, 101, 220, 1);
-font-weight: 600px;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0;
-font-family: Poppins;
+
+  background-color: rgba(245, 248, 251, 1);
+  color: rgba(2, 101, 220, 1);
+  font-weight: 600px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .label--updated {
+
   background-color: rgba(234, 56, 41, 1);
   color: rgba(245, 248, 251, 1);
   font-weight: 600px;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .product-card__name {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 20px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .blog-card__article-writer {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .blog-card__date {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
+
+.blog-card__title {
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: left;
+
+}
+
 .aside__title {
-color: rgba(245, 248, 251, 1);
-font-family: Bakbak One;
-font-size: 36px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: -0.5px;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: left;
+
 }
 
 .blog-card__desc {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
-.blog__button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 149px;
-  text-align: center;
+.blog__list {
+
+  list-style-type: none;
+
 }
 
 .about-us__desc {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 20px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0;
-text-align: center;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+
 }
 
 .about-us__list-title {
-color: rgb(245, 248, 251);
-font-family: Bakbak One;
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .about-us__list-desc {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .member-card__dt {
-color: rgb(245, 248, 251);
-font-family: Bakbak One;
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+
 }
 
 .member-card__dd {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0;
-} 
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+
+}
+
+.our-team__list {
+
+  list-style-type: none;
+
+}  
+
+.member-card__social {
+
+  list-style-type: none;
+
+}
+
 .faq__question {
-color: rgb(245, 248, 251);
-font-family: Bakbak One;
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 .faq__answer {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+
+}
+
+.faq__list {
+
+  list-style-type: none;
 
 }
 
 .footer {
+
   background-color: rgba(26, 25, 37, 1);
+
 }
 
 .footer__desc {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .footer__link {
-color: rgba(245, 248, 251, 1);
-font-family: Poppins;
-font-size: 12px;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+
 }
 
 .link--medium { 
-font-size: 20px;
+
+  font-size: 20px;
+
+}
+
+.footer__list {
+
+  list-style-type: none;
+
+}
+
+.social__list {
+
+  list-style-type: none;
+
 }
 
 .footer__copyright {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+
 }
 
 .banner__link {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+
 }
 
 .link--selected {
+
   color: rgba(231, 238, 247, 0.66); 
+
 }
 
 .aside__title {
-font-size: 24px;
-line-height: 32px;
-letter-spacing: 0;
+
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+
 }
 
 .aside__link {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+
+}
+
+.aside__list {
+
+  list-style-type: none;
+
+}
+
+.page__title-list {
+
+  list-style-type: none;
+
 }
 
 .link--bordered {
+
   box-sizing: border-box;
   border: 2px solid rgba(208, 215, 251, 0.17);
+
 }
 
 .page__frame-caption {
-color: rgb(248, 247, 255);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .page__article-writer {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .page__date {
-color: rgba(239, 245, 250, 0.82);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0;
+
+  color: rgba(239, 245, 250, 0.82);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+
 }
 
 .page__text {
-color: rgb(248, 247, 255);
-font-family: Poppins;
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .page__text-highlight {
+
   color: rgba(120, 187, 250, 1);
 }
 
 .page__text-list {
+
   list-style-type: circle;
+
 }
+
 .page__text-list-item {
-color: rgb(248, 247, 255);
-font-family: Poppins;
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .page__list-item {
-color: rgb(248, 247, 255);
-font-family: Poppins;
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .page__qoute {
-color: rgb(248, 247, 255);
-font-family: Bakbak One;
-font-size: 28px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Bakbak One', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .page__qoute-mark {
-color: rgb(248, 247, 255);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
 
 .mark {
+
   color: rgba(239, 245, 250, 0.82);
+
 }
+
 .blockquote-box {
-border-radius: 16px;
-background-color:  rgb(0, 39, 84);
+
+  border-radius: 16px;
+  background-color:  rgba(0, 39, 84, 1);
+
 }
 
 .page__title-link {
-color: rgb(245, 248, 251);
-font-family: Poppins;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0;
-text-align: center;
+
+  color: rgba(245, 248, 251, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+
 }
 
 .page__title {
-color: rgb(248, 247, 255);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0;
-text-align: left;
+
+  color: rgba(248, 247, 255, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+
 }
+
+
+/* .bakbak-one-regular {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
 
