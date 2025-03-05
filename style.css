@@ -5,6 +5,11 @@
   --secondary-font: "Bakbak One", Arial, sans-serif;
 }
 
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
 .header {
   background-color: rgba(13, 13, 21, 1);
   color: var(--primary-color);
