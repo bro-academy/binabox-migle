@@ -679,3 +679,20 @@ a {
 .page__title-link:active {
   color: rgba(0, 84, 182, 1);
 }
+
+.product-card__hidden-button {
+  display: none;
+  box-sizing: border-box;
+  width: 240px;
+  height: 52px;
+  padding: 12px 24px;
+}
+
+.button--quaternary {
+  color: rgba(13, 13, 21, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.catalog__list-item:hover .button {
+  display: inline;
+}
