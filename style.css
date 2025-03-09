@@ -546,3 +546,26 @@ a {
 .button--secondary:active {
   background: rgb(0, 84, 182);
 }
+
+.nav__link {
+  width: 66px;
+  height: 24px;
+  padding: 8px 20px;
+  border: none;
+  margin: 0px;
+}
+
+.button {
+  width: 70px;
+  height: 28px;
+  padding: 10px 24px;
+  border: 2px solid rgba(208, 215, 251, 0.17);
+  margin: 0;
+}
+.button--secondary {
+  width: 79px;
+  height: 28px;
+  padding: 10px 24px;
+  border: 2px solid var(--secondary-color);
+  margin: 0;
+}
