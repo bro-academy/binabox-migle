@@ -51,6 +51,7 @@ body {
 
 .button {
   color: var(--primary-color);
+  background-color: rgba(0, 0, 0, 0);
   font-family: var(--primary-font);
   border: 2px solid rgba(208, 215, 251, 0.17);
   font-weight: 600;
@@ -591,7 +592,6 @@ a {
 .faq__list-item {
   background-color: rgba(29, 28, 40, 1);
   padding: 24px 24px 32px 24px;
-  margin: 24px 0;
 }
 .footer__link:hover {
   color: rgba(56, 146, 243, 1);
