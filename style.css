@@ -109,6 +109,9 @@ a {
 
 .main {
   background-color: rgba(13, 13, 21, 1);
+  background-image: url(images/main_cube.webp);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .main-banner__title {
