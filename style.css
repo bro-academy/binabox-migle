@@ -415,6 +415,7 @@ a {
 .banner {
   width: 1728px;
   height: 376px;
+  background-color: rgba(13, 13, 21, 1);
   background-image: url(images/image_bg_cp.webp);
   background-size: cover;
   background-repeat: no-repeat;
