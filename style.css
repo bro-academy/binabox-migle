@@ -281,6 +281,14 @@ a {
   text-align: left;
 }
 
+.blog-card__image--fit {
+  object-fit: cover;
+}
+
+.blog-card__image--position {
+  object-position: 100% 20%;
+}
+
 .about-us__title {
   color: rgba(248, 247, 255, 1);
   font-family: var(--secondary-font);
@@ -341,6 +349,10 @@ a {
 
 .member-card__social {
   list-style-type: none;
+}
+
+.member-card__image {
+  border-radius: 56px;
 }
 
 .faq__question {
