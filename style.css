@@ -406,6 +406,14 @@ a {
   line-height: 20px;
 }
 
+.banner {
+  width: 1728px;
+  height: 376px;
+  background-image: url(images/image_bg_cp.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .banner__title {
   text-align: center;
   color: var(--primary-color);
