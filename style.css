@@ -112,10 +112,12 @@ a {
 }
 
 .main-banner {
+  width: 1728px;
+  height: 640px;
   background-color: rgba(13, 13, 21, 1);
-  background-image: url(images/main_cube.webp);
+  background-image: radial-gradient(51.04% 42.19% at 22% -4%,rgba(2, 101, 220, 0.5),rgba(2, 101, 220, 0) 100%), url(images/main_cube.webp);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: 90% 10%;
   background-size: contain;
 }
 
