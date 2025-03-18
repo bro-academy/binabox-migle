@@ -31,9 +31,10 @@ Available flags:
 
 ## Credits
 
-Student:
+<b>Student:</b> [Migle Matiukaite](https://github.com/MigleMat)
 
-Mentor:
+<b>Mentor:</b> [Oleksandr Koshara](https://github.com/alex-koshara)
+
 
 # TO DO
 
