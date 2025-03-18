@@ -112,10 +112,8 @@ a {
 }
 
 .main-banner {
-  width: 1728px;
-  height: 640px;
   background-color: rgba(13, 13, 21, 1);
-  background-image: radial-gradient(51.04% 42.19% at 22% -4%,rgba(2, 101, 220, 0.5),rgba(2, 101, 220, 0) 100%), url(images/main_cube.webp);
+  background-image: radial-gradient(51.04% 42.19% at 22% -4%,rgba(2, 101, 220, 0.5),rgba(2, 101, 220, 0) 100%), url(images/main-cube.webp);
   background-repeat: no-repeat;
   background-position: 90% 10%;
   background-size: contain;
@@ -413,10 +411,8 @@ a {
 }
 
 .banner {
-  width: 1728px;
-  height: 376px;
   background-color: rgba(13, 13, 21, 1);
-  background-image: url(images/image_bg_cp.webp);
+  background-image: url(images/blog-bg-image.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
