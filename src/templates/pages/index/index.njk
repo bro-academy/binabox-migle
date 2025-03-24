@@ -1,5 +1,14 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-index page content
+<section class="catalog">
+        <h2 class="catalog__title">Catalog</h2>
+        <a class="catalog__button button" href="#">See all</a>
+        <button class="catalog__button button">&lt;</button>
+        <button class="catalog__button button button--secondary">&gt;</button>
+        <ul class="catalog__list">
+          {% for card in products %}
+          {% include "partials/product-card" %}
+          {% endfor %}
+        <ul/>
 {% endblock %}
