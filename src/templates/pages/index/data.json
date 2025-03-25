@@ -67,5 +67,88 @@
       "image": "images/catalog/neon-card.webp",
       "alt": "Transparent device with glowing neon edges"
     }
+  ],
+  "aboutUsCards": [
+    {
+      "number": "01",
+      "title": "High quality",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+    },
+    {
+      "number": "02",
+      "title": "Big collection",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+    },
+    {
+      "number": "03",
+      "title": "Top Resourse",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+    },
+    {
+      "number": "04",
+      "title": "Big community",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+    }
+  ],
+  "ourTeam": [
+    {
+      "image": "",
+      "alt": "Portrait of a data analysis team member",
+      "term": "Jason Smith",
+      "desc": "Co-founder"
+    },
+    {
+      "image": "",
+      "alt": "Portrait of a data science team member",
+      "term": "Jason Smith",
+      "desc": "Co-founder"
+    },
+    {
+      "image": "",
+      "alt": "Portrait of a DevOps team member",
+      "term": "Jason Smith",
+      "desc": "Co-founder"
+    },
+    {
+      "image": "",
+      "alt": "Portrait of a full-stack developer",
+      "term": "Jason Smith",
+      "desc": "Co-founder"
+    },
+    {
+      "image": "",
+      "alt": "Portrait of a project manager",
+      "term": "Jason Smith",
+      "desc": "Co-founder"
+    },
+    {
+      "image": "",
+      "alt": "Portrait of a team leader",
+      "term": "Jason Smith",
+      "desc": "Co-founder"
+    },
+    {
+      "image": "",
+      "alt": "Portrait of a web developer",
+      "term": "Jason Smith",
+      "desc": "Co-founder"
+    }
+  ],
+  "socials": [
+    {
+      "app": "Twitter"
+    },
+    {
+      "app": "Facebook"
+    },
+    {
+      "app": "Telegram"
+    },
+    {
+      "app": "YouTube"
+    },
+    {
+      "app": "TikTok"
+    }
   ]
 }
