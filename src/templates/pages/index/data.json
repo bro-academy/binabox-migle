@@ -2,7 +2,7 @@
   "products": [
     {
       "label": "New",
-      "image": "images/catalog/skeleton.webp",
+      "image": "src/images/static/images/catalog/cat.jpg",
       "alt": "A stylized skeletal figure on a dark teal background",
       "price": "$199",
       "name": "Name product"
