@@ -7,6 +7,8 @@
         {% include "partials/nav.njk" %}
         {% endfor %}     
       </nav>
-      <a class="header__button button" href="#">Discord</a>
-      <a class="header__button button button--secondary" href="#">Connect</a>
+      
+      {% for button in buttons %}
+      {% include "partials/button" %}
+      {% endfor %}
     </header>
