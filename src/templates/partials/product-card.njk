@@ -1,16 +1,26 @@
-<li class="catalog__list-item">
-            <a href="#">
-              <article class="product-card">
-                <span class="product-card__label label">{{card.label}}</span>
-                <img
-                  class="product-card__image"
-                  src="{{card.image}}"
-                  height="324"
-                  width="222"
-                  alt="{{ card.alt }}"
-                />
-                <p class="product-card__price">{{card.price}}</p>
-                <p class="product-card__name">{{card.name}}</p>
-              </article>
-            </a>
-          </li>
+<h2 class="catalog__title">{{ catalog.title}}</h2>
+<a class="catalog__button button" href="{{catalog.link}}">{{catalog.label}}</a>
+        <button class="catalog__button button">&lt;</button>
+        <button class="catalog__button button button--secondary">&gt;</button>
+        {# {% for button in buttons %}
+        {% include "partials/button.njk" %}
+        {% endfor %} #}
+        {# This is my button from header, How to I reuse it in another section #}
+          <ul class="catalog__list">
+            <li class="catalog__list-item">
+              <a href="#">
+                <article class="product-card">
+                  <span class="product-card__label label {% if products.label == "Sold out" %} label--updated" {% endif %}>{{card.label}}</span>
+                  <img
+                    class="product-card__image"
+                    src="{{card.image}}"
+                    height="324"
+                    width="222"
+                    alt="{{ card.alt }}"
+                  />
+                  <p class="product-card__price">{{card.price}}</p>
+                  <p class="product-card__name">{{card.name}}</p>
+                </article>
+              </a>
+            </li>
+           </ul>

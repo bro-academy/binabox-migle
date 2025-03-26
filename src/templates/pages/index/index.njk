@@ -15,21 +15,18 @@
           <dt class="main-banner__stats-term">1000+</dt>
           <dd class="main-banner__stats-desc">Profiles whitelisted</dd>
         </dl>
-        <a class="main-banner__button button button--secondary" href="#"
-          >Connect wallet</a
-        >
-        <a class="main-banner__button button" href="#">Whitelist now</a>
+        {% for button in buttons %}
+        {% include "partials/button.njk" %}
+        {% endfor %}
       </section>
-      <section class="catalog">
-        <h2 class="catalog__title">Catalog</h2>
-        <a class="catalog__button button" href="#">See all</a>
-        <button class="catalog__button button">&lt;</button>
-        <button class="catalog__button button button--secondary">&gt;</button>
-        <ul class="catalog__list">
+      <section class="catalog">      
+        {# <button class="catalog__button button">&lt;</button>
+        <button class="catalog__button button button--secondary">&gt;</button> #}
+        
           {% for card in products %}
           {% include "partials/product-card.njk" %}
           {% endfor %}
-        </ul>
+        
       </section>
       <section class="blog">
         <h2 class="blog__title">Our blog</h2>
