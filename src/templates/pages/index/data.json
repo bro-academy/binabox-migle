@@ -186,17 +186,5 @@
       "link": "#",
       "text": "Contact us"
     }
-  ],
-  "buttons": [
-    {
-      "class": "header__button button",
-      "link": "#",
-      "label": "Discord"
-    },
-    {
-      "class": "header__button button button--secondary",
-      "link": "#",
-      "label": "Connect"
-    }
   ]
 }
