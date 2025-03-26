@@ -168,5 +168,23 @@
       "question": "Who are the team behind the project?",
       "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
     }
+  ],
+  "navItems": [
+    {
+      "link": "#",
+      "text": "Home"
+    },
+    {
+      "link": "#",
+      "text": "Blog"
+    },
+    {
+      "link": "#",
+      "text": "Catalgog"
+    },
+    {
+      "link": "#",
+      "text": "Contact us"
+    }
   ]
 }
