@@ -67,46 +67,9 @@
       <section class="faq">
         <h2 class="faq__title">faqs</h2>
         <ul class="faq__list">
-          <li class="faq__list-item">
-            <details class="faq__details">
-              <summary class="faq__question faq__question--open">
-                What are the NFTs?
-              </summary>
-              <p class="faq__answer">
-                Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
-              </p>
-            </details>
-          </li>
-          <li class="faq__list-item">
-            <details class="faq__details">
-              <summary class="faq__question">How do i get NFTs?</summary>
-              <p class="faq__answer">
-                Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
-              </p>
-            </details>
-          </li>
-          <li class="faq__list-item">
-            <details class="faq__details">
-              <summary class="faq__question">How can we buy your NFTs?</summary>
-              <p class="faq__answer">
-                Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
-              </p>
-            </details>
-          </li>
-          <li class="faq__list-item">
-            <details class="faq__details">
-              <summary class="faq__question">
-                Who are the team behind the project??
-              </summary>
-              <p class="faq__answer">
-                Urna vitae erat et lacus, consectetur ac nulla vestibulum
-                lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.
-              </p>
-            </details>
-          </li>
+          {% for faq in faqs %}
+          {% include "partials/faq.njk"%}
+          {% endfor %}
         </ul>
       </section>
     </main>
