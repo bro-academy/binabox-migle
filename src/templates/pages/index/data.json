@@ -1,4 +1,32 @@
 {
+  "title": "BINABOX",
+  "banner": {
+    "spanText": "binabox",
+    "titleText": "explore nft collection",
+    "titleDesc": "We are the best way to check rarity of NFT collection",
+    "stats": [
+      {
+        "term": "2240+",
+        "desc": "Total iteam"
+      },
+      {
+        "term": "1000+",
+        "desc": "Profiles whitelisted"
+      }
+    ],
+    "buttons": [
+      {
+        "class": "main-banner__button button button--secondary",
+        "link": "#",
+        "label": "Connect wallet"
+      },
+      {
+        "class": "main-banner__button button",
+        "link": "#",
+        "label": "Whitelist now"
+      }
+    ]
+  },
   "catalog": {
     "title": "Catalog",
     "link": "#",
@@ -191,23 +219,6 @@
     {
       "link": "#",
       "text": "Contact us"
-    }
-  ],
-  "buttons": [
-    {
-      "class": "main-banner__button button button--secondary",
-      "link": "#",
-      "label": "Connect wallet"
-    },
-    {
-      "class": "main-banner__button button",
-      "link": "#",
-      "label": "Whitelist now"
-    },
-    {
-      "class": "catalog__button button",
-      "link": "#",
-      "label": "See all"
     }
   ]
 }

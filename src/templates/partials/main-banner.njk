@@ -1,0 +1,17 @@
+<section class="main-banner">
+        <h1 class="main-banner__title">
+          with <span class="binabox">{{spanText}}</span> {{titleText}}
+        </h1>
+        <p class="main-banner__text">
+          {{titleDesc}}
+        </p>
+        <dl class="main-banner__stats">
+            {% for stat in banner.stats %}
+          <dt class="main-banner__stats-term">{{stat.term}}</dt>
+          <dd class="main-banner__stats-desc">{{stat.desc}}</dd>
+          {% endfor %}
+        </dl>
+        {% for buttons in banner.buttons %}
+        {% include "partials/button.njk" %}
+        {% endfor %}
+      </section>
