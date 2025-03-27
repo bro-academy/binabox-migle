@@ -1,4 +1,22 @@
 {
-    "title": "test",
-    "h1": ""
+    "banner": {
+        "title": "Our blog",
+        "links": [
+            {
+                "class": "banner__link",
+                "link": "#",
+                "name": "Home"
+            },
+            {
+                "class": "banner__link",
+                "link": "#",
+                "name": "Our blog"
+            },
+            {
+                "class": "banner__link banner__link--selected",
+                "link": "#",
+                "name": "The Basilisks NFT"
+            }
+        ]
+    }
 }

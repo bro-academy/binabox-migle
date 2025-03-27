@@ -1,0 +1,8 @@
+<main class="main">
+      <section class="banner">
+        <h1 class="banner__title">{{ banner.title }}</h1>
+        {% for item in banner.links %}
+        <a class="{{ item.class }}" href="{{ item.link }}"
+          >{{ item.name }}</a>
+        {% endfor %}
+      </section>
