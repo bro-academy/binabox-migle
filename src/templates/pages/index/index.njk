@@ -5,31 +5,10 @@
    {% include "partials/main-banner.njk" %}
    {% include "partials/catalog.njk" %}
    {% include "partials/our-blog.njk" %}
+   {% include "partials/about-us.njk" %}
       
       
-      <section class="about-us">
-        <h2 class="about-us__title">About us</h2>
-        <p class="about-us__desc">
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat
-          non proident, sunt in culpa qui officia dese runt mollit anim id est
-          laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint
-          occaecat
-        </p>
-        <ol class="about-us__list">
-          {% for about in aboutUsCards %}
-          {% include "partials/about-us-card.njk" %}
-          {% endfor %}
-        </ol>
-        <a class="about-us__button button" href="#">Read more</a>
-      </section>
-      <section class="our-team">
-        <h2 class="our-team__title">Our team</h2>
-        <ul class="our-team__list">
-          {% for member in ourTeam %}
-          {% include "partials/our-team.njk" %}
-          {% endfor %}
-        </ul>
+      
       </section>
       <section class="faq">
         <h2 class="faq__title">faqs</h2>

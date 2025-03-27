@@ -1,0 +1,12 @@
+<section class="about-us">
+        <h2 class="about-us__title">{{aboutUs.title}}</h2>
+        <p class="about-us__desc">
+          {{aboutUs.desc}}
+        </p>
+        <ol class="about-us__list">
+          {% for about in aboutUs.cards %}
+          {% include "partials/about-us-card.njk" %}
+          {% endfor %}
+        </ol>
+        <a class="about-us__button button" href="#">Read more</a>
+      </section>
