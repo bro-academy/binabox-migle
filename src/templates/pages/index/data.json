@@ -30,12 +30,25 @@
   },
   "catalog": {
     "title": "Catalog",
-    "link": "#",
-    "label": "See All",
+    "button": [
+      {
+        "class": "catalog__button button",
+        "link": "#",
+        "label": "See All"
+      }
+    ],
+    "arrow": [
+      {
+        "arrow": "&lt;"
+      },
+      {
+        "arrow": "&gt;"
+      }
+    ],
     "products": [
       {
         "label": "New",
-        "image": "src/images/static/images/catalog/cat.jpg",
+        "image": "images/catalog/cat-2x.webp",
         "alt": "A stylized skeletal figure on a dark teal background",
         "price": "$199",
         "name": "Name product"
