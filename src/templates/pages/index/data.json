@@ -83,38 +83,41 @@
       }
     ]
   },
-  "blogCards": [
-    {
-      "label": "NFT",
-      "image": "images/our-blog/face-sculpture.webp",
-      "alt": "Surreal woman's face emerging from swirling water"
-    },
-    {
-      "label": "NFT",
-      "image": "images/catalog/skeleton.webp",
-      "alt": "Neon glowing skull against a dark background"
-    },
-    {
-      "label": "NFT",
-      "image": "images/catalog/cat.webp",
-      "alt": "Black cat with glowing green eyes"
-    },
-    {
-      "label": "NFT",
-      "image": "images/our-blog/gorilla.webp",
-      "alt": "Close-up of a monkey's face in neon hues"
-    },
-    {
-      "label": "NFT",
-      "image": "images/our-blog/goose.webp",
-      "alt": "White goose against a dark, neon background"
-    },
-    {
-      "label": "NFT",
-      "image": "images/catalog/neon-card.webp",
-      "alt": "Transparent device with glowing neon edges"
-    }
-  ],
+  "blog": {
+    "title": "Our blog",
+    "blogCards": [
+      {
+        "label": "NFT",
+        "image": "images/our-blog/face-sculpture.webp",
+        "alt": "Surreal woman's face emerging from swirling water"
+      },
+      {
+        "label": "NFT",
+        "image": "images/catalog/skeleton.webp",
+        "alt": "Neon glowing skull against a dark background"
+      },
+      {
+        "label": "NFT",
+        "image": "images/catalog/cat.webp",
+        "alt": "Black cat with glowing green eyes"
+      },
+      {
+        "label": "NFT",
+        "image": "images/our-blog/gorilla.webp",
+        "alt": "Close-up of a monkey's face in neon hues"
+      },
+      {
+        "label": "NFT",
+        "image": "images/our-blog/goose.webp",
+        "alt": "White goose against a dark, neon background"
+      },
+      {
+        "label": "NFT",
+        "image": "images/catalog/neon-card.webp",
+        "alt": "Transparent device with glowing neon edges"
+      }
+    ]
+  },
   "aboutUsCards": [
     {
       "number": "01",
