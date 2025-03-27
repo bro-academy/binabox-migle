@@ -205,24 +205,27 @@
       "app": "TikTok"
     }
   ],
-  "faqs": [
-    {
-      "question": "What are the NFTs",
-      "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
-    },
-    {
-      "question": "How do i get NFTs?",
-      "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
-    },
-    {
-      "question": "How can we buy your NFTs?",
-      "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
-    },
-    {
-      "question": "Who are the team behind the project?",
-      "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
-    }
-  ],
+  "faqs": {
+    "title": "faq",
+    "card": [
+      {
+        "question": "What are the NFTs",
+        "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
+      },
+      {
+        "question": "How do i get NFTs?",
+        "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
+      },
+      {
+        "question": "How can we buy your NFTs?",
+        "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
+      },
+      {
+        "question": "Who are the team behind the project?",
+        "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
+      }
+    ]
+  },
   "navItems": [
     {
       "link": "#",

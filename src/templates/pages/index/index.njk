@@ -6,17 +6,6 @@
    {% include "partials/catalog.njk" %}
    {% include "partials/our-blog.njk" %}
    {% include "partials/about-us.njk" %}
-      
-      
-      
-      </section>
-      <section class="faq">
-        <h2 class="faq__title">faqs</h2>
-        <ul class="faq__list">
-          {% for faq in faqs %}
-          {% include "partials/faq.njk"%}
-          {% endfor %}
-        </ul>
-      </section>
+   {% include "partials/faq.njk" %}
     </main>
 {% endblock %}

@@ -1,10 +1,8 @@
-<li class="faq__list-item">
-            <details class="faq__details">
-              <summary class="faq__question faq__question--open">
-                {{ faq.question}}
-              </summary>
-              <p class="faq__answer">
-                {{faq.answer}}
-              </p>
-            </details>
-          </li>
+<section class="faq">
+        <h2 class="faq__title">{{faq.title}}</h2>
+        <ul class="faq__list">
+          {% for faq in faqs.card %}
+          {% include "partials/faq.njk"%}
+          {% endfor %}
+        </ul>
+      </section>
