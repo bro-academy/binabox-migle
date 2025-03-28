@@ -1,57 +1,16 @@
 {% extends "layouts/base.njk" %}
 {% include "partials/header.njk" %}
 {% block content %}
-{% include "partials/blog/banner.njk" %}    
+  {% include "partials/blog/banner.njk" %}    
+<section class="page">
+{% for aside in asides %}
+  {% set title = aside.title %}
+  {% set list = aside.list %}
+  {% include "partials/blog/aside.njk" %}
+{% endfor %}
 
-    
-      <section class="page">
-        <aside class="page__aside aside">
-          <h3 class="aside__title">Categories</h3>
-          <ul class="aside__list">
-            <li class="aside__item">
-              <a class="aside__link" href="#">Our blog(12)</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link" href="#">Metaverse(24)</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link" href="#">Gaming(24)</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link" href="#">Art(24)</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link" href="#">Robot(24)</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link" href="#">Launchpad(24)</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link" href="#">Crypto(430)</a>
-            </li>
-          </ul>
-          <h3 class="aside__title">Tag</h3>
-          <ul class="aside__list">
-            <li class="aside__item">
-              <a class="aside__link link link--bordered" href="#">NFT</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link link link--bordered" href="#">ICO</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link link link--bordered" href="#">Robot</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link link link--bordered" href="#">Crypto</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link link link--bordered" href="#">Launchpad</a>
-            </li>
-            <li class="aside__item">
-              <a class="aside__link link link--bordered" href="#">Metaverse</a>
-            </li>
-          </ul>
-        </aside>
+        
+          
         <figure class="page__frame page__frame--large">
           <img class="page__frame-image" src="images/blog-page/basilisk-main.webp" alt="A massive, winged basilisk-like creature in a misty teal environment, with a lone robed figure standing nearby" width="1024" height="557"/>
           <figcaption class="page__frame-caption">Photo caption</figcaption>

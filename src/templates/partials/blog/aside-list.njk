@@ -1,0 +1,9 @@
+<ul class="aside__list">
+  {% for item in list %}
+    <li class="aside__item">
+      <a class="{{ item.class }}" href="{{ item.link }}">
+        {{ item.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

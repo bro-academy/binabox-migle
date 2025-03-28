@@ -18,5 +18,82 @@
                 "name": "The Basilisks NFT"
             }
         ]
-    }
+    },
+    "asides": [
+        {
+            "title": "Categories",
+            "list": [
+                {
+                    "name": "Our blog(12)",
+                    "link": "#",
+                    "class": "aside__link"
+                },
+                {
+                    "name": "Metaverse(24)",
+                    "link": "#",
+                    "class": "aside__link"
+                },
+                {
+                    "name": "Gaming(24)",
+                    "link": "#",
+                    "class": "aside__link"
+                },
+                {
+                    "name": "Art(24)",
+                    "link": "#",
+                    "class": "aside__link"
+                },
+                {
+                    "name": "Robot(24)",
+                    "link": "#",
+                    "class": "aside__link"
+                },
+                {
+                    "name": "Launchpad(24)",
+                    "link": "#",
+                    "class": "aside__link"
+                },
+                {
+                    "name": "Crypto(430)",
+                    "link": "#",
+                    "class": "aside__link"
+                }
+            ]
+        },
+        {
+            "title": "Tag",
+            "list": [
+                {
+                    "name": "NFT",
+                    "link": "#",
+                    "class": "aside__link link--bordered"
+                },
+                {
+                    "name": "ICO",
+                    "link": "#",
+                    "class": "aside__link link--bordered"
+                },
+                {
+                    "name": "Robot",
+                    "link": "#",
+                    "class": "aside__link link--bordered"
+                },
+                {
+                    "name": "Crypto",
+                    "link": "#",
+                    "class": "aside__link link--bordered"
+                },
+                {
+                    "name": "Launchpad",
+                    "link": "#",
+                    "class": "aside__link link--bordered"
+                },
+                {
+                    "name": "Metaverse",
+                    "link": "#",
+                    "class": "aside__link link--bordered"
+                }
+            ]
+        }
+    ]
 }
