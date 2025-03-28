@@ -102,5 +102,54 @@
             "desc": "A massive, winged basilisk-like creature in a misty teal environment, with a lone robed figure standing nearby",
             "caption": "Photo caption"
         }
+    ],
+    "mainSection": {
+        "title": "The Basilisks NFT",
+        "button": {
+            "class": "page__button button button--secondary",
+            "link": "#",
+            "label": "Gaming"
+        },
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "paragraphs": [
+            {
+                "text1": "The Basilisks that",
+                "span": "players",
+                "text2": "collect are represented with NFTs on Ethereum’s blockchain with real-world value. Players use the",
+                "highlight": "Basilisks they have",
+                "text3": "gathered to battle other players to win ether (ETH)."
+            },
+            {
+                "text": "In Balthazar Dragons, players are immersed in a 3D open world to explore and capture dragon-like beasts called Basilisks. Balthazar Dragons is an upcoming fantasy role-playing game developed on the Ethereum blockchain by a decentralized autonomous organization (DAO) called the Balthazar DAO."
+            }
+        ],
+        "list": [
+            "The Basilisks that players collect are represented with NFTs on Ethereum’s blockchain...",
+            "In Balthazar Dragons, players are immersed in a 3D open world... <span class='page__text-highlight'>game developed</span>..."
+        ],
+        "bulletList": [
+            "List name 1",
+            "List name 2",
+            "List name 3",
+            "List name 4"
+        ],
+        "quote": {
+            "text": "The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers",
+            "rating": "8.5/10",
+            "author": "Markout Corporation"
+        }
+    },
+    "figureList": [
+        {
+            "path": "public/img/images/blog-page/basilisk-closeup-2x.webp",
+            "desc": "A mythical basilisk’s head with glowing teal eyes against a dark, atmospheric background.",
+            "caption": "Photo caption"
+        },
+        {
+            "path": "public/img/images/blog-page/basilisk-medium-2x.webp",
+            "desc": "The basilisk-like dragon in a teal-hued fantasy setting",
+            "caption": "Photo caption"
+        }
     ]
 }
