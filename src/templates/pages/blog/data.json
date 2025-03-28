@@ -95,5 +95,12 @@
                 }
             ]
         }
+    ],
+    "figure": [
+        {
+            "path": "public/img/images/blog-page/basilisk-main-2x.webp",
+            "desc": "A massive, winged basilisk-like creature in a misty teal environment, with a lone robed figure standing nearby",
+            "caption": "Photo caption"
+        }
     ]
 }
