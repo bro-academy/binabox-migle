@@ -166,5 +166,42 @@
                 "You can find a range of NFT marketplaces where you can buy existing NFTs or list your own NFTs for sale."
             ]
         }
-    ]
+    ],
+    "tags": {
+        "title": "Tags:",
+        "list": [
+            {
+                "link": "#",
+                "name": "NFT"
+            },
+            {
+                "link": "#",
+                "name": "ICO"
+            },
+            {
+                "link": "#",
+                "name": "Crypto"
+            }
+        ]
+    },
+    "share": {
+        "title": "Share:",
+        "list": [
+            {
+                "link": "#",
+                "path": "#",
+                "desc": "Twitter"
+            },
+            {
+                "link": "#",
+                "path": "#",
+                "desc": "Facebook"
+            },
+            {
+                "link": "#",
+                "path": "#",
+                "desc": "Instagram"
+            }
+        ]
+    }
 }
