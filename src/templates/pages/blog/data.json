@@ -1,4 +1,7 @@
 {
+    "site": {
+        "title": "BINABOX"
+    },
     "banner": {
         "title": "Our blog",
         "links": [
@@ -96,13 +99,11 @@
             ]
         }
     ],
-    "figure": [
-        {
-            "path": "public/img/images/blog-page/basilisk-main-2x.webp",
-            "desc": "A massive, winged basilisk-like creature in a misty teal environment, with a lone robed figure standing nearby",
-            "caption": "Photo caption"
-        }
-    ],
+    "figure": {
+        "path": "#",
+        "desc": "A massive, winged basilisk-like creature in a misty teal environment, with a lone robed figure standing nearby",
+        "caption": "Photo caption"
+    },
     "mainSection": {
         "title": "The Basilisks NFT",
         "button": {
@@ -126,7 +127,7 @@
         ],
         "list": [
             "The Basilisks that players collect are represented with NFTs on Ethereum’s blockchain...",
-            "In Balthazar Dragons, players are immersed in a 3D open world... <span class='page__text-highlight'>game developed</span>..."
+            "In Balthazar Dragons, players are immersed in a 3D open world... <span class=\"page__text-highlight\">game developed</span>..."
         ],
         "bulletList": [
             "List name 1",
