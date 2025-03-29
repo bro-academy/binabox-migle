@@ -100,7 +100,7 @@
         }
     ],
     "figure": {
-        "path": "#",
+        "path": "img/images/blog-page/basilisk-main-2x.webp",
         "desc": "A massive, winged basilisk-like creature in a misty teal environment, with a lone robed figure standing nearby",
         "caption": "Photo caption"
     },
@@ -143,12 +143,12 @@
     },
     "figureList": [
         {
-            "path": "public/img/images/blog-page/basilisk-closeup-2x.webp",
+            "path": "img/images/blog-page/basilisk-closeup-2x.webp",
             "desc": "A mythical basilisk’s head with glowing teal eyes against a dark, atmospheric background.",
             "caption": "Photo caption"
         },
         {
-            "path": "public/img/images/blog-page/basilisk-medium-2x.webp",
+            "path": "img/images/blog-page/basilisk-medium-2x.webp",
             "desc": "The basilisk-like dragon in a teal-hued fantasy setting",
             "caption": "Photo caption"
         }

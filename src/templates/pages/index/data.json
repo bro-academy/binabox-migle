@@ -51,35 +51,35 @@
     "products": [
       {
         "label": "New",
-        "image": "images/catalog/cat-2x.webp",
+        "image": "img/images/catalog/skeleton-2x.webp",
         "alt": "A stylized skeletal figure on a dark teal background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "images/catalog/cat.webp",
+        "image": "img/images/catalog/cat-2x.webp",
         "alt": "A black cat with glowiteal eyes, set against a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "Sold out",
-        "image": "images/catalog/scissors.webp",
+        "image": "img/images/catalog/scissors-2x.webp",
         "alt": "A pair of teal-toned scissors on a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "images/catalog/neon-card.webp",
+        "image": "img/images/catalog/neon-card-2x.webp",
         "alt": "A glowing teal rectangular card design against a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "images/catalog/neon-cube.webp",
+        "image": "img/images/catalog/neon-cube-2x.webp",
         "alt": "A transparent cube with bright teal circuitry on a dark background",
         "price": "$199",
         "name": "Name product"
@@ -91,32 +91,32 @@
     "blogCards": [
       {
         "label": "NFT",
-        "image": "images/our-blog/face-sculpture.webp",
+        "image": "img/images/our-blog/face-sculpture-2x.webp",
         "alt": "Surreal woman's face emerging from swirling water"
       },
       {
         "label": "NFT",
-        "image": "images/catalog/skeleton.webp",
+        "image": "img/images/catalog/skeleton-2x.webp",
         "alt": "Neon glowing skull against a dark background"
       },
       {
         "label": "NFT",
-        "image": "images/catalog/cat.webp",
+        "image": "img/images/catalog/cat-2x.webp",
         "alt": "Black cat with glowing green eyes"
       },
       {
         "label": "NFT",
-        "image": "images/our-blog/gorilla.webp",
+        "image": "img/images/our-blog/gorilla-2x.webp",
         "alt": "Close-up of a monkey's face in neon hues"
       },
       {
         "label": "NFT",
-        "image": "images/our-blog/goose.webp",
+        "image": "img/images/our-blog/goose-2x.webp",
         "alt": "White goose against a dark, neon background"
       },
       {
         "label": "NFT",
-        "image": "images/catalog/neon-card.webp",
+        "image": "img/images/catalog/neon-cube-2x.webp",
         "alt": "Transparent device with glowing neon edges"
       }
     ]
