@@ -1,7 +1,32 @@
-@use "../base/variables";
-@use "../base/global";
-@use "../layout/index/header";
 
+@use "../base/variables";
+@use "../base/mixins";
+@use "../base/global";
+
+@use "../layout/index/header";
+@use "../layout/index/footer";
+@use "../layout/index/main";
+@use "../layout/index/nav";
+@use "../layout/blog/banner";
+@use "../layout/index/catalog";
+@use "../layout/blog/aside";
+@use "../layout/index/about-us";
+@use "../layout/index/our-blog";
+@use "../layout/index/faq";
+@use "../layout/blog/text";
+
+
+@use "../components/button";
+@use "../components/label";
+@use "../components/index/product-card";
+@use "../components/index/blog-card";
+@use "../components/index/member-card";
+@use "../components/blog/figure";
+@use "../components/blog/qoute";
+
+
+@use "../pages/index";
+@use "../pages/blog";
 
 
 
