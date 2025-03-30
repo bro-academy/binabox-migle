@@ -1,5 +1,5 @@
 .page__qoute {
-    color:rgba(248, 247, 255, 1);
+    color: var(--text-color);
     font-family: var(--secondary-font);
     font-size: 28px;
     font-weight: 400;
@@ -8,9 +8,9 @@
   }
   
   .page__qoute-mark {
-    color:rgba(248, 247, 255, 1);
+    color:var(--text-color);
     font-family: var(--primary-font);
-    font-size: 14px;
+    font-size: var(--font-small);
     font-weight: 600;
     line-height: 20px;
     text-align: left;

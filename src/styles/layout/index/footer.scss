@@ -5,7 +5,7 @@
   .footer__desc {
     color: var(--primary-color);
     font-family: var(--primary-font);
-    font-size: 14px;
+    font-size: var(--font-small);
     font-weight: 400;
     line-height: 20px;
     text-align: left;
@@ -22,7 +22,7 @@
   .footer__copyright {
     color: var(--primary-color);
     font-family: var(--primary-font);
-    font-size: 14px;
+    font-size: var(--font-small);
     font-weight: 400;
     line-height: 20px;
   }

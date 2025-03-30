@@ -22,7 +22,7 @@
   
   .button:focus {
     background-color: rgba(191, 197, 238, 0.12);
-    border: 2px solid rgb(56 146 243);
+    border: 2px solid var(--button-color);
     cursor: pointer;
   }
   
@@ -33,12 +33,12 @@
   }
   
   .button--secondary:hover {
-    background-color: rgb(56 146 243);
+    background-color: var(--button-color);
     cursor: pointer;
   }
   
   .button--secondary:focus {
-    border: 2px solid rgb(56 146 243);
+    border: 2px solid var(--button-color);
     background: var(--secondary-color);
     cursor: pointer;
   }
