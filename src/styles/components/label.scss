@@ -1,0 +1,13 @@
+.label {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--primary-font);
+  }
+  
+  .label--updated {
+    background-color:rgba(234, 56, 41, 1);
+    color: var(--primary-color);
+  }

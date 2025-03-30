@@ -1,0 +1,17 @@
+.catalog__title {
+    color:rgba(248, 247, 255, 1);
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    font-size: 24px;
+  }
+  
+  .catalog__list {
+    list-style-type: none;
+  }
+  
+  .catalog__list-item {
+    background:rgba(29, 28, 40, 1);
+    padding: 24px;
+  }

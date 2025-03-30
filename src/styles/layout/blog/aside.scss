@@ -1,0 +1,49 @@
+.aside__title {
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
+  
+  .aside__link {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    border: 4px solid transparent;
+    border-radius: 5px;
+  }
+  
+  .aside {
+    padding: 24px;
+    background-color:rgba(29, 28, 40, 1);
+  }
+  
+  .aside__list {
+    list-style-type: none;
+  }
+  
+  .aside__link:hover {
+    color: rgba(56, 146, 243, 1);
+    cursor: pointer;
+  }
+  
+  .aside__link:focus {
+    border: 4px solid rgba(56, 146, 243, 1);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .aside__link:active {
+    color: rgba(0, 84, 182, 1);
+    cursor: pointer;
+  }
+  
+  .link--bordered {
+    border: 2px solid rgba(208, 215, 251, 0.17);
+  }
