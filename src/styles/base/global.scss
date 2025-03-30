@@ -1,3 +1,10 @@
+:root {
+  --primary-color: rgba(245, 248, 251, 1);
+  --secondary-color: rgba(2, 101, 220, 1);
+  --background-dark: rgba(13 13 21 / 1);
+  --primary-font: "Poppins", arial, sans-serif;
+  --secondary-font: "Bakbak One", arial, sans-serif;
+}
 body {
     font-family: var(--primary-font);
     color: var(--primary-color);

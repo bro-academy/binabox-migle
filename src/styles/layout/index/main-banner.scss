@@ -4,8 +4,8 @@
     background-repeat: no-repeat;
     background-position: 90% 10%;
     background-size: contain;
-  }
-  .main-banner__title {
+  
+  &__title {
     text-align: left;
     text-transform: uppercase;
     color: var(--primary-color);
@@ -16,7 +16,7 @@
     letter-spacing: -0.5px;
     margin: var(--spacing-none);
   }
-  .main-banner__text {
+  &__text {
     color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 20px;
@@ -28,7 +28,7 @@
     color: var(--secondary-color);
     text-transform: uppercase;
   }
-  .main-banner__stats-term {
+  &__stats-term {
     color: var(--primary-color);
     font-family: var(--secondary-font);
     font-size: var(--font-large);
@@ -37,7 +37,7 @@
     letter-spacing: -0.5px;
     text-align: left;
   }
-  .main-banner__stats-desc {
+  &__stats-desc {
     color: var(--card-text);
     font-family: var(--primary-font);
     font-size: var(--font-base);
@@ -45,3 +45,4 @@
     line-height: 24px;
     text-align: left;
   }
+}
