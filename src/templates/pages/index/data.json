@@ -42,10 +42,12 @@
     ],
     "arrow": [
       {
-        "arrow": "&lt;"
+        "path": "images/catalog/arrow-left.svg;",
+        "desc": "Arrow pointing to the left"
       },
       {
-        "arrow": "&gt;"
+        "path": "images/catalog/arrow-right.svg;",
+        "desc": "Arrow pointing to the right"
       }
     ],
     "products": [
