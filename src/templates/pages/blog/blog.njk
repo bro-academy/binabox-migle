@@ -5,11 +5,7 @@
   <section class="page">
     {% include "partials/blog/banner.njk" %}    
 
-    {% for aside in asides %}
-        {% set title = aside.title %}
-        {% set list = aside.list %}
-        {% include "partials/blog/aside.njk" %}
-    {% endfor %}
+    {% include "partials/blog/aside.njk" %}
 
     {% set item = figure %}
     {% include "partials/blog/figure.njk" %}
