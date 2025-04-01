@@ -149,72 +149,207 @@
       }
     ]
   },
-  "ourTeam": [
-    {
-      "image": "img/images/members/member-data-analysis-2x.webp",
-      "alt": "Portrait of a data analysis team member",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "img/images/members/member-data-science-2x.webp",
-      "alt": "Portrait of a data science team member",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "img/images/members/member-devops-2x.webp",
-      "alt": "Portrait of a DevOps team member",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "img/images/members/member-full-stack-developer-2x.webp",
-      "alt": "Portrait of a full-stack developer",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "img/images/members/member-project-manager-2x.webp",
-      "alt": "Portrait of a project manager",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "img/images/members/member-team-leader-2x.webp",
-      "alt": "Portrait of a team leader",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "img/images/members/memeber-web-developer-2x.webp",
-      "alt": "Portrait of a web developer",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    }
-  ],
-  "socials": [
-    {
-      "app": "Twitter",
-      "link": ""
-    },
-    {
-      "app": "Facebook",
-      "link": ""
-    },
-    {
-      "app": "Telegram",
-      "link": ""
-    },
-    {
-      "app": "YouTube",
-      "link": ""
-    },
-    {
-      "app": "TikTok",
-      "link": ""
-    }
-  ],
+  "ourTeam": {
+    "title": "Our team",
+    "cards": [
+      {
+        "image": "img/images/members/member-data-analysis-2x.webp",
+        "alt": "Portrait of a data analysis team member",
+        "term": "Ana Smith",
+        "desc": "Co-founder",
+        "socials": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "img/images/members/member-data-science-2x.webp",
+        "alt": "Portrait of a data science team member",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socials": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "img/images/members/member-devops-2x.webp",
+        "alt": "Portrait of a DevOps team member",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socials": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "img/images/members/member-full-stack-developer-2x.webp",
+        "alt": "Portrait of a full-stack developer",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socials": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "img/images/members/member-project-manager-2x.webp",
+        "alt": "Portrait of a project manager",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socials": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "img/images/members/member-team-leader-2x.webp",
+        "alt": "Portrait of a team leader",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socials": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "img/images/members/memeber-web-developer-2x.webp",
+        "alt": "Portrait of a web developer",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socials": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      }
+    ]
+  },
   "faqs": {
     "title": "faq",
     "card": [
