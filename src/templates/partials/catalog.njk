@@ -1,11 +1,16 @@
 <section class="catalog">    
 <h2 class="catalog__title">{{ catalog.title}}</h2>
         {% for button in catalog.button %}
-        {% include "partials/button.njk" %}
+          {% set btnClass = "catalog__button button" %}
+          {% set btnLink = button.link %}
+          {% set btnLabel = button.label %}
+          {% include "partials/button.njk" %}
         {% endfor %}
+
         {% for arrow in catalog.arrow %}
-        {% include "partials/arrow-button.njk" %}
+          {% include "partials/arrow-button.njk" %}
         {% endfor %}
+        
       <ul class="catalog__list">
         {% for card in catalog.products %}
         {% include "partials/product-card.njk" %}

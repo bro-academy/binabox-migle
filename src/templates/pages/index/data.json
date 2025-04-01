@@ -65,18 +65,17 @@
     "title": "Catalog",
     "button": [
       {
-        "class": "catalog__button button",
         "link": "#",
         "label": "See All"
       }
     ],
     "arrow": [
       {
-        "path": "images/catalog/arrow-left.svg;",
+        "path": "img/images/catalog/arrow-left.svg",
         "desc": "Arrow pointing to the left"
       },
       {
-        "path": "images/catalog/arrow-right.svg;",
+        "path": "img/images/catalog/arrow-right.svg",
         "desc": "Arrow pointing to the right"
       }
     ],
