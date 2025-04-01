@@ -14,7 +14,9 @@
                     <dt class="member-card__dt">{{member.term}}</dt>
                     <dd class="member-card__dd">{{member.desc}}</dd>
                   </dl>
+                    {% for social in member.socials %}
                     {% include "partials/social.njk" %}   
+                    {% endfor %}
                 </article>
     </li>
 {% endfor %}

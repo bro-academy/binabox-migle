@@ -1,8 +1,8 @@
 <section class="faq">
-        <h2 class="faq__title">{{faqs.title}}</h2>
+<h2 class="faq__title">{{ faq.title }}</h2>
         <ul class="faq__list">
-          {% for faq in faqs.card %}
+          {% for faq in faq.card %}
           {% include "partials/faq-card.njk"%}
           {% endfor %}
         </ul>
-      </section>
+</section>

@@ -350,8 +350,8 @@
       }
     ]
   },
-  "faqs": {
-    "title": "faq",
+  "faq": {
+    "title": "FAQs",
     "card": [
       {
         "question": "What are the NFTs",
