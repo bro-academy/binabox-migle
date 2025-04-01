@@ -1,5 +1,5 @@
 <section class="catalog">    
-<h2 class="catalog__title">{{ catalog.title}}</h2>
+    <h2 class="catalog__title">{{ catalog.title}}</h2>
         {% for button in catalog.button %}
           {% set btnClass = "catalog__button button" %}
           {% set btnLink = button.link %}
@@ -10,10 +10,6 @@
         {% for arrow in catalog.arrow %}
           {% include "partials/arrow-button.njk" %}
         {% endfor %}
-        
-      <ul class="catalog__list">
-        {% for card in catalog.products %}
+
         {% include "partials/product-card.njk" %}
-        {% endfor %}
-      </ul>
-  </section>
+</section>
