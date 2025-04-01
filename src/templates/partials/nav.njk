@@ -1,7 +1,10 @@
+<nav class="{{ navClass }} nav">
+        <ul class="nav__list">      
+                <li class="nav__item">
+                    <a class="nav__link{% if nav.state == 'selected' %} nav__link--selected{% endif %}" href="{{ nav.link }}">{{ nav.text}}</a>
+                </li>     
+        </ul>      
+</nav>     
 
-        
-          <li class="nav__item">
-            <a class="nav__link{% if nav.state == 'selected' %} nav__link--selected{% endif %}" href="{{ nav.link }}">{{ nav.text}}</a>
-          </li>
         
  

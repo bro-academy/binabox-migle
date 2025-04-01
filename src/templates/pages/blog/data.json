@@ -2,6 +2,41 @@
     "site": {
         "title": "BINABOX"
     },
+    "logo": {
+        "link": "#",
+        "desc": "Picture of logotip"
+    },
+    "navItems": [
+        {
+            "link": "#",
+            "text": "Home",
+            "state": "selected"
+        },
+        {
+            "link": "#",
+            "text": "Blog"
+        },
+        {
+            "link": "#",
+            "text": "Catalog"
+        },
+        {
+            "link": "#",
+            "text": "Contact us"
+        }
+    ],
+    "headerButtons": [
+        {
+            "label": "Discord",
+            "link": "#",
+            "class": "header__button button"
+        },
+        {
+            "label": "Connect",
+            "link": "#",
+            "class": "header__button button button--secondary"
+        }
+    ],
     "banner": {
         "title": "Our blog",
         "links": [

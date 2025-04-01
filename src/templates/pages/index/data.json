@@ -17,20 +17,41 @@
         "term": "1000+",
         "desc": "Profiles whitelisted"
       }
-    ],
-    "buttons": [
-      {
-        "label": "Connect wallet",
-        "class": "main-banner__button button button--secondary",
-        "link": "#"
-      },
-      {
-        "label": "Whitelist now",
-        "class": "main-banner__button button",
-        "link": "#"
-      }
     ]
   },
+  "logo": {
+    "link": "#",
+    "desc": "Picture of logotip"
+  },
+  "navItems": [
+    {
+      "link": "#",
+      "text": "Home",
+      "state": "selected"
+    },
+    {
+      "link": "#",
+      "text": "Blog"
+    },
+    {
+      "link": "#",
+      "text": "Catalog"
+    },
+    {
+      "link": "#",
+      "text": "Contact us"
+    }
+  ],
+  "headerButtons": [
+    {
+      "label": "Discord",
+      "link": "#"
+    },
+    {
+      "label": "Connect",
+      "link": "#"
+    }
+  ],
   "catalog": {
     "title": "Catalog",
     "button": [
@@ -370,24 +391,5 @@
         "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
       }
     ]
-  },
-  "navItems": [
-    {
-      "link": "#",
-      "text": "Home",
-      "state": "selected"
-    },
-    {
-      "link": "#",
-      "text": "Blog"
-    },
-    {
-      "link": "#",
-      "text": "Catalog"
-    },
-    {
-      "link": "#",
-      "text": "Contact us"
-    }
-  ]
+  }
 }
