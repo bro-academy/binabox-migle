@@ -3,9 +3,11 @@
         ><img src="#" alt="Picture of logotip"
       /></a>
       <nav class="header__nav nav">
+        <ul class="nav__list">
         {%for nav in navItems%}
         {% include "partials/nav.njk" %}
-        {% endfor %}     
+        {% endfor %}
+        </ul>     
       </nav>
       <a class="header__button button" href="#">Discord</a>
       <a class="header__button button button--secondary" href="#">Connect</a>
