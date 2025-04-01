@@ -2,23 +2,6 @@
   "site": {
     "title": "BINABOX"
   },
-  "title": "BINABOX",
-  "banner": {
-    "title1": "with",
-    "span": "binabox",
-    "title2": "explore nft collection",
-    "subtitle": "We are the best way to check rarity of NFT collection",
-    "stats": [
-      {
-        "term": "2240+",
-        "desc": "Total items"
-      },
-      {
-        "term": "1000+",
-        "desc": "Profiles whitelisted"
-      }
-    ]
-  },
   "logo": {
     "link": "#",
     "desc": "Picture of logotip"
@@ -50,6 +33,32 @@
     {
       "label": "Connect",
       "link": "#"
+    }
+  ],
+  "banner": {
+    "title1": "with",
+    "span": "binabox",
+    "title2": "explore nft collection",
+    "subtitle": "We are the best way to check rarity of NFT collection",
+    "stats": [
+      {
+        "term": "2240+",
+        "desc": "Total items"
+      },
+      {
+        "term": "1000+",
+        "desc": "Profiles whitelisted"
+      }
+    ]
+  },
+  "bannerButton": [
+    {
+      "link": "#",
+      "label": "Connect Wallet"
+    },
+    {
+      "link": "#",
+      "label": "Whitelist now"
     }
   ],
   "catalog": {
