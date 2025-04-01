@@ -1,0 +1,19 @@
+{% for member in ourTeam.cards %}
+    <li class="our-team__list-item" tabindex="0">
+                <article class="member-card">
+                  <img
+                    class="member-card__image"
+                    src="{{ member.image }}"
+                    alt="{ member.alt }}"
+                    width="120"
+                    height="120"
+                  />
+                  <dl class="member-card__dl">
+                    <dt class="member-card__dt">{{ member.term }}</dt>
+                    <dd class="member-card__dd">{{ member.desc }}</dd>
+                  </dl>
+                    
+                    {% include "partials/social.njk" %}   
+                </article>
+    </li>
+{% endfor %}

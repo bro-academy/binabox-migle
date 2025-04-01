@@ -198,7 +198,11 @@
         "title": "Big community",
         "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
       }
-    ]
+    ],
+    "button": {
+      "link": "#",
+      "label": "Read more"
+    }
   },
   "ourTeam": {
     "title": "Our team",
