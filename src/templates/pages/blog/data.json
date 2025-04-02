@@ -29,13 +29,11 @@
     "headerButtons": [
         {
             "label": "Discord",
-            "link": "#",
-            "class": "header__button button"
+            "link": "#"
         },
         {
             "label": "Connect",
-            "link": "#",
-            "class": "header__button button button--secondary"
+            "link": "#"
         }
     ],
     "banner": {
@@ -50,7 +48,6 @@
                 "name": "Our blog"
             },
             {
-                "class": "banner__link banner__link--selected",
                 "link": "#",
                 "name": "The Basilisks NFT"
             }
@@ -127,7 +124,6 @@
     "mainSection": {
         "title": "The Basilisks NFT",
         "button": {
-            "class": "page__button button button--secondary",
             "link": "#",
             "label": "Gaming"
         },
