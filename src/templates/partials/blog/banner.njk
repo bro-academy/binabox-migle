@@ -4,7 +4,7 @@
         {% for btn in bannerData.links %}
             {% set btnClass = "nav__link nav__link--selected" if btn.name == "The Basilisks NFT" else "nav__link" %} {#This is the same way, as I would defined each button in header#}
             {% set btnLink = btn.link %}
-            {% set btnName = btn.name %}
+            {% set btnLabel = btn.name %}
 
             {%include "partials/button.njk"%}
 
