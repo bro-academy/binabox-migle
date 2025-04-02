@@ -1,8 +1,8 @@
 <h4 class="page__title">{{tags.title}}</h4>
-<ul class="page__title-list">
-{% for item in tags.list %}
-          <li class="page__title-item">
-            <a class="page__title-link link link--bordered" href="{{item.link}}">{{item.name}}</a>
-          </li>   
-{% endfor %}
-</ul>
+    <ul class="page__title-list">
+        {% for item in tags.list %}
+              <li class="page__title-item">
+                    <a class="page__title-link link link--bordered" href="{{item.link}}">{{item.name}}</a>
+              </li>   
+        {% endfor %}
+    </ul>

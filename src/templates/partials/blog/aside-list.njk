@@ -1,10 +1,7 @@
-<h3 class="aside__title">{{ title }}</h3>
-<ul class="aside__list">
-  {% for item in list %}
     <li class="aside__item">
-      <a class="{{ item.class }}" href="{{ item.link }}">
-        {{ item.name }}
-      </a>
+          <a class="{{ asideClass }}" href="{{ item.link }}"  quantity="{{ item.quantity }}">
+            {{ item.name }}
+          </a>
     </li>
-  {% endfor %}
-</ul>
+   
+

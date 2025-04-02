@@ -56,84 +56,67 @@
             }
         ]
     },
-    "title": [
-        "Categories",
-        "Tag"
-    ],
     "Categories": [
         {
             "name": "Our blog",
             "quantity": "12",
-            "link": "#",
-            "class": "aside__link"
+            "link": "#"
         },
         {
             "name": "Metaverse",
             "quantity": "24",
-            "link": "#",
-            "class": "aside__link"
+            "link": "#"
         },
         {
             "name": "Gaming",
             "quantity": "24",
-            "link": "#",
-            "class": "aside__link"
+            "link": "#"
         },
         {
             "name": "Art",
             "quantity": "24",
-            "link": "#",
-            "class": "aside__link"
+            "link": "#"
         },
         {
             "name": "Robot",
             "quantity": "24",
-            "link": "#",
-            "class": "aside__link"
+            "link": "#"
         },
         {
             "name": "Launchpad",
             "quantity": "24",
-            "link": "#",
-            "class": "aside__link"
+            "link": "#"
         },
         {
             "name": "Crypto",
             "quantity": "430",
-            "link": "#",
-            "class": "aside__link"
+            "link": "#"
         }
     ],
-    "Tag": [
+    "Tags": [
         {
             "name": "NFT",
-            "link": "#",
-            "class": "aside__link link--bordered"
+            "link": "#"
         },
         {
             "name": "ICO",
-            "link": "#",
-            "class": "aside__link link--bordered"
+            "link": "#"
         },
         {
             "name": "Robot",
-            "link": "#",
-            "class": "aside__link link--bordered"
+            "link": "#"
         },
         {
             "name": "Crypto",
-            "link": "#",
-            "class": "aside__link link--bordered"
+            "link": "#"
         },
         {
             "name": "Launchpad",
-            "link": "#",
-            "class": "aside__link link--bordered"
+            "link": "#"
         },
         {
             "name": "Metaverse",
-            "link": "#",
-            "class": "aside__link link--bordered"
+            "link": "#"
         }
     ],
     "figure": {
@@ -174,7 +157,10 @@
         ],
         "quote": {
             "text": "The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers",
-            "rating": "8.5/10",
+            "rating": {
+                "main": "8.5",
+                "maximum": "10"
+            },
             "author": "Markout Corporation"
         }
     },
