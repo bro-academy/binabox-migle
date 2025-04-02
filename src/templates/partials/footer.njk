@@ -1,67 +1,11 @@
 <footer class="footer">
-      <a class="footer__logo logo" href="#"
-        ><img src="#" alt="Picture of logotip"
-      /></a>
+      {% include "partials/logo.njk" %}
       <p class="footer__desc">
-        We are the best they to check rarity of <span> nft </span> collection
+        {{ footer.text | safe }}
       </p>
-      <section class="footer__wrapper">
-        <ul class="footer__list">
-          <li class="footer__item">
-            <a class="footer__link footer__link--medium" href="#">Subscribe</a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="#">Home</a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="#">Blog</a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="#">Catalog</a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="#">Contact us</a>
-          </li>
-        </ul>
-        <ul class="footer__list">
-          <li class="footer__item">
-            <a class="footer__link footer__link--medium" href="#">Company</a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="#">Terms Conditions</a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="#">Privacy Policy</a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="#">WhitePaper</a>
-          </li>
-          <li class="footer__item">
-            <a class="footer__link" href="#">Help Center</a>
-          </li>
-        </ul>
-      </section>
-      <p class="footer__copyright">BINABOX 2022 - All right reserved</p>
-      <section class="footer__social social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link" href="#">Twitter</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="#">Facebook</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="#">Telegram</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="#">YouTube</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="#">TikTok</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link" href="#">Reddit</a>
-          </li>
-        </ul>
-      </section>
-    </footer>
+      {% include "partials/footer-items.njk" %}
+      <p class="footer__copyright">{{ copyright }}</p>
+      {% set footerSocial = social %}
+      {% set footerSocialClass = "footer__social" %}
+      {% include "partials/footer-socials.njk" %}
+</footer>
