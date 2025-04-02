@@ -42,12 +42,10 @@
         "title": "Our blog",
         "links": [
             {
-                "class": "banner__link",
                 "link": "./index.html",
                 "name": "Home"
             },
             {
-                "class": "banner__link",
                 "link": "./blog.html",
                 "name": "Our blog"
             },
