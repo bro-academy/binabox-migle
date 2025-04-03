@@ -1,7 +1,7 @@
 @use "../base/mixins";
 .button {
     @include mixins.button-base;
-    border: 2px solid rgba(208, 215, 251, 0.17);
+    border: 2px solid var(--border-color);
     background: none;
   
   &:hover,
@@ -11,17 +11,17 @@
   }
 
   &:hover {
-    background-color: rgba(191, 197, 238, 0.12);
+    background-color: var(--btn-background);
    
   }
   &:focus {
-    background-color: rgba(191, 197, 238, 0.12);
+    background-color: var(--btn-background);
     border: 2px solid var(--button-color);
     
   }
   &:active {
-    background-color: rgba(191, 197, 238, 0.12);
-    border: 2px solid rgba(208, 215, 251, 0.17);
+    background-color: var(--btn-background);
+    border: 2px solid var(--border-color);
    
   }
 
@@ -31,17 +31,14 @@
   
   :hover {
     background-color: var(--button-color);
-    cursor: pointer;
   }
   :focus {
     border: 2px solid var(--button-color);
     background: var(--secondary-color);
-    cursor: pointer;
   } 
   :active {
     background: rgb(0 84 182);
     border: 2px solid var(--secondary-color);
-    cursor: pointer;
   }
 }
 }
