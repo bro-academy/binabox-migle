@@ -272,30 +272,30 @@
         }
     ],
     "copyright": "BINABOX 2022 - All right reserved",
-    "social": [
+    "socialApps": [
         {
             "link": "#",
-            "name": "Twitter"
+            "app": "Twitter"
         },
         {
             "link": "#",
-            "name": "Facebook"
+            "app": "Facebook"
         },
         {
             "link": "#",
-            "name": "Telegram"
+            "app": "Telegram"
         },
         {
             "link": "#",
-            "name": "YouTube"
+            "app": "YouTube"
         },
         {
             "link": "#",
-            "name": "TikTok"
+            "app": "TikTok"
         },
         {
             "link": "#",
-            "name": "Reddit"
+            "app": "Reddit"
         }
     ]
 }
