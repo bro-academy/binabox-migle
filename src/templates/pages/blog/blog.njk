@@ -1,0 +1,29 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<main class="main">
+  <section class="page">
+    {% set bannerData = banner %}
+    {% include "partials/blog/banner.njk" %}    
+    
+    {% set Categories = Categories %}
+    {% include "partials/blog/aside.njk" %}
+
+    {% set item = figure %}
+    {% include "partials/blog/figure.njk" %}
+
+    {% set section = mainSection %}
+    {% include "partials/blog/main.njk" %}
+
+    {% set figureList = figureList %}
+    {% include "partials/blog/figure2.njk" %}
+
+    {% set sections = sections %}
+    {% include "partials/blog/section.njk" %}
+
+    {% include "partials/blog/tags.njk" %}
+
+    {% include "partials/blog/share.njk" %} 
+  </section>
+</main>
+    {% endblock %}

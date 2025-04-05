@@ -1,5 +1,12 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-index page content
+ <main class="main">
+    {% include "partials/main-banner.njk" %}
+    {% include "partials/catalog.njk" %}
+    {% include "partials/our-blog.njk" %}
+    {% include "partials/about-us.njk" %}
+    {% include "partials/our-team.njk" %}
+    {% include "partials/faq.njk" %}
+  </main>
 {% endblock %}

@@ -1,4 +1,504 @@
 {
-  "title": "test",
-  "h1": ""
+  "site": {
+    "title": "BINABOX"
+  },
+  "logo": {
+    "link": "#",
+    "image": "/img/images/logotip.svg",
+    "desc": "Picture of logotip"
+  },
+  "navItems": [
+    {
+      "link": "#",
+      "text": "Home",
+      "state": "selected"
+    },
+    {
+      "link": "#",
+      "text": "Blog"
+    },
+    {
+      "link": "#",
+      "text": "Catalog"
+    },
+    {
+      "link": "#",
+      "text": "Contact us"
+    }
+  ],
+  "headerButtons": [
+    {
+      "label": "Discord",
+      "link": "#"
+    },
+    {
+      "label": "Connect",
+      "link": "#"
+    }
+  ],
+  "banner": {
+    "title1": "with",
+    "span": "binabox",
+    "title2": "explore nft collection",
+    "subtitle": "We are the best way to check rarity of NFT collection",
+    "stats": [
+      {
+        "term": "2240+",
+        "desc": "Total items"
+      },
+      {
+        "term": "1000+",
+        "desc": "Profiles whitelisted"
+      }
+    ]
+  },
+  "bannerButton": [
+    {
+      "link": "#",
+      "label": "Connect Wallet"
+    },
+    {
+      "link": "#",
+      "label": "Whitelist now"
+    }
+  ],
+  "catalog": {
+    "title": "Catalog",
+    "button": [
+      {
+        "link": "#",
+        "label": "See All"
+      }
+    ],
+    "arrow": [
+      {
+        "path": "/img/images/catalog/arrow-left.svg",
+        "desc": "Arrow pointing to the left"
+      },
+      {
+        "path": "/img/images/catalog/arrow-right.svg",
+        "desc": "Arrow pointing to the right"
+      }
+    ],
+    "products": [
+      {
+        "label": "New",
+        "image": "/img/images/catalog/skeleton-2x.webp",
+        "alt": "A stylized skeletal figure on a dark teal background",
+        "price": "$199",
+        "name": "Name product"
+      },
+      {
+        "label": "New",
+        "image": "/img/images/catalog/cat-2x.webp",
+        "alt": "A black cat with glowiteal eyes, set against a dark background",
+        "price": "$199",
+        "name": "Name product"
+      },
+      {
+        "label": "Sold out",
+        "image": "/img/images/catalog/scissors-2x.webp",
+        "alt": "A pair of teal-toned scissors on a dark background",
+        "price": "$199",
+        "name": "Name product"
+      },
+      {
+        "label": "New",
+        "image": "/img/images/catalog/neon-card-2x.webp",
+        "alt": "A glowing teal rectangular card design against a dark background",
+        "price": "$199",
+        "name": "Name product"
+      },
+      {
+        "label": "New",
+        "image": "/img/images/catalog/neon-cube-2x.webp",
+        "alt": "A transparent cube with bright teal circuitry on a dark background",
+        "price": "$199",
+        "name": "Name product"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Our blog",
+    "blogCards": [
+      {
+        "label": "NFT",
+        "image": "/img/images/our-blog/face-sculpture-2x.webp",
+        "alt": "Surreal woman's face emerging from swirling water",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+      },
+      {
+        "label": "NFT",
+        "image": "/img/images/catalog/skeleton-2x.webp",
+        "alt": "Neon glowing skull against a dark background",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+      },
+      {
+        "label": "NFT",
+        "image": "/img/images/catalog/cat-2x.webp",
+        "alt": "Black cat with glowing green eyes",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+      },
+      {
+        "label": "NFT",
+        "image": "/img/images/our-blog/gorilla-2x.webp",
+        "alt": "Close-up of a monkey's face in neon hues",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+      },
+      {
+        "label": "NFT",
+        "image": "/img/images/our-blog/goose-2x.webp",
+        "alt": "White goose against a dark, neon background",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+      },
+      {
+        "label": "NFT",
+        "image": "/img/images/catalog/neon-cube-2x.webp",
+        "alt": "Transparent device with glowing neon edges",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+      }
+    ],
+    "button": {
+      "link": "#",
+      "label": "Read more"
+    }
+  },
+  "aboutUs": {
+    "title": "About us",
+    "desc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat",
+    "cards": [
+      {
+        "number": "01",
+        "title": "High quality",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+      },
+      {
+        "number": "02",
+        "title": "Big collection",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+      },
+      {
+        "number": "03",
+        "title": "Top Resourse",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+      },
+      {
+        "number": "04",
+        "title": "Big community",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
+      }
+    ],
+    "button": {
+      "link": "#",
+      "label": "Read more"
+    }
+  },
+  "ourTeam": {
+    "title": "Our team",
+    "cards": [
+      {
+        "image": "/img/images/members/member-data-analysis-2x.webp",
+        "alt": "Portrait of a data analysis team member",
+        "term": "Ana Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-data-science-2x.webp",
+        "alt": "Portrait of a data science team member",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "social": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-devops-2x.webp",
+        "alt": "Portrait of a DevOps team member",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-full-stack-developer-2x.webp",
+        "alt": "Portrait of a full-stack developer",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-project-manager-2x.webp",
+        "alt": "Portrait of a project manager",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-team-leader-2x.webp",
+        "alt": "Portrait of a team leader",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/memeber-web-developer-2x.webp",
+        "alt": "Portrait of a web developer",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQs",
+    "card": [
+      {
+        "question": "What are the NFTs",
+        "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
+      },
+      {
+        "question": "How do i get NFTs?",
+        "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
+      },
+      {
+        "question": "How can we buy your NFTs?",
+        "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
+      },
+      {
+        "question": "Who are the team behind the project?",
+        "answer": "Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus."
+      }
+    ]
+  },
+  "footer": {
+    "text": "We are the best they to check rarity of \"<span> nft </span>\" collection"
+  },
+  "nav": [
+    {
+      "link": "#",
+      "name": "Subscribe"
+    },
+    {
+      "link": "#",
+      "name": "Home"
+    },
+    {
+      "link": "#",
+      "name": "Blog"
+    },
+    {
+      "link": "#",
+      "name": "Catalog"
+    },
+    {
+      "link": "#",
+      "name": "Contact us"
+    }
+  ],
+  "info": [
+    {
+      "link": "#",
+      "name": "Company"
+    },
+    {
+      "link": "#",
+      "name": "Terms Conditions"
+    },
+    {
+      "link": "#",
+      "name": "Privacy Policy"
+    },
+    {
+      "link": "#",
+      "name": "WhitePape"
+    },
+    {
+      "link": "#",
+      "name": "Help Center"
+    }
+  ],
+  "copyright": "BINABOX 2022 - All right reserved",
+  "socialApps": [
+    {
+      "link": "#",
+      "app": "Twitter"
+    },
+    {
+      "link": "#",
+      "app": "Facebook"
+    },
+    {
+      "link": "#",
+      "app": "Telegram"
+    },
+    {
+      "link": "#",
+      "app": "YouTube"
+    },
+    {
+      "link": "#",
+      "app": "TikTok"
+    },
+    {
+      "link": "#",
+      "app": "Reddit"
+    }
+  ]
 }
