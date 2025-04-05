@@ -4,7 +4,7 @@
   },
   "logo": {
     "link": "#",
-    "image": "img/images/logotip.svg",
+    "image": "/img/images/logotip.svg",
     "desc": "Picture of logotip"
   },
   "navItems": [
@@ -72,46 +72,46 @@
     ],
     "arrow": [
       {
-        "path": "img/images/catalog/arrow-left.svg",
+        "path": "/img/images/catalog/arrow-left.svg",
         "desc": "Arrow pointing to the left"
       },
       {
-        "path": "img/images/catalog/arrow-right.svg",
+        "path": "/img/images/catalog/arrow-right.svg",
         "desc": "Arrow pointing to the right"
       }
     ],
     "products": [
       {
         "label": "New",
-        "image": "img/images/catalog/skeleton-2x.webp",
+        "image": "/img/images/catalog/skeleton-2x.webp",
         "alt": "A stylized skeletal figure on a dark teal background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "img/images/catalog/cat-2x.webp",
+        "image": "/img/images/catalog/cat-2x.webp",
         "alt": "A black cat with glowiteal eyes, set against a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "Sold out",
-        "image": "img/images/catalog/scissors-2x.webp",
+        "image": "/img/images/catalog/scissors-2x.webp",
         "alt": "A pair of teal-toned scissors on a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "img/images/catalog/neon-card-2x.webp",
+        "image": "/img/images/catalog/neon-card-2x.webp",
         "alt": "A glowing teal rectangular card design against a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "img/images/catalog/neon-cube-2x.webp",
+        "image": "/img/images/catalog/neon-cube-2x.webp",
         "alt": "A transparent cube with bright teal circuitry on a dark background",
         "price": "$199",
         "name": "Name product"
@@ -123,7 +123,7 @@
     "blogCards": [
       {
         "label": "NFT",
-        "image": "img/images/our-blog/face-sculpture-2x.webp",
+        "image": "/img/images/our-blog/face-sculpture-2x.webp",
         "alt": "Surreal woman's face emerging from swirling water",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -131,7 +131,7 @@
       },
       {
         "label": "NFT",
-        "image": "img/images/catalog/skeleton-2x.webp",
+        "image": "/img/images/catalog/skeleton-2x.webp",
         "alt": "Neon glowing skull against a dark background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -139,7 +139,7 @@
       },
       {
         "label": "NFT",
-        "image": "img/images/catalog/cat-2x.webp",
+        "image": "/img/images/catalog/cat-2x.webp",
         "alt": "Black cat with glowing green eyes",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -147,7 +147,7 @@
       },
       {
         "label": "NFT",
-        "image": "img/images/our-blog/gorilla-2x.webp",
+        "image": "/img/images/our-blog/gorilla-2x.webp",
         "alt": "Close-up of a monkey's face in neon hues",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -155,7 +155,7 @@
       },
       {
         "label": "NFT",
-        "image": "img/images/our-blog/goose-2x.webp",
+        "image": "/img/images/our-blog/goose-2x.webp",
         "alt": "White goose against a dark, neon background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -163,7 +163,7 @@
       },
       {
         "label": "NFT",
-        "image": "img/images/catalog/neon-cube-2x.webp",
+        "image": "/img/images/catalog/neon-cube-2x.webp",
         "alt": "Transparent device with glowing neon edges",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -209,7 +209,7 @@
     "title": "Our team",
     "cards": [
       {
-        "image": "img/images/members/member-data-analysis-2x.webp",
+        "image": "/img/images/members/member-data-analysis-2x.webp",
         "alt": "Portrait of a data analysis team member",
         "term": "Ana Smith",
         "desc": "Co-founder",
@@ -237,7 +237,7 @@
         ]
       },
       {
-        "image": "img/images/members/member-data-science-2x.webp",
+        "image": "/img/images/members/member-data-science-2x.webp",
         "alt": "Portrait of a data science team member",
         "term": "Jason Smith",
         "desc": "Co-founder",
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "image": "img/images/members/member-devops-2x.webp",
+        "image": "/img/images/members/member-devops-2x.webp",
         "alt": "Portrait of a DevOps team member",
         "term": "Jason Smith",
         "desc": "Co-founder",
@@ -293,7 +293,7 @@
         ]
       },
       {
-        "image": "img/images/members/member-full-stack-developer-2x.webp",
+        "image": "/img/images/members/member-full-stack-developer-2x.webp",
         "alt": "Portrait of a full-stack developer",
         "term": "Jason Smith",
         "desc": "Co-founder",
@@ -321,7 +321,7 @@
         ]
       },
       {
-        "image": "img/images/members/member-project-manager-2x.webp",
+        "image": "/img/images/members/member-project-manager-2x.webp",
         "alt": "Portrait of a project manager",
         "term": "Jason Smith",
         "desc": "Co-founder",
@@ -349,7 +349,7 @@
         ]
       },
       {
-        "image": "img/images/members/member-team-leader-2x.webp",
+        "image": "/img/images/members/member-team-leader-2x.webp",
         "alt": "Portrait of a team leader",
         "term": "Jason Smith",
         "desc": "Co-founder",
@@ -377,7 +377,7 @@
         ]
       },
       {
-        "image": "img/images/members/memeber-web-developer-2x.webp",
+        "image": "/img/images/members/memeber-web-developer-2x.webp",
         "alt": "Portrait of a web developer",
         "term": "Jason Smith",
         "desc": "Co-founder",
