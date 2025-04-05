@@ -12,7 +12,8 @@
                     <dt class="member-card__dt">{{ member.term }}</dt>
                     <dd class="member-card__dd">{{ member.desc }}</dd>
                   </dl>
-                    
+                    {% set socialClass = "member-card__social" %}
+                    {% set social = ourTeam.cards.socialApps %}
                     {% include "partials/social.njk" %}   
                 </article>
     </li>

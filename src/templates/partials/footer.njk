@@ -5,7 +5,7 @@
       </p>
       {% include "partials/footer-items.njk" %}
       <p class="footer__copyright">{{ copyright }}</p>
-      {% set footerSocial = social %}
-      {% set footerSocialClass = "footer__social" %}
-      {% include "partials/footer-socials.njk" %}
+      {% set socialClass = "footer__social" %}
+      {% set social = footer.socialApps %}
+      {% include "partials/social.njk" %}
 </footer>

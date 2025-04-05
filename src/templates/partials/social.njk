@@ -1,5 +1,5 @@
-<ul class="member-card__social social">
-    {% for social in member.socials %}
+<ul class="{{ socialClass }} social">
+    {% for social in socialApps %}
     <li class="social__item">
         <a class="social__link" href="{{ social.link}}">{{ social.app }}</a>
     </li>

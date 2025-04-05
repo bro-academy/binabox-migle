@@ -213,7 +213,7 @@
         "alt": "Portrait of a data analysis team member",
         "term": "Ana Smith",
         "desc": "Co-founder",
-        "socials": [
+        "socialApps": [
           {
             "app": "Twitter",
             "link": "#"
@@ -241,7 +241,7 @@
         "alt": "Portrait of a data science team member",
         "term": "Jason Smith",
         "desc": "Co-founder",
-        "socials": [
+        "social": [
           {
             "app": "Twitter",
             "link": "#"
@@ -269,7 +269,7 @@
         "alt": "Portrait of a DevOps team member",
         "term": "Jason Smith",
         "desc": "Co-founder",
-        "socials": [
+        "socialApps": [
           {
             "app": "Twitter",
             "link": "#"
@@ -297,7 +297,7 @@
         "alt": "Portrait of a full-stack developer",
         "term": "Jason Smith",
         "desc": "Co-founder",
-        "socials": [
+        "socialApps": [
           {
             "app": "Twitter",
             "link": "#"
@@ -325,7 +325,7 @@
         "alt": "Portrait of a project manager",
         "term": "Jason Smith",
         "desc": "Co-founder",
-        "socials": [
+        "socialApps": [
           {
             "app": "Twitter",
             "link": "#"
@@ -353,7 +353,7 @@
         "alt": "Portrait of a team leader",
         "term": "Jason Smith",
         "desc": "Co-founder",
-        "socials": [
+        "socialApps": [
           {
             "app": "Twitter",
             "link": "#"
@@ -381,7 +381,7 @@
         "alt": "Portrait of a web developer",
         "term": "Jason Smith",
         "desc": "Co-founder",
-        "socials": [
+        "socialApps": [
           {
             "app": "Twitter",
             "link": "#"
@@ -475,30 +475,30 @@
     }
   ],
   "copyright": "BINABOX 2022 - All right reserved",
-  "social": [
+  "socialApps": [
     {
       "link": "#",
-      "name": "Twitter"
+      "app": "Twitter"
     },
     {
       "link": "#",
-      "name": "Facebook"
+      "app": "Facebook"
     },
     {
       "link": "#",
-      "name": "Telegram"
+      "app": "Telegram"
     },
     {
       "link": "#",
-      "name": "YouTube"
+      "app": "YouTube"
     },
     {
       "link": "#",
-      "name": "TikTok"
+      "app": "TikTok"
     },
     {
       "link": "#",
-      "name": "Reddit"
+      "app": "Reddit"
     }
   ]
 }
