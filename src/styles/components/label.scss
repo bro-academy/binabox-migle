@@ -1,13 +1,19 @@
+@use "../base/mixins" as mixins;
 .label {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  font-weight: 600;
-  font-size: var(--font-small);
-  line-height: 20px;
-  font-family: var(--primary-font);
-}
+  & {
+    @include mixins.text-style(
+      var(--secondary-color),
+      var(--primary-font),
+      var(--font-small),
+      600
+    );
+    background-color: var(--primary-color);
 
-.label--updated {
-  background-color: rgba(234, 56, 41, 1);
-  color: var(--primary-color);
+    line-height: 20px;
+  }
+
+  &--updated {
+    background-color: rgba(234, 56, 41, 1);
+    color: var(--primary-color);
+  }
 }
