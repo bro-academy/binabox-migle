@@ -1,18 +1,27 @@
 <section class="main-banner">
   <h1 class="main-banner__title">
-          {{ banner.title1 }} <span class="binabox">{{ banner.span }} </span> {{ banner.title2 }}
-        </h1>
+      {{ banner.title1 }} <span class="binabox">{{ banner.span }} </span> {{ banner.title2 }}
+  </h1>
   <p class="main-banner__text">
-    {{ banner.subtitle }}
+      {{ banner.subtitle }}
   </p>
 
-  <dl class="main-banner__stats">
-    {% for stat in banner.stats %}
-      <dt class="main-banner__stats-title">{{ stat.term }}</dt>
-      <dd class="main-banner__stats-desc">{{ stat.desc }}</dd>
-    {% endfor %}
-  </dl>
-  {% for button in banner.buttons %}
-    {% include "partials/button.njk" %}
-  {% endfor %}
+{% include "partials/banner-stats.njk" %}
+
+{% for button in bannerButton %}
+
+  {% set btnLink = button.link %}
+  {% set btnLabel = button.label %}
+
+  {% if button.label == "Connect Wallet" %}
+  {% set btnClass = "main-banner__button button button--secondary" %}
+  {% endif %}
+
+  {% if button.label == "Whitelist now" %}
+  {% set btnClass = "main-banner__button button" %}
+  {% endif %}
+
+  {% include "partials/button.njk" %}
+ 
+{% endfor %}
 </section>

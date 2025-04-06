@@ -1,7 +1,12 @@
       <section class="banner">
-        <h1 class="banner__title">{{ banner.title }}</h1>
-        {% for item in banner.links %}
-        <a class="{{ item.class }}" href="{{ item.link }}"
-          >{{ item.name }}</a>
+        <h1 class="banner__title">{{ bannerData.title }}</h1>
+
+        {% for btn in bannerData.links %}
+            {% set btnClass = "banner__link banner__link--selected" if btn.name == "The Basilisks NFT" else "banner__link" %} {#This is the same way, as I would defined each button in header#}
+            {% set btnLink = btn.link %}
+            {% set btnLabel = btn.name %}
+
+            {%include "partials/button.njk"%}
+
         {% endfor %}
       </section>

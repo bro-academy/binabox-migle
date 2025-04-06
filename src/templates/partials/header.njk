@@ -1,12 +1,25 @@
 <header class="header">
-      <a class="header__logo logo" href="#"
-        ><img src="#" alt="Picture of logotip"
-      /></a>
-      <nav class="header__nav nav">
-        {%for nav in navItems%}
-        {% include "partials/nav.njk" %}
-        {% endfor %}     
-      </nav>
-      <a class="header__button button" href="#">Discord</a>
-      <a class="header__button button button--secondary" href="#">Connect</a>
-    </header>
+      {% include "partials/logo.njk" %}
+
+      {% set navItems = navItems %}
+      {% set navClass = "header__nav" %}
+
+      {% include "partials/nav.njk" %}
+
+      {% for button in headerButtons %}
+
+      {% set btnLink = button.link %}
+      {% set btnLabel = button.label %}
+
+      {% if button.label == "Discord" %}
+      {% set btnClass = "header__button button" %}
+      {% endif %}
+
+      {% if button.label == "Connect" %}
+      {% set btnClass = "header__button button button--secondary" %}
+      {% endif %}
+
+      {% include "partials/button.njk" %}
+
+      {% endfor %}
+</header>

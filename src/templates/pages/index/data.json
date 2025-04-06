@@ -2,7 +2,40 @@
   "site": {
     "title": "BINABOX"
   },
-  "title": "BINABOX",
+  "logo": {
+    "link": "#",
+    "image": "/img/images/logotip.svg",
+    "desc": "Picture of logotip"
+  },
+  "navItems": [
+    {
+      "link": "#",
+      "text": "Home",
+      "state": "selected"
+    },
+    {
+      "link": "#",
+      "text": "Blog"
+    },
+    {
+      "link": "#",
+      "text": "Catalog"
+    },
+    {
+      "link": "#",
+      "text": "Contact us"
+    }
+  ],
+  "headerButtons": [
+    {
+      "label": "Discord",
+      "link": "#"
+    },
+    {
+      "label": "Connect",
+      "link": "#"
+    }
+  ],
   "banner": {
     "title1": "with",
     "span": "binabox",
@@ -17,69 +50,68 @@
         "term": "1000+",
         "desc": "Profiles whitelisted"
       }
-    ],
-    "buttons": [
-      {
-        "label": "Connect wallet",
-        "class": "main-banner__button button button--secondary",
-        "link": "#"
-      },
-      {
-        "label": "Whitelist now",
-        "class": "main-banner__button button",
-        "link": "#"
-      }
     ]
   },
+  "bannerButton": [
+    {
+      "link": "#",
+      "label": "Connect Wallet"
+    },
+    {
+      "link": "#",
+      "label": "Whitelist now"
+    }
+  ],
   "catalog": {
     "title": "Catalog",
     "button": [
       {
-        "class": "catalog__button button",
         "link": "#",
         "label": "See All"
       }
     ],
     "arrow": [
       {
-        "arrow": "&lt;"
+        "path": "/img/images/catalog/arrow-left.svg",
+        "desc": "Arrow pointing to the left"
       },
       {
-        "arrow": "&gt;"
+        "path": "/img/images/catalog/arrow-right.svg",
+        "desc": "Arrow pointing to the right"
       }
     ],
     "products": [
       {
         "label": "New",
-        "image": "img/images/catalog/skeleton-2x.webp",
+        "image": "/img/images/catalog/skeleton-2x.webp",
         "alt": "A stylized skeletal figure on a dark teal background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "img/images/catalog/cat-2x.webp",
+        "image": "/img/images/catalog/cat-2x.webp",
         "alt": "A black cat with glowiteal eyes, set against a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "Sold out",
-        "image": "img/images/catalog/scissors-2x.webp",
+        "image": "/img/images/catalog/scissors-2x.webp",
         "alt": "A pair of teal-toned scissors on a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "img/images/catalog/neon-card-2x.webp",
+        "image": "/img/images/catalog/neon-card-2x.webp",
         "alt": "A glowing teal rectangular card design against a dark background",
         "price": "$199",
         "name": "Name product"
       },
       {
         "label": "New",
-        "image": "img/images/catalog/neon-cube-2x.webp",
+        "image": "/img/images/catalog/neon-cube-2x.webp",
         "alt": "A transparent cube with bright teal circuitry on a dark background",
         "price": "$199",
         "name": "Name product"
@@ -91,35 +123,57 @@
     "blogCards": [
       {
         "label": "NFT",
-        "image": "img/images/our-blog/face-sculpture-2x.webp",
-        "alt": "Surreal woman's face emerging from swirling water"
+        "image": "/img/images/our-blog/face-sculpture-2x.webp",
+        "alt": "Surreal woman's face emerging from swirling water",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
       },
       {
         "label": "NFT",
-        "image": "img/images/catalog/skeleton-2x.webp",
-        "alt": "Neon glowing skull against a dark background"
+        "image": "/img/images/catalog/skeleton-2x.webp",
+        "alt": "Neon glowing skull against a dark background",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
       },
       {
         "label": "NFT",
-        "image": "img/images/catalog/cat-2x.webp",
-        "alt": "Black cat with glowing green eyes"
+        "image": "/img/images/catalog/cat-2x.webp",
+        "alt": "Black cat with glowing green eyes",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
       },
       {
         "label": "NFT",
-        "image": "img/images/our-blog/gorilla-2x.webp",
-        "alt": "Close-up of a monkey's face in neon hues"
+        "image": "/img/images/our-blog/gorilla-2x.webp",
+        "alt": "Close-up of a monkey's face in neon hues",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
       },
       {
         "label": "NFT",
-        "image": "img/images/our-blog/goose-2x.webp",
-        "alt": "White goose against a dark, neon background"
+        "image": "/img/images/our-blog/goose-2x.webp",
+        "alt": "White goose against a dark, neon background",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
       },
       {
         "label": "NFT",
-        "image": "img/images/catalog/neon-cube-2x.webp",
-        "alt": "Transparent device with glowing neon edges"
+        "image": "/img/images/catalog/neon-cube-2x.webp",
+        "alt": "Transparent device with glowing neon edges",
+        "writer": "Tony Nguyen",
+        "date": "20 Jun 2022",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
       }
-    ]
+    ],
+    "button": {
+      "link": "#",
+      "label": "Read more"
+    }
   },
   "aboutUs": {
     "title": "About us",
@@ -145,71 +199,215 @@
         "title": "Big community",
         "desc": "Lorem Ipsum is simply dummy text of the printing and Ipsum typesetting industry."
       }
+    ],
+    "button": {
+      "link": "#",
+      "label": "Read more"
+    }
+  },
+  "ourTeam": {
+    "title": "Our team",
+    "cards": [
+      {
+        "image": "/img/images/members/member-data-analysis-2x.webp",
+        "alt": "Portrait of a data analysis team member",
+        "term": "Ana Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-data-science-2x.webp",
+        "alt": "Portrait of a data science team member",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "social": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-devops-2x.webp",
+        "alt": "Portrait of a DevOps team member",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-full-stack-developer-2x.webp",
+        "alt": "Portrait of a full-stack developer",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-project-manager-2x.webp",
+        "alt": "Portrait of a project manager",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/member-team-leader-2x.webp",
+        "alt": "Portrait of a team leader",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "image": "/img/images/members/memeber-web-developer-2x.webp",
+        "alt": "Portrait of a web developer",
+        "term": "Jason Smith",
+        "desc": "Co-founder",
+        "socialApps": [
+          {
+            "app": "Twitter",
+            "link": "#"
+          },
+          {
+            "app": "Facebook",
+            "link": "#"
+          },
+          {
+            "app": "Telegram",
+            "link": "#"
+          },
+          {
+            "app": "YouTube",
+            "link": "#"
+          },
+          {
+            "app": "TikTok",
+            "link": "#"
+          }
+        ]
+      }
     ]
   },
-  "ourTeam": [
-    {
-      "image": "",
-      "alt": "Portrait of a data analysis team member",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "",
-      "alt": "Portrait of a data science team member",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "",
-      "alt": "Portrait of a DevOps team member",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "",
-      "alt": "Portrait of a full-stack developer",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "",
-      "alt": "Portrait of a project manager",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "",
-      "alt": "Portrait of a team leader",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    },
-    {
-      "image": "",
-      "alt": "Portrait of a web developer",
-      "term": "Jason Smith",
-      "desc": "Co-founder"
-    }
-  ],
-  "socials": [
-    {
-      "app": "Twitter"
-    },
-    {
-      "app": "Facebook"
-    },
-    {
-      "app": "Telegram"
-    },
-    {
-      "app": "YouTube"
-    },
-    {
-      "app": "TikTok"
-    }
-  ],
-  "faqs": {
-    "title": "faq",
+  "faq": {
+    "title": "FAQs",
     "card": [
       {
         "question": "What are the NFTs",
@@ -229,23 +427,78 @@
       }
     ]
   },
-  "navItems": [
+  "footer": {
+    "text": "We are the best they to check rarity of \"<span> nft </span>\" collection"
+  },
+  "nav": [
     {
       "link": "#",
-      "text": "Home",
-      "state": "selected"
+      "name": "Subscribe"
     },
     {
       "link": "#",
-      "text": "Blog"
+      "name": "Home"
     },
     {
       "link": "#",
-      "text": "Catalgog"
+      "name": "Blog"
     },
     {
       "link": "#",
-      "text": "Contact us"
+      "name": "Catalog"
+    },
+    {
+      "link": "#",
+      "name": "Contact us"
+    }
+  ],
+  "info": [
+    {
+      "link": "#",
+      "name": "Company"
+    },
+    {
+      "link": "#",
+      "name": "Terms Conditions"
+    },
+    {
+      "link": "#",
+      "name": "Privacy Policy"
+    },
+    {
+      "link": "#",
+      "name": "WhitePape"
+    },
+    {
+      "link": "#",
+      "name": "Help Center"
+    }
+  ],
+  "copyright": "BINABOX 2022 - All right reserved",
+  "socialApps": [
+    {
+      "link": "#",
+      "app": "Twitter"
+    },
+    {
+      "link": "#",
+      "app": "Facebook"
+    },
+    {
+      "link": "#",
+      "app": "Telegram"
+    },
+    {
+      "link": "#",
+      "app": "YouTube"
+    },
+    {
+      "link": "#",
+      "app": "TikTok"
+    },
+    {
+      "link": "#",
+      "app": "Reddit"
     }
   ]
 }

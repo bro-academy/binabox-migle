@@ -3,13 +3,11 @@
 {% block content %}
 <main class="main">
   <section class="page">
+    {% set bannerData = banner %}
     {% include "partials/blog/banner.njk" %}    
-
-    {% for aside in asides %}
-        {% set title = aside.title %}
-        {% set list = aside.list %}
-        {% include "partials/blog/aside.njk" %}
-    {% endfor %}
+    
+    {% set Categories = Categories %}
+    {% include "partials/blog/aside.njk" %}
 
     {% set item = figure %}
     {% include "partials/blog/figure.njk" %}

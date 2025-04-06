@@ -2,101 +2,118 @@
     "site": {
         "title": "BINABOX"
     },
+    "logo": {
+        "link": "#",
+        "image": "img/images/logotip.svg",
+        "desc": "Picture of logotip"
+    },
+    "navItems": [
+        {
+            "link": "#",
+            "text": "Home",
+            "state": "selected"
+        },
+        {
+            "link": "#",
+            "text": "Blog"
+        },
+        {
+            "link": "#",
+            "text": "Catalog"
+        },
+        {
+            "link": "#",
+            "text": "Contact us"
+        }
+    ],
+    "headerButtons": [
+        {
+            "label": "Discord",
+            "link": "#"
+        },
+        {
+            "label": "Connect",
+            "link": "#"
+        }
+    ],
     "banner": {
         "title": "Our blog",
         "links": [
             {
-                "class": "banner__link",
-                "link": "#",
+                "link": "./index.html",
                 "name": "Home"
             },
             {
-                "class": "banner__link",
-                "link": "#",
+                "link": "./blog.html",
                 "name": "Our blog"
             },
             {
-                "class": "banner__link banner__link--selected",
                 "link": "#",
                 "name": "The Basilisks NFT"
             }
         ]
     },
-    "asides": [
+    "Categories": [
         {
-            "title": "Categories",
-            "list": [
-                {
-                    "name": "Our blog(12)",
-                    "link": "#",
-                    "class": "aside__link"
-                },
-                {
-                    "name": "Metaverse(24)",
-                    "link": "#",
-                    "class": "aside__link"
-                },
-                {
-                    "name": "Gaming(24)",
-                    "link": "#",
-                    "class": "aside__link"
-                },
-                {
-                    "name": "Art(24)",
-                    "link": "#",
-                    "class": "aside__link"
-                },
-                {
-                    "name": "Robot(24)",
-                    "link": "#",
-                    "class": "aside__link"
-                },
-                {
-                    "name": "Launchpad(24)",
-                    "link": "#",
-                    "class": "aside__link"
-                },
-                {
-                    "name": "Crypto(430)",
-                    "link": "#",
-                    "class": "aside__link"
-                }
-            ]
+            "name": "Our blog",
+            "quantity": "12",
+            "link": "#"
         },
         {
-            "title": "Tag",
-            "list": [
-                {
-                    "name": "NFT",
-                    "link": "#",
-                    "class": "aside__link link--bordered"
-                },
-                {
-                    "name": "ICO",
-                    "link": "#",
-                    "class": "aside__link link--bordered"
-                },
-                {
-                    "name": "Robot",
-                    "link": "#",
-                    "class": "aside__link link--bordered"
-                },
-                {
-                    "name": "Crypto",
-                    "link": "#",
-                    "class": "aside__link link--bordered"
-                },
-                {
-                    "name": "Launchpad",
-                    "link": "#",
-                    "class": "aside__link link--bordered"
-                },
-                {
-                    "name": "Metaverse",
-                    "link": "#",
-                    "class": "aside__link link--bordered"
-                }
-            ]
+            "name": "Metaverse",
+            "quantity": "24",
+            "link": "#"
+        },
+        {
+            "name": "Gaming",
+            "quantity": "24",
+            "link": "#"
+        },
+        {
+            "name": "Art",
+            "quantity": "24",
+            "link": "#"
+        },
+        {
+            "name": "Robot",
+            "quantity": "24",
+            "link": "#"
+        },
+        {
+            "name": "Launchpad",
+            "quantity": "24",
+            "link": "#"
+        },
+        {
+            "name": "Crypto",
+            "quantity": "430",
+            "link": "#"
+        }
+    ],
+    "Tags": [
+        {
+            "name": "NFT",
+            "link": "#"
+        },
+        {
+            "name": "ICO",
+            "link": "#"
+        },
+        {
+            "name": "Robot",
+            "link": "#"
+        },
+        {
+            "name": "Crypto",
+            "link": "#"
+        },
+        {
+            "name": "Launchpad",
+            "link": "#"
+        },
+        {
+            "name": "Metaverse",
+            "link": "#"
         }
     ],
     "figure": {
@@ -107,7 +124,6 @@
     "mainSection": {
         "title": "The Basilisks NFT",
         "button": {
-            "class": "page__button button button--secondary",
             "link": "#",
             "label": "Gaming"
         },
@@ -137,7 +153,10 @@
         ],
         "quote": {
             "text": "The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers",
-            "rating": "8.5/10",
+            "rating": {
+                "main": "8.5",
+                "maximum": "10"
+            },
             "author": "Markout Corporation"
         }
     },
@@ -204,5 +223,79 @@
                 "desc": "Instagram"
             }
         ]
-    }
+    },
+    "footer": {
+        "text": "We are the best they to check rarity of \"<span> nft </span>\" collection"
+    },
+    "nav": [
+        {
+            "link": "#",
+            "name": "Subscribe"
+        },
+        {
+            "link": "#",
+            "name": "Home"
+        },
+        {
+            "link": "#",
+            "name": "Blog"
+        },
+        {
+            "link": "#",
+            "name": "Catalog"
+        },
+        {
+            "link": "#",
+            "name": "Contact us"
+        }
+    ],
+    "info": [
+        {
+            "link": "#",
+            "name": "Company"
+        },
+        {
+            "link": "#",
+            "name": "Terms Conditions"
+        },
+        {
+            "link": "#",
+            "name": "Privacy Policy"
+        },
+        {
+            "link": "#",
+            "name": "WhitePape"
+        },
+        {
+            "link": "#",
+            "name": "Help Center"
+        }
+    ],
+    "copyright": "BINABOX 2022 - All right reserved",
+    "socialApps": [
+        {
+            "link": "#",
+            "app": "Twitter"
+        },
+        {
+            "link": "#",
+            "app": "Facebook"
+        },
+        {
+            "link": "#",
+            "app": "Telegram"
+        },
+        {
+            "link": "#",
+            "app": "YouTube"
+        },
+        {
+            "link": "#",
+            "app": "TikTok"
+        },
+        {
+            "link": "#",
+            "app": "Reddit"
+        }
+    ]
 }
