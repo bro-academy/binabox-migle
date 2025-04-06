@@ -44,5 +44,8 @@
   },
   "volta": {
     "node": "22.14.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
