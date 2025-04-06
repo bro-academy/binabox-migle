@@ -13,6 +13,7 @@
 
     text-transform: uppercase;
   }
+
   &__question {
     @include mixins.text-style(
       var(--primary-color),
@@ -36,6 +37,7 @@
   &__list {
     list-style-type: none;
   }
+
   &__list-item {
     background-color: var(--card-background);
     padding: 24px 32px;
