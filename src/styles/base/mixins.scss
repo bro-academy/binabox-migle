@@ -24,3 +24,8 @@
   font-size: $size;
   font-weight: $weight;
 }
+
+@mixin spacing($line-height, $text-align) {
+  line-height: $line-height;
+  text-align: $text-align;
+}
