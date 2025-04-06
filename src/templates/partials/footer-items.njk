@@ -1,0 +1,25 @@
+<section class="footer__wrapper">
+        <ul class="footer__list">
+          {% for nav in nav  %}
+              <li class="footer__item">
+                  {% if nav.name == "Subscribe" %}
+                  <a class="footer__link footer__link--medium" href="{{ nav.link }}">{{ nav.name }}</a>
+                  {% else  %}
+                  <a class="footer__link" href="{{ nav.link }}">{{ nav.name }}</a>
+                  {% endif %} 
+              </li>
+          {% endfor %}
+        </ul>
+
+        <ul class="footer__list">
+          {% for info in info  %}
+              <li class="footer__item">
+                  {% if info.name == "Company" %}
+                  <a class="footer__link footer__link--medium" href="{{ info.link }}">{{ info.name }}</a>
+                  {% else  %}
+                  <a class="footer__link" href="{{ info.link }}">{{ info.name }}</a>
+                  {% endif %} 
+              </li>
+          {% endfor %}
+        </ul>
+  </section>
