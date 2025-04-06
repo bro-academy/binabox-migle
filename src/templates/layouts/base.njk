@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>{{site.title}}</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
       href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+/>
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
-{% include "partials/header.njk" %}
-{% block content %}{% endblock %}
-{% include "partials/footer.njk" %}
-</body>
+    {% include "partials/header.njk" %}
+    {% block content %}{% endblock %}
+    {% include "partials/footer.njk" %}
+  </body>
 </html>
