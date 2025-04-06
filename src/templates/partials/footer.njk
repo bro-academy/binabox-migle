@@ -1,11 +1,11 @@
 <footer class="footer">
-      {% include "partials/logo.njk" %}
-      <p class="footer__desc">
-        {{ footer.text | safe }}
-      </p>
-      {% include "partials/footer-items.njk" %}
-      <p class="footer__copyright">{{ copyright }}</p>
-      {% set socialClass = "footer__social" %}
-      {% set social = footer.socialApps %}
-      {% include "partials/social.njk" %}
+  {% include "partials/logo.njk" %}
+  <p class="footer__desc">
+    {{ footer.text | safe }}
+  </p>
+  {% include "partials/footer-items.njk" %}
+  <p class="footer__copyright">{{ copyright }}</p>
+  {% set socialClass = "footer__social" %}
+  {% set social = footer.socialApps %}
+  {% include "partials/social.njk" %}
 </footer>

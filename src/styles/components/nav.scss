@@ -1,37 +1,36 @@
 .nav__list {
-    list-style-type: none;
-  }
-  
-  .nav__link {
-    color: var(--primary-color);
-    font-family: var(--primary-font);
-    font-size: var(--font-base);
-    font-weight: 600;
-    line-height: 24px;
-    text-align: center;
-    padding: 8px 20px;
-    border: 4px solid transparent;
-  }
-  
-  .nav__link:hover {
-    color: var(--button-color);
-    cursor: pointer;
-  }
-  
-  .nav__link:focus {
-    color: var(--primary-color);
-    border: 4px solid var(--button-color);
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .nav__link:active {
-    color: rgb(0 84 182);
-    cursor: pointer;
-  }
-  
-  .nav__link--selected {
-    text-decoration-line: underline;
-    text-decoration-color: var(--secondary-color);
-  }
-  
+  list-style-type: none;
+}
+
+.nav__link {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: var(--font-base);
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 8px 20px;
+  border: 4px solid transparent;
+}
+
+.nav__link:hover {
+  color: var(--button-color);
+  cursor: pointer;
+}
+
+.nav__link:focus {
+  color: var(--primary-color);
+  border: 4px solid var(--button-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav__link:active {
+  color: rgb(0 84 182);
+  cursor: pointer;
+}
+
+.nav__link--selected {
+  text-decoration-line: underline;
+  text-decoration-color: var(--secondary-color);
+}

@@ -1,27 +1,27 @@
 .our-team__list {
-    list-style-type: none;
-  }
-  
-  .our-team__title {
-    color: var(--text-color);
-    font-family: var(--secondary-font);
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: -0.5px;
-    text-align: center;
-  }
-  
-  .our-team__list-item {
-    padding: 32px;
-    background-color: var(--card-background);
-  }
-  
-  .our-team__list-item:focus {
-    border: 4px solid var(--button-color);
-  }
-  
-  .faq__list-item {
-    background-color: var(--card-background);
-    padding: 24px 32px;
-  }
+  list-style-type: none;
+}
+
+.our-team__title {
+  color: var(--text-color);
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.our-team__list-item {
+  padding: 32px;
+  background-color: var(--card-background);
+}
+
+.our-team__list-item:focus {
+  border: 4px solid var(--button-color);
+}
+
+.faq__list-item {
+  background-color: var(--card-background);
+  padding: 24px 32px;
+}

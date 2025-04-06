@@ -1,11 +1,9 @@
 <section class="blog">
     <h2 class="blog__title">{{blog.title}}</h2>
-        {% include "partials/blog-card.njk" %}
+    {% include "partials/blog-card.njk" %}
 
-        {% set btnClass = "blog__button button" %}
-        {% set btnLink = blog.button.link %}
-        {% set btnLabel = blog.button.label %}
-        {% include "partials/button.njk" %}
+    {% set btnClass = "blog__button button" %}
+    {% set btnLink = blog.button.link %}
+    {% set btnLabel = blog.button.label %}
+    {% include "partials/button.njk" %}
 </section>
-
-
