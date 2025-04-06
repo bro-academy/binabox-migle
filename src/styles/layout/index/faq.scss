@@ -1,35 +1,43 @@
-.faq__title {
-  color: var(--text-color);
-  font-family: var(--secondary-font);
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: -0.5px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.faq__question {
-  color: var(--primary-color);
-  font-family: var(--secondary-font);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: left;
-}
+@use "../base/mixins" as mixins;
+.faq {
+  &__title {
+    @include mixins.text-style(
+      var(--text-color),
+      var(--secondary-font),
+      36px,
+      400
+    );
+    @include mixins.spacing(48px, center);
 
-.faq__answer {
-  color: var(--primary-color);
-  font-family: var(--primary-font);
-  font-size: var(--font-base);
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
+    letter-spacing: -0.5px;
 
-.faq__list {
-  list-style-type: none;
-}
-.faq__list-item {
-  background-color: var(--card-background);
-  padding: 24px 32px;
+    text-transform: uppercase;
+  }
+  &__question {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--secondary-font),
+      24px,
+      400
+    );
+    @include mixins.spacing(32px, left);
+  }
+
+  &__answer {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--primary-font),
+      24px,
+      400
+    );
+    @include mixins.spacing(24px, left);
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+  &__list-item {
+    background-color: var(--card-background);
+    padding: 24px 32px;
+  }
 }
