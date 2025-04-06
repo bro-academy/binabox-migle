@@ -1,41 +1,48 @@
-.about-us__title {
-  color: var(--text-color);
-  font-family: var(--secondary-font);
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: -0.5px;
-  text-align: center;
-}
+@use "../base/mixins";
+.about-us {
+  &__title {
+    @include mixins.text-style(
+      var(--text-color),
+      var(--secondary-font),
+      36px,
+      400
+    );
+    @include mixins.spacing(48px, center);
+    letter-spacing: -0.5px;
+  }
 
-.about-us__desc {
-  color: var(--card-text);
-  font-family: var(--primary-font);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 28px;
-  text-align: center;
-}
+  &__desc {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      20px,
+      500
+    );
+    @include mixins.spacing(28px, center);
+  }
 
-.about-us__list-title {
-  color: var(--primary-color);
-  font-family: var(--secondary-font);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: left;
-}
+  &__list-title {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--secondary-font),
+      24px,
+      400
+    );
+    @include mixins.spacing(32px, left);
+  }
 
-.about-us__list-desc {
-  color: var(--card-text);
-  font-family: var(--primary-font);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  text-align: left;
-}
+  &__list-desc {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      18px,
+      400
+    );
+    @include mixins.spacing(28px, left);
+  }
 
-.about-us__list-item {
-  padding: 32px;
-  background-color: rgba(26, 25, 37, 1);
+  &__list-item {
+    padding: 32px;
+    background-color: rgba(26, 25, 37, 1);
+  }
 }

@@ -29,3 +29,7 @@
 .faq__list {
   list-style-type: none;
 }
+.faq__list-item {
+  background-color: var(--card-background);
+  padding: 24px 32px;
+}

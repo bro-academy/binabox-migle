@@ -1,23 +1,30 @@
-.member-card__dt {
-  color: var(--primary-color);
-  font-family: var(--secondary-font);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-}
+@use "../base/mixins" as mixins;
+.member-card {
+  &__dt {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--secondary-font),
+      24px,
+      400
+    );
+    @include mixins.spacing(32px, 0);
+  }
 
-.member-card__dd {
-  color: var(--card-text);
-  font-family: var(--primary-font);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-}
+  &__dd {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      18px,
+      400
+    );
+    @include mixins.spacing(28px, 0);
+  }
 
-.member-card__social {
-  list-style-type: none;
-}
+  &__social {
+    list-style-type: none;
+  }
 
-.member-card__image {
-  border-radius: 56px;
+  &__image {
+    border-radius: 56px;
+  }
 }
