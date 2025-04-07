@@ -1,0 +1,43 @@
+@use "../base/mixins" as mixins;
+.search {
+  &__input {
+    @include mixins.button-base;
+    border: 2px solid var(--border-color);
+    background: none;
+    width: auto;
+
+    .search__success {
+      display: none;
+    }
+
+    &:valid + .search__success {
+      border: 2px solid rgb(208 215 251 / 0.17);
+    }
+
+    &:invalid {
+      border: 2px solid rgb(234 56 41);
+    }
+
+    &::placeholder {
+      color: var(--primary-color);
+      opacity: 0.6;
+    }
+
+    &:hover {
+      border: 2px solid var(--button-color);
+    }
+
+    &:focus {
+      border: 2px solid var(--button-color);
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+
+    &:active {
+      border: 3px solid var(--button-color);
+    }
+  }
+}
