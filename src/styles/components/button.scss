@@ -1,14 +1,9 @@
-@use "../base/mixins";
+@use "../base/mixins" as mixins;
 .button {
   @include mixins.button-base;
   border: 2px solid var(--border-color);
   background: none;
-
-  &:hover,
-  &:focus,
-  &:active {
-    cursor: pointer;
-  }
+  cursor: pointer;
 
   &:hover {
     background-color: var(--btn-background);

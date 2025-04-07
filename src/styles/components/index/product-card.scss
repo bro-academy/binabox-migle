@@ -12,10 +12,10 @@
     text-align: left;
   }
 
-  &product-card__image {
+  &__image {
     object-fit: cover;
   }
-  &product-card__name {
+  &__name {
     @include mixins.text-style(
       var(--card-text),
       var(--primary-font),
