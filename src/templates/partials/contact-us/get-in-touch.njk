@@ -1,0 +1,13 @@
+<form class="form">
+    <div class="form__consent">
+        <p class="form__consent-text"> Use my profile information </p>
+        <input class="form__toggle-input toggle-input" type="checkbox" name="consent" value="agree" id="toggle"/>
+        <label class="form__toggle-label toggle-label" for="toggle"></label>
+    </div>
+    {% include "partials/contact-us/form.njk" %}
+    <p class="form__gender">{{ title }}
+    </p>
+    {% set form = genderForm %}
+    {% include "partials/contact-us/form.njk" %}
+
+</form>

@@ -1,0 +1,8 @@
+{% for item in form %}
+    <div class="form__item">
+        <label class="form__label" for="{{ item.for }}">
+            {{ item.label }}
+        </label>
+        <input class="form__input" type="{{ item.type }}" name="{{ item.name }}" id="{{ item.id }}" required minlength="{{ item.mid }}" maxlenght="{{ item.max }}">
+    </div>
+{% endfor %}

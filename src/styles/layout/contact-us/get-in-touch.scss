@@ -1,0 +1,73 @@
+@use "../base/mixins" as mixins;
+@use "../base/variables" as vars;
+.form {
+  &__consent {
+    background-color: rgb(29 28 40);
+    padding: 20px;
+  }
+  &__toggle-label {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background: gray;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid black;
+  }
+  &::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    background: white;
+  }
+
+  &__toggle-input:checked + &__toggle-label {
+    background: blue;
+  }
+
+  &__toggle-input:checked + &__toggle-label::before {
+    transform: translate(30px, 0);
+  }
+
+  &__item {
+    position: relative;
+    padding: 20px;
+  }
+
+  &__label {
+    position: absolute;
+    transform: translateY(-100%);
+  }
+
+  &__error {
+    color: rgb(234, 56, 41);
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: none;
+  }
+
+  &__input {
+    background-color: transparent;
+    border: 2px solid vars.$border-color;
+
+    &:user-invalid {
+      border-color: rgb(234 56 41);
+    }
+
+    &:valid {
+      border-color: green;
+    }
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}

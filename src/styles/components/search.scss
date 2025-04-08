@@ -1,22 +1,42 @@
 @use "../base/mixins" as mixins;
 .search {
+  &__button-wrapper {
+    position: relative;
+  }
+  &__label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
   &__input {
     @include mixins.button-base;
     border: 2px solid var(--border-color);
     background: none;
     width: auto;
 
-    .search__success {
-      display: none;
-    }
-
-    &:valid + .search__success {
+    &:valid {
+      box-sizing: border-box;
       border: 2px solid rgb(208 215 251 / 0.17);
     }
 
-    &:invalid {
+    &:user-invalid:not(:placeholder-shown) {
       border: 2px solid rgb(234 56 41);
     }
+
+    // &__search__success {
+    //   display: none;
+    // }
+
+    // &:valid + .search__success {
+    //   border: 2px solid rgb(208 215 251 / 0.17);
+    // }
+
+    // &:invalid {
+    //   border: 2px solid rgb(234 56 41);
+    // }
 
     &::placeholder {
       color: var(--primary-color);

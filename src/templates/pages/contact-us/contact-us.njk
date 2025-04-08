@@ -1,0 +1,9 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    <main class="main">
+        {% set bannerData = banner %}
+        {% include "partials/blog/banner.njk" %}
+        {% include "partials/contact-us/get-in-touch.njk" %}
+    </main>
+{% endblock %}

@@ -1,0 +1,67 @@
+{
+    "banner": {
+        "title": "Contact Us",
+        "links": [
+            {
+                "link": "./index.html",
+                "name": "Home"
+            },
+            {
+                "link": "#",
+                "name": "Contact Us"
+            }
+        ]
+    },
+    "form": [
+        {
+            "for": "name",
+            "label": "Name",
+            "type": "text",
+            "name": "name",
+            "id": "name",
+            "mid": "2",
+            "max": "15"
+        },
+        {
+            "for": "surname",
+            "label": "Last Name",
+            "type": "text",
+            "name": "name",
+            "id": "surname",
+            "mid": "2",
+            "max": "15"
+        },
+        {
+            "for": "dof",
+            "label": "Date of birth",
+            "type": "date",
+            "name": "birthday",
+            "id": "dof",
+            "mid": "2",
+            "max": "15"
+        }
+    ],
+    "genderForm": {
+        "title": "Gender",
+        "form": [
+            {
+                "for": "male",
+                "label": "Male",
+                "type": "radio",
+                "name": "gender",
+                "id": "male",
+                "mid": "2",
+                "max": "15"
+            },
+            {
+                "for": "female",
+                "label": "Female",
+                "type": "radio",
+                "name": "gender",
+                "id": "female",
+                "mid": "2",
+                "max": "15"
+            }
+        ]
+    }
+}
