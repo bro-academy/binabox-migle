@@ -29,11 +29,13 @@
     {% endfor %}
 </ul>
 
-<div class="blockquote-box">
-    <blockquote class="page__qoute">“{{ section.quote.text }}”</blockquote>
-    <p class="page__qoute-mark">
-        <span class="mark">{{ section.quote.rating }}
-        </span>
-        {{ section.quote.author }}
+<div class="page__quote">
+    <p class="page__quote-text">{{ mainSection.quote.text }}</p>
+
+    <p class="page__quote-mark">
+        <span class="page__mark">{{ mainSection.quote.rating.main }}</span>
+        <span class="page__rating-divider">/</span>
+        <span class="page__rating-max">{{ mainSection.quote.rating.maximum }}</span>
+        {{ mainSection.quote.author }}
     </p>
 </div>
