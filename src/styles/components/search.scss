@@ -18,6 +18,7 @@
     background: none;
     box-sizing: border-box;
     width: auto;
+    padding: 8px 12px;
 
     &::placeholder {
       color: var(--primary-color);

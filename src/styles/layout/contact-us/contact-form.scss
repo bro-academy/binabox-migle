@@ -1,0 +1,86 @@
+@use "../base/mixins" as mixins;
+@use "../base/variables" as vars;
+.form {
+  &__consent {
+    background-color: rgb(29 28 40);
+    padding: 20px;
+  }
+
+  &__slider-label {
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+    background: rgb(229 236 251 / 0.36);
+    border-radius: 10px;
+    position: absolute;
+
+    &::before {
+      content: "";
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      border-radius: 50%;
+      position: absolute;
+      left: 2px;
+      top: 4px;
+      background: rgb(255 255 255);
+    }
+  }
+
+  &___slider-input:checked + &__silder-label {
+    background: rgb(2 101 220);
+  }
+
+  &__slider-input:checked + &__slider-label::before {
+    transform: translate(20px, 0);
+  }
+
+  &__item {
+    position: relative;
+    margin: 40px;
+  }
+
+  &__item-label {
+    position: absolute;
+    transform: translateY(-100%);
+  }
+
+  &__item-input {
+    color: vars.$primary-color;
+    background: transparent;
+    border: 2px solid rgb(208 215 251 / 0.17);
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  &__item-textarea {
+    position: static;
+    width: 640px;
+    height: 160px;
+    resize: horizontal;
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  &__item-button {
+    box-sizing: border-box;
+    position: static;
+    width: 640px;
+    height: 48px;
+    padding: 10px 24px;
+    background: rgb(2 101 220);
+    color: rgb(245 248 251);
+    outline: 1px solid transparent;
+    outline-offset: 0;
+
+    &:active {
+      outline: 1px solid var(--button-color);
+    }
+  }
+}
