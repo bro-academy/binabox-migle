@@ -2,6 +2,7 @@
 .search {
   &__button-wrapper {
     position: relative;
+    margin: 40px;
   }
   &__label {
     position: absolute;
@@ -15,28 +16,8 @@
     @include mixins.button-base;
     border: 2px solid var(--border-color);
     background: none;
+    box-sizing: border-box;
     width: auto;
-
-    &:valid {
-      box-sizing: border-box;
-      border: 2px solid rgb(208 215 251 / 0.17);
-    }
-
-    &:user-invalid:not(:placeholder-shown) {
-      border: 2px solid rgb(234 56 41);
-    }
-
-    // &__search__success {
-    //   display: none;
-    // }
-
-    // &:valid + .search__success {
-    //   border: 2px solid rgb(208 215 251 / 0.17);
-    // }
-
-    // &:invalid {
-    //   border: 2px solid rgb(234 56 41);
-    // }
 
     &::placeholder {
       color: var(--primary-color);
@@ -47,17 +28,13 @@
       border: 2px solid var(--button-color);
     }
 
-    &:focus {
-      border: 2px solid var(--button-color);
-      outline: none;
-    }
-
     &:focus-visible {
       outline: none;
     }
-
+    &:focus,
     &:active {
-      border: 3px solid var(--button-color);
+      outline: 1px solid var(--button-color);
+      outline-offset: 0;
     }
   }
 }
