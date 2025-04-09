@@ -1,0 +1,48 @@
+@use "../base/mixins";
+.about-us {
+  &__title {
+    @include mixins.text-style(
+      var(--text-color),
+      var(--secondary-font),
+      36px,
+      400
+    );
+    @include mixins.spacing(48px, center);
+    letter-spacing: -0.5px;
+  }
+
+  &__desc {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      20px,
+      500
+    );
+    @include mixins.spacing(28px, center);
+  }
+
+  &__list-title {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--secondary-font),
+      24px,
+      400
+    );
+    @include mixins.spacing(32px, left);
+  }
+
+  &__list-desc {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      18px,
+      400
+    );
+    @include mixins.spacing(28px, left);
+  }
+
+  &__list-item {
+    padding: 32px;
+    background-color: rgba(26, 25, 37, 1);
+  }
+}

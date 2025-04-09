@@ -1,0 +1,45 @@
+@use "../base/mixins" as mixins;
+.faq {
+  &__title {
+    @include mixins.text-style(
+      var(--text-color),
+      var(--secondary-font),
+      36px,
+      400
+    );
+    @include mixins.spacing(48px, center);
+
+    letter-spacing: -0.5px;
+
+    text-transform: uppercase;
+  }
+
+  &__question {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--secondary-font),
+      24px,
+      400
+    );
+    @include mixins.spacing(32px, left);
+  }
+
+  &__answer {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--primary-font),
+      24px,
+      400
+    );
+    @include mixins.spacing(24px, left);
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__list-item {
+    background-color: var(--card-background);
+    padding: 24px 32px;
+  }
+}

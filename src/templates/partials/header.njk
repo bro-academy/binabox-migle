@@ -8,18 +8,18 @@
 
       {% for button in headerButtons %}
 
-      {% set btnLink = button.link %}
-      {% set btnLabel = button.label %}
+            {% set btnLink = button.link %}
+            {% set btnLabel = button.label %}
 
-      {% if button.label == "Discord" %}
-      {% set btnClass = "header__button button" %}
-      {% endif %}
+            {% if button.label == "Discord" %}
+                  {% set btnClass = "header__button button" %}
+            {% endif %}
 
-      {% if button.label == "Connect" %}
-      {% set btnClass = "header__button button button--secondary" %}
-      {% endif %}
+            {% if button.label == "Connect" %}
+                  {% set btnClass = "header__button button button--secondary" %}
+            {% endif %}
 
-      {% include "partials/button.njk" %}
+            {% include "partials/button.njk" %}
 
       {% endfor %}
 </header>

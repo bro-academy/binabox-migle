@@ -1,7 +1,18 @@
 {
   "indent-width": false,
   "img-req-alt": false,
-  "attr-bans": ["align", "background", "bgcolor", "border", "frameborder", "longdesc", "marginwidth", "marginheight", "scrolling", "style"],
+  "attr-bans": [
+    "align",
+    "background",
+    "bgcolor",
+    "border",
+    "frameborder",
+    "longdesc",
+    "marginwidth",
+    "marginheight",
+    "scrolling",
+    "style"
+  ],
   "class-style": "bem",
   "attr-name-style": "bem",
   "attr-req-value": false,

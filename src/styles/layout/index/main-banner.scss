@@ -1,0 +1,51 @@
+@use "../base/mixins" as mixins;
+.main-banner {
+  background-color: var(--background-dark);
+  background-image:
+    radial-gradient(circle at 22% -4%),
+    rgb(2 101 220 / 0.5),
+    rgb(2 101 220 / 0) 100%,
+    url ("/img/images/our-blog/main-cube-2x.webp");
+  background-repeat: no-repeat;
+  background-position: 90% 10%;
+  background-size: contain;
+
+  &__title {
+    @include mixins.title-style(left);
+  }
+  &__text {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--primary-font),
+      20px,
+      500
+    );
+    line-height: 28px;
+    text-align: left;
+  }
+  .binabox {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+  }
+  &__stats-term {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--secondary-font),
+      var(--font-large),
+      400
+    );
+
+    line-height: 62px;
+    letter-spacing: -0.5px;
+  }
+  &__stats-desc {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      var(--font-base),
+      400
+    );
+    line-height: 24px;
+    text-align: left;
+  }
+}

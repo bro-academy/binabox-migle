@@ -1,0 +1,22 @@
+@use "../base/mixins" as mixins;
+@use "../base/variables" as vars;
+.aside {
+  padding: 24px;
+  background-color: vars.$card-background;
+
+  &__title {
+    @include mixins.text-style(
+      vars.$primary-color,
+      vars.$secondary-font,
+      36px,
+      400
+    );
+    @include mixins.spacing(48px, left);
+
+    letter-spacing: -0.5px;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+}

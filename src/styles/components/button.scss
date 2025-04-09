@@ -1,0 +1,36 @@
+@use "../base/mixins" as mixins;
+.button {
+  @include mixins.button-base;
+  border: 2px solid var(--border-color);
+  background: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--btn-background);
+  }
+  &:focus {
+    background-color: var(--btn-background);
+    border: 2px solid var(--button-color);
+  }
+  &:active {
+    background-color: var(--btn-background);
+    border: 2px solid var(--border-color);
+  }
+
+  &--secondary {
+    background: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+
+    :hover {
+      background-color: var(--button-color);
+    }
+    :focus {
+      border: 2px solid var(--button-color);
+      background: var(--secondary-color);
+    }
+    :active {
+      background: rgb(0 84 182);
+      border: 2px solid var(--secondary-color);
+    }
+  }
+}

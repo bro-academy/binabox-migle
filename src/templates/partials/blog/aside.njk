@@ -1,13 +1,15 @@
-    <aside class="page__aside aside">
-      <h3 class="aside__title">{{ title }}</h3>
-          {% set title = "Categories" %}
-          {% set asideClass = "aside__link" %}
-          {% set Categories = Categories %}
-          {% include "partials/blog/aside-cat.njk" %}
-          
-      <h3 class="aside__title">{{ title }}</h3>
-          {% set title = "Tags" %}
-          {% set asideClass = "aside__link link link--bordered" %}
-          {% set Tags = Tags %}
-          {% include "partials/blog/aside-tag.njk" %}
-    </aside>
+<aside class="page__aside aside">
+    {% set catTitle = "Categories" %}
+    <h3 class="aside__title">{{ catTitle }}</h3>
+
+    {% set asideClass = "aside__link link" %}
+    {% set Categories = Categories %}
+    {% include "partials/blog/aside-cat.njk" %}
+
+    {% set tagTitle = "Tags" %}
+    <h3 class="aside__title">{{ tagTitle }}</h3>
+
+    {% set asideClass = "aside__link link link--bordered" %}
+    {% set Tags = Tags %}
+    {% include "partials/blog/aside-tag.njk" %}
+</aside>

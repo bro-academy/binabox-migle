@@ -1,0 +1,56 @@
+@use "../base/mixins";
+.blog-card {
+  &__article-writer {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      var(--font-small),
+      600
+    );
+    @include mixins.spacing(20px, left);
+  }
+
+  &__date {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      var(--font-small),
+      600
+    );
+    @include mixins.spacing(20px, left);
+  }
+
+  &__title {
+    @include mixins.text-style(
+      var(--secondary-font),
+      var(--primary-font),
+      36px,
+      400
+    );
+
+    line-height: 48px;
+    @include mixins.spacing(-0.5px, left);
+  }
+
+  &__desc {
+    @include mixins.text-style(
+      var(--card-text),
+      var(--primary-font),
+      var(--font-base),
+      400
+    );
+
+    @include mixins.spacing(0, left);
+    line-height: 24px;
+  }
+
+  &__image {
+    &--fit {
+      object-fit: cover;
+    }
+
+    &--position {
+      object-position: 100% 20%;
+    }
+  }
+}

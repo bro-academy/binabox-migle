@@ -1,0 +1,21 @@
+@use "../base/mixins" as mixins;
+.blog {
+  &__title {
+    @include mixins.text-style(
+      var(--text-color),
+      var(--secondary-font),
+      36px,
+      400
+    );
+    @include mixins.spacing(32px, center);
+  }
+
+  &__list-item {
+    background-color: var(--card-background);
+    padding: 24px;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+}

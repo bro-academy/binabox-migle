@@ -1,0 +1,41 @@
+@use "../base/mixins" as mixins;
+.nav {
+  &__list {
+    list-style-type: none;
+  }
+
+  &__link {
+    @include mixins.text-style(
+      var(--primary-color),
+      var(--primary-font),
+      var(--font-base),
+      600
+    );
+    @include mixins.spacing(24px, center);
+    padding: 8px 20px;
+    border: 4px solid transparent;
+    &--selected {
+      text-decoration-line: underline;
+      text-decoration-color: var(--secondary-color);
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      cursor: pointer;
+    }
+
+    &:hover {
+      color: var(--button-color);
+    }
+
+    &:focus {
+      color: var(--primary-color);
+      border: 4px solid var(--button-color);
+      border-radius: 5px;
+    }
+
+    &:active {
+      color: rgb(0 84 182);
+    }
+  }
+}
