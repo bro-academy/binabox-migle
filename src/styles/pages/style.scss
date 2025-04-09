@@ -19,12 +19,11 @@
 @use "../components/nav";
 @use "../components/button";
 @use "../components/label";
-@use "../components/search";
-@use "../components/index/product-card";
-@use "../components/index/blog-card";
-@use "../components/index/member-card";
-@use "../components/blog/figure";
-@use "../components/blog/qoute";
+@use "../components/product-card";
+@use "../components/blog-card";
+@use "../components/member-card";
+@use "../components/aside-link";
+@use "../components/socials";
 
 @use "../pages/index";
 @use "../pages/blog";
