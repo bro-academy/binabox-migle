@@ -2,8 +2,15 @@
 
 {% block content %}
     <main class="main">
-        {% set bannerData = banner %}
-        {% include "partials/blog/banner.njk" %}
-        {% include "partials/contact-us/get-in-touch.njk" %}
+        <section>
+            {% set bannerData = banner %}
+            {% include "partials/blog/banner.njk" %}
+        </section>
+        <section>
+            {% include "partials/contact-us/contact-info.njk" %}
+        </section>
+        <section>
+            {% include "partials/contact-us/contact-form.njk" %}
+        </section>
     </main>
 {% endblock %}
