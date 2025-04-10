@@ -1,6 +1,11 @@
 @use "../base/mixins" as mixins;
 .product-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 20px;
+  padding: 24px;
 
   &__price {
     @include mixins.text-style(
@@ -34,3 +39,9 @@
     left: 180px;
   }
 }
+// .catalog-list {
+//   display: flex;
+//   justify-content: space-between;
+//   outline: 1px solid red;
+//   gap: 20px;
+// }
