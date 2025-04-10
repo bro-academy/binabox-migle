@@ -1,9 +1,19 @@
 @use "../base/mixins" as mixins;
 @use "../base/variables" as vars;
 .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+
   &__consent {
     background-color: rgb(29 28 40);
     padding: 20px;
+  }
+
+  &__slider-input {
+    display: none;
   }
 
   &__slider-label {
@@ -27,8 +37,8 @@
     }
   }
 
-  &___slider-input:checked + &__silder-label {
-    background: rgb(2 101 220);
+  &__slider-input:checked + &__slider-label {
+    background: var(--secondary-color);
   }
 
   &__slider-input:checked + &__slider-label::before {
@@ -38,11 +48,15 @@
   &__item {
     position: relative;
     margin: 40px;
+    gap: 20px;
   }
 
   &__item-label {
-    position: absolute;
-    transform: translateY(-100%);
+    // position: absolute;
+    // transform: translateY(-100%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   &__item-input {
@@ -53,6 +67,18 @@
     &:focus-visible {
       outline: none;
       box-shadow: none;
+    }
+
+    &:valid {
+      border: 2px solid rgb(0 143 93);
+    }
+
+    &:not([type="date"]):invalid:user-invalid {
+      border: 2px solid rgb(234, 56, 41);
+    }
+
+    &[type="date"]:invalid:user-invalid {
+      border: 2px solid rgb(234, 56, 41);
     }
   }
 
@@ -78,9 +104,5 @@
     color: rgb(245 248 251);
     outline: 1px solid transparent;
     outline-offset: 0;
-
-    &:active {
-      outline: 1px solid var(--button-color);
-    }
   }
 }
