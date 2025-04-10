@@ -1,0 +1,8 @@
+{% extends "layouts/base.njk" %}
+{% block content %}
+    <main class="main">
+        {% include "partials/explore-catalog/search-section.njk" %}
+        {% set sidebar = sidebar %}
+        {% include "partials/explore-catalog/side-bar.njk" %}
+    </main>
+{% endblock %}

@@ -1,0 +1,47 @@
+{
+    "sidebar": [
+        {
+            "title": "Clothing",
+            "options": [
+                "Combatant",
+                "King",
+                "Queen",
+                "Robot"
+            ]
+        },
+        {
+            "title": "Eyes",
+            "inputType": "radio",
+            "options": [
+                "Yellow",
+                "Green",
+                "Mix",
+                "Orange"
+            ]
+        },
+        {
+            "title": "Face"
+        },
+        {
+            "title": "Skin"
+        },
+        {
+            "title": "Background"
+        },
+        {
+            "title": "Special",
+            "options": [
+                "Yellow",
+                "Green",
+                "Mix",
+                "Orange"
+            ]
+        }
+    ],
+    "sortOptions": [
+        "Newest",
+        "Most popular",
+        "Increasing in price",
+        "Lowering the price"
+    ]
+}

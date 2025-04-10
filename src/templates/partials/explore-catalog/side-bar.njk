@@ -1,0 +1,28 @@
+<aside class="catalog-panel__sidebar sidebar">
+    {% for item in sidebar %}
+        <div class="sidebar__group">
+            <h4 class="sidebar__title">{{ item.title }}</h4>
+            {% if item.options %}
+                <ul class="sidebar__list">
+                    {% for option in item.options %}
+                        <li class="sidebar__item">
+                            <input
+                            class="sidebar__input"
+                            type="{{ item.inputType or 'checkbox' }}"
+                            id="{{ item.title | lower }}-{{ loop.index }}"
+                            name="{{ item.title | lower }}"
+                            value="{{ option }}"
+                            >
+                            <label 
+                            class="sidebar__label" 
+                            for="{{ item.title | lower }}-{{ loop.index }}">
+                                {{ option }}
+                            </label>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    {% endfor %}
+    <button class="catalog-panel__button button button--secondary">Apply</button>
+</aside>
