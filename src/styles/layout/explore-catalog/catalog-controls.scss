@@ -1,0 +1,18 @@
+.catalog-panel {
+  &__controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: center;
+    gap: 16px;
+  }
+
+  &__sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 21px;
+    max-width: 300px;
+    margin-left: 64px;
+  }
+}

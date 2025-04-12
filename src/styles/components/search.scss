@@ -15,10 +15,12 @@
   &__input {
     @include mixins.button-base;
     border: 2px solid var(--border-color);
-    background: none;
-    box-sizing: border-box;
-    width: auto;
-    padding: 8px 12px;
+    background: transparent;
+    background-image: url("/img/images/search.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left;
+    padding-left: 25px;
 
     &::placeholder {
       color: var(--primary-color);

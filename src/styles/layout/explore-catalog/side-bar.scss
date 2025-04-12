@@ -1,44 +1,19 @@
 .sidebar {
   &__group {
     background-color: rgb(29 28 40);
+    display: flex;
   }
 
   &__list {
     list-style-type: none;
-  }
-
-  &__input {
-    display: none;
-
-    &:not[type="radio"] {
-      appearance: none;
-      width: 18px;
-      height: 18px;
-      border-radius: 50%;
-      border: 2px solid rgba(255, 255, 255, 0.2);
-      background-color: transparent;
-      position: relative;
-
-      &:checked {
-        border-color: blue;
-        background-color: blue;
-
-        &::after {
-          content: "";
-          position: absolute;
-          top: 4px;
-          left: 4px;
-          width: 8px;
-          height: 8px;
-          background-color: white;
-          border-radius: 50%;
-        }
-      }
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
   }
 
   &__label {
-    display: inline-block;
     padding-left: 32px;
     position: relative;
 
@@ -53,15 +28,17 @@
       border-radius: 4px;
       background-color: rgb(13 13 21);
     }
-
-    &:checked + .sidebar__label::before {
-      background-color: blue;
-      background-image: url("/img/check.svg");
-    }
   }
 
-  &__input:checked + .sidebar__label::before {
-    background-color: rgb(2 101 220);
-    border-color: rgb(2 101 220);
+  &__input {
+    display: none;
+
+    &:checked + .sidebar__label::before {
+      background-color: rgb(2 101 220);
+      background-image: url("/img/images/check.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 8px 6px;
+    }
   }
 }

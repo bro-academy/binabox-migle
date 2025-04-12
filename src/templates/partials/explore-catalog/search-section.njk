@@ -1,14 +1,14 @@
-<div class="catalog-panel__controls controls">
-    <div class="controls__sort">
-        <label class="controls__label" for="sort">Sort by</label>
-        <select class="controls__select" id="sort" name="sort">
-            {% for option in sortOptions %}
-                <option class="controls__option" value="{{ option | lower | replace(" ", "-") }}">{{ option }}</option>
-            {% endfor %}
-        </select>
-    </div>
-
-    <div class="controls__search">
-        <input type="text" placeholder="Search NFT" name="search" class="controls__input">
-    </div>
+<form class="catalog-panel__controls controls" action="https://some-url.com" method="post" >
+    <select class="controls__select" id="sort" name="sort">
+        <option class="controls__option" disabled selected>Sort by</option>
+        {% for option in sortOptions %}
+            <option class="controls__options" value="{{ option | lower | replace(" ", "-") }}">{{ option }}</option>
+        {% endfor %}
+    </select>
 </div>
+
+<div class="controls__search">
+    <label class="controls__search-label" for="search"></label>
+    <input class="controls__search-input" type="text" placeholder="Search NFT" name="search" id="search">
+</div>
+</form>
