@@ -74,11 +74,11 @@
     }
 
     &:not([type="date"]):invalid:user-invalid {
-      border: 2px solid rgb(234, 56, 41);
+      border: 2px solid rgb(234 56 41);
     }
 
     &[type="date"]:invalid:user-invalid {
-      border: 2px solid rgb(234, 56, 41);
+      border: 2px solid rgb(234 56 41);
     }
   }
 
