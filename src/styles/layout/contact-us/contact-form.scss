@@ -12,10 +12,6 @@
     padding: 20px;
   }
 
-  &__slider-input {
-    display: none;
-  }
-
   &__slider-label {
     display: inline-block;
     width: 40px;
@@ -93,16 +89,13 @@
       box-shadow: none;
     }
   }
+}
 
-  &__item-button {
-    box-sizing: border-box;
-    position: static;
-    width: 640px;
-    height: 48px;
-    padding: 10px 24px;
-    background: rgb(2 101 220);
-    color: rgb(245 248 251);
-    outline: 1px solid transparent;
-    outline-offset: 0;
-  }
+.input-hidden {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }

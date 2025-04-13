@@ -4,7 +4,7 @@
             <p class="form__item-title">{{ field.label }}</p>
             {% for option in field.options %}
                 <input class="form__item-input" type="radio" name="{{ field.name }}" value="{{ option.value }}" id="{{ option.id }}">
-                <label class="radio-radio-label" for="{{ option.id }}">{{ option.label }}</label>
+                <label class="form__item-label" for="{{ option.id }}">{{ option.label }}</label>
             {% endfor %}
         {% elif field.type == 'textarea' %}
             <label class="form__item-label" for="{{ field.id }}">{{ field.label }}</label>
