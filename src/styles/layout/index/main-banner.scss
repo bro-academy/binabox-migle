@@ -2,10 +2,12 @@
 .main-banner {
   background-color: var(--background-dark);
   background-image:
-    radial-gradient(circle at 22% -4%),
-    rgb(2 101 220 / 0.5),
-    rgb(2 101 220 / 0) 100%,
-    url ("/img/images/our-blog/main-cube-2x.webp");
+    radial-gradient(
+      circle at 55% 50%,
+      rgb(2 101 220 / 0.5),
+      rgb(2 101 220 / 0) 100%
+    ),
+    url("../img/images/our-blog/main-cube-2x.webp");
   background-repeat: no-repeat;
   background-position: 90% 10%;
   background-size: contain;
