@@ -12,6 +12,15 @@
     padding: 20px;
   }
 
+  &__slider-input--hidden {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
   &__slider-label {
     display: inline-block;
     width: 40px;
@@ -89,13 +98,4 @@
       box-shadow: none;
     }
   }
-}
-
-.input-hidden {
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
 }
