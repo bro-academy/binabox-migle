@@ -1,4 +1,4 @@
-<aside class="catalog-panel__sidebar sidebar">
+<form class="sidebar__form form">
     {% for item in sidebar %}
         <div class="sidebar__group{% if item.inputType == 'radio' %} sidebar__group--radio{% endif %}">
             <h4 class="sidebar__title">{{ item.title }}</h4>
@@ -25,4 +25,4 @@
         </div>
     {% endfor %}
     <button class="catalog-panel__button button button--secondary" type="sumbit" >Apply</button>
-</aside>
+</form>

@@ -1,4 +1,9 @@
 @use "../base/mixins" as mixins;
+.product-card__label {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
 
 .label {
   @include mixins.text-style(
@@ -13,8 +18,5 @@
   &--updated {
     background-color: rgb(234 56 41);
     color: var(--primary-color);
-    position: absolute;
-    top: 10px;
-    left: 150px;
   }
 }

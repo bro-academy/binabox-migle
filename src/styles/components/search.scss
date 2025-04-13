@@ -1,18 +1,29 @@
 @use "../base/mixins" as mixins;
-.search {
-  &__button-wrapper {
-    margin: 40px;
+
+.form {
+  &__search {
+    position: relative;
   }
 
+  &__search-button {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transform: translate(-295px, 10px);
+  }
+
+  &__search-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.search {
   &__input {
     @include mixins.button-base;
     border: 2px solid var(--border-color);
     background: transparent;
-    background-image: url("/img/images/search.svg");
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    background-position: left;
-    padding-left: 25px;
 
     &::placeholder {
       color: var(--primary-color);

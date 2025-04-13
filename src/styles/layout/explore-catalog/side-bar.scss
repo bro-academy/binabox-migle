@@ -36,6 +36,7 @@
       border: 2px solid rgb(212 217 242 / 0.26);
       border-radius: 4px;
       background-color: rgb(13 13 21);
+      cursor: pointer;
     }
   }
 
@@ -45,6 +46,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 8px 6px;
+    cursor: pointer;
   }
 
   &__input[type="radio"] + .sidebar__label::before {
@@ -58,6 +60,7 @@
     border: 2px solid rgb(212 217 242 / 0.26);
     border-radius: 50%;
     background-color: rgb(13 13 21);
+    cursor: pointer;
   }
 
   &__input[type="radio"]:checked + .sidebar__label::before {
@@ -69,5 +72,6 @@
     border: 5px solid rgb(2 101 220);
     border-radius: 50%;
     background-color: rgb(13 13 21);
+    cursor: pointer;
   }
 }

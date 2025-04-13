@@ -47,7 +47,7 @@
   }
 
   &__slider-input:checked + &__slider-label::before {
-    transform: translate(20px, 0);
+    transform: translateX(20px);
   }
 
   &__item {
@@ -57,8 +57,6 @@
   }
 
   &__item-label {
-    // position: absolute;
-    // transform: translateY(-100%);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -88,7 +86,6 @@
   }
 
   &__item-textarea {
-    position: static;
     width: 640px;
     height: 160px;
     resize: horizontal;
