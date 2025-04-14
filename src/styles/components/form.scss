@@ -1,0 +1,83 @@
+@use "../base/mixins" as mixins;
+@use "../base/variables" as vars;
+.form {
+  &__consent {
+    background-color: rgb(29 28 40);
+    padding: 20px;
+  }
+
+  &__slider-label {
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+    background: rgb(229 236 251 / 0.36);
+    border-radius: 10px;
+    position: absolute;
+
+    &::before {
+      content: "";
+      width: 16px;
+      height: 16px;
+      display: inline-block;
+      border-radius: 50%;
+      position: absolute;
+      left: 2px;
+      top: 4px;
+      background: rgb(255 255 255);
+    }
+  }
+
+  &__slider-input:checked + &__slider-label {
+    background: var(--secondary-color);
+  }
+
+  &__slider-input:checked + &__slider-label::before {
+    transform: translateX(20px);
+  }
+
+  &__item {
+    position: relative;
+    margin: 40px;
+    gap: 20px;
+  }
+
+  &__item-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__item-input {
+    color: vars.$primary-color;
+    background: transparent;
+    border: 2px solid rgb(208 215 251 / 0.17);
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:valid {
+      border: 2px solid rgb(0 143 93);
+    }
+
+    &:not([type="date"]):invalid:user-invalid {
+      border: 2px solid rgb(234 56 41);
+    }
+
+    &[type="date"]:invalid:user-invalid {
+      border: 2px solid rgb(234 56 41);
+    }
+  }
+
+  &__item-textarea {
+    width: 640px;
+    height: 160px;
+    resize: horizontal;
+
+    &:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}

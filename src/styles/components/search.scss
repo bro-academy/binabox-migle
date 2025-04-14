@@ -10,7 +10,8 @@
     background: none;
     border: none;
     cursor: pointer;
-    transform: translate(-295px, 10px);
+    top: 15px;
+    left: -2px;
   }
 
   &__search-icon {
@@ -39,8 +40,7 @@
     }
     &:focus,
     &:active {
-      outline: 1px solid var(--button-color);
-      outline-offset: 0;
+      border: 3px solid var(--button-color);
     }
   }
 }

@@ -13,15 +13,6 @@
     gap: 8px;
   }
 
-  &__input--hidden {
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
-
   &__label:not([type="radio"]) {
     padding-left: 32px;
     position: relative;
