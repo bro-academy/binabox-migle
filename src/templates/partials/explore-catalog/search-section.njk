@@ -1,4 +1,4 @@
-<form class="catalog-panel__controls controls" action="https://some-url.com" method="post" >
+<form class="catalog-panel__controls controls" action="https://some-url.com" method="get" >
     <select class="controls__select" id="sort" name="sort">
         <option class="controls__option" disabled selected>Sort by</option>
         {% for option in sortOptions %}
@@ -11,4 +11,5 @@
     <label class="controls__search-label" for="search"></label>
     <input class="controls__search-input" type="text" placeholder="Search NFT" name="search" id="search">
 </div>
+<button class="catalog-panel__button input--hiden" type="sumbit"></button>
 </form>

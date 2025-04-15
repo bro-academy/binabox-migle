@@ -3,7 +3,7 @@
     <li class="catalog__list-item">
       <a href="#">
         <article class="product-card">
-          <span class="product-card__label label label--updated">{{ card.label }}</span>
+          <span class="product-card__label label {% if card.label == 'Sold out' %}label--updated{% endif %}">{{ card.label }}</span>
           <img
                 class="product-card__image"
                 src="{{ card.image }}"

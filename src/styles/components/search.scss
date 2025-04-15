@@ -23,8 +23,10 @@
 .search {
   &__input {
     @include mixins.button-base;
+    box-sizing: border-box;
     border: 2px solid var(--border-color);
     background: transparent;
+    cursor: pointer;
 
     &::placeholder {
       color: var(--primary-color);
@@ -40,7 +42,8 @@
     }
     &:focus,
     &:active {
-      border: 3px solid var(--button-color);
+      border-color: var(--button-color);
+      box-shadow: 0 0 0 1px var(--button-color);
     }
   }
 }
