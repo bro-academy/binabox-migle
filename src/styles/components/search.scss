@@ -1,28 +1,20 @@
 @use "../base/mixins" as mixins;
 
-.form {
-  &__search {
-    position: relative;
-  }
+.search {
+  position: relative;
 
-  &__search-button {
+  &__icon {
     position: absolute;
-    background: none;
-    border: none;
-    cursor: pointer;
-    top: 15px;
-    left: -2px;
-  }
-
-  &__search-icon {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 20px;
     height: 20px;
   }
-}
 
-.search {
   &__input {
     @include mixins.button-base;
+
     box-sizing: border-box;
     border: 2px solid var(--border-color);
     background: transparent;
@@ -42,8 +34,8 @@
     }
     &:focus,
     &:active {
-      border-color: var(--button-color);
-      box-shadow: 0 0 0 1px var(--button-color);
+      padding: 9px 23px;
+      border: 3px solid var(--button-color);
     }
   }
 }
