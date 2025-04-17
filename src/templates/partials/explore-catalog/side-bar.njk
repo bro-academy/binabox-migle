@@ -1,0 +1,28 @@
+<form class="sidebar__form form" action="https://some-url.com" method="post">
+    {% for item in sidebar %}
+        <div class="sidebar__group{% if item.inputType == 'radio' %} sidebar__group--radio{% endif %}">
+            <h4 class="sidebar__title">{{ item.title }}</h4>
+            {% if item.options %}
+                <ul class="sidebar__list">
+                    {% for option in item.options %}
+                        <li class="sidebar__item">
+                            <input
+                            class="sidebar__input visually-hidden"
+                            type="{{ item.inputType or 'checkbox' }}"
+                            id="{{ item.title | lower }}-{{ loop.index }}"
+                            name="{{ item.title | lower }}"
+                            value="{{ option }}"
+                            >
+                            <label 
+                            class="sidebar__label" 
+                            for="{{ item.title | lower }}-{{ loop.index }}">
+                                {{ option }}
+                            </label>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    {% endfor %}
+    <button class="catalog-panel__button button button--secondary" type="sumbit" >Apply</button>
+</form>

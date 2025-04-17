@@ -1,0 +1,44 @@
+@use "../base/mixins" as mixins;
+
+.search {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background: url("/img/images/search.svg");
+    background-repeat: no-repeat;
+  }
+
+  &__input {
+    @include mixins.button-base;
+
+    box-sizing: border-box;
+    border: 2px solid var(--border-color);
+    background: transparent;
+    cursor: pointer;
+
+    &::placeholder {
+      color: var(--primary-color);
+      opacity: 0.6;
+    }
+
+    &:hover {
+      border: 2px solid var(--button-color);
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+    &:focus,
+    &:active {
+      padding: 9px 23px;
+      border: 3px solid var(--button-color);
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@use "../base/variables" as vars;
+
+.controls {
+  &__select {
+    background-color: transparent;
+    color: vars.$text-color;
+    border: 2px solid rgb(208 215 251 / 0.17);
+    font-weight: 600;
+    cursor: pointer;
+
+    &:active {
+      border: 2px solid rgb(2 101 220);
+    }
+
+    &:focus {
+      border: 2px solid rgb(2 101 220);
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  &__options {
+    background-color: rgb(32 38 49);
+  }
+
+  &__search-input {
+    background-color: transparent;
+    color: vars.$text-color;
+    border: 2px solid rgb(208 215 251 / 0.17);
+    background-image: url("/img/images/search.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left;
+    padding-left: 20px;
+    cursor: pointer;
+
+    &::placeholder {
+      color: rgb(231 238 247 / 0.66);
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

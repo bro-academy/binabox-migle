@@ -9,20 +9,20 @@
   },
   "navItems": [
     {
-      "link": "#",
+      "link": "/index.html",
       "text": "Home",
       "state": "selected"
     },
     {
-      "link": "#",
+      "link": "/blog.html",
       "text": "Blog"
     },
     {
-      "link": "#",
+      "link": "/explore-catalog.html",
       "text": "Catalog"
     },
     {
-      "link": "#",
+      "link": "/contact-us.html",
       "text": "Contact us"
     }
   ],

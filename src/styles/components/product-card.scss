@@ -1,5 +1,12 @@
 @use "../base/mixins" as mixins;
 .product-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  gap: 20px;
+  padding: 24px;
+
   &__price {
     @include mixins.text-style(
       var(--primary-color),
@@ -15,6 +22,7 @@
   &__image {
     object-fit: cover;
   }
+
   &__name {
     @include mixins.text-style(
       var(--card-text),
@@ -22,8 +30,12 @@
       20px,
       500
     );
-
     line-height: 28px;
     text-align: left;
+  }
+  &__label {
+    position: absolute;
+    top: 35px;
+    right: 15px;
   }
 }

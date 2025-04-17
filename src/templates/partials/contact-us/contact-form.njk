@@ -1,0 +1,13 @@
+<form class="{{ formClass }} form" action="https://some-url.com" method="post">
+    <h2 class="form__title">Get in touch</h2>
+    <p class="form__title-desc">Browse through the most frequently asked questions</p>
+    <div class="form__consent">
+        <p class="form__consent-text"> Use my profile information </p>
+        <input class="form__slider-input visually-hidden" type="checkbox" name="consent" value="agree" id="slider" required/>
+        <label class="form__slider-label" for="slider"></label>
+    </div>
+    {% include "partials/contact-us/form-fields.njk" %}
+
+    <button class="form__item-button button button--secondary" type="submit">Send Message</button>
+
+</form>

@@ -1,0 +1,14 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    <main class="main">
+        <section>
+            {% set bannerData = banner %}
+            {% include "partials/blog/banner.njk" %}
+        </section>
+        <section>
+            {% set formClass = 'search-bar__form' %}
+            {% include "partials/contact-us/contact-form.njk" %}
+        </section>
+    </main>
+{% endblock %}

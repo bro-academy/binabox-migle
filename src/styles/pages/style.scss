@@ -1,6 +1,3 @@
-@use "../base/variables";
-@use "../base/mixins";
-@use "../base/global";
 @use "../layout/index/header";
 @use "../layout/index/footer";
 @use "../layout/index/main";
@@ -14,6 +11,10 @@
 @use "../layout/index/our-team";
 @use "../layout/index/faq";
 @use "../layout/blog/text";
+@use "../layout/contact-us/contact-form";
+@use "../layout/explore-catalog/side-bar";
+@use "../layout/explore-catalog/catalog-panel";
+@use "../layout/explore-catalog/search-section";
 
 @use "../components/nav";
 @use "../components/button";
@@ -23,6 +24,9 @@
 @use "../components/member-card";
 @use "../components/aside-link";
 @use "../components/socials";
+@use "../components/search";
+@use "../components/form";
 
-@use "../pages/index";
-@use "../pages/blog";
+@use "../base/variables";
+@use "../base/mixins";
+@use "../base/global";

@@ -1,0 +1,26 @@
+{% for field in fields %}
+    <div class="form__item">
+        {% if field.type == 'radio' %}
+            <p class="form__item-title">{{ field.label }}</p>
+            {% for option in field.options %}
+                <input class="form__item-input" type="radio" name="{{ field.name }}" value="{{ option.value }}" id="{{ option.id }}">
+                <label class="form__item-label" for="{{ option.id }}">{{ option.label }}</label>
+            {% endfor %}
+        {% elif field.type == 'textarea' %}
+            <label class="form__item-label" for="{{ field.id }}">{{ field.label }}</label>
+            <textarea class="form__item-textarea" name="{{ field.name }}" id="{{ field.id }}"></textarea>
+        {% elif field.type == 'checkbox' %}
+            <input class="form__item-input" type="checkbox" name="{{ field.name }}" value="{{ field.value }}" id="{{ field.id }}" required>
+            <label class="form__item-label" for="{{ field.id }}">{{ field.label | safe }}</label>
+        {% else %}
+            <label class="form__item-label" for="{{ field.id }}">{{ field.label }}</label>
+            <input class="form__item-input"
+             type="{{ field.type }}"
+             name="{{ field.name }}"
+             id="{{ field.id }}"
+             {% if field.required %}required{% endif %}
+             {% if field.minlength %}minlength="{{ field.minlength }}"{% endif %}
+             {% if field.max %}max="{{ field.max }}"{% endif %}>
+        {% endif %}
+    </div>
+{% endfor %}
