@@ -1,5 +1,9 @@
 <header class="header">
-      {% include "partials/logo.njk" %}
+
+      {% for item in logo %}
+            {% set logo = item %}
+            {% include "partials/logo.njk" %}
+      {% endfor %}
 
       {% set navItems = navItems %}
       {% set navClass = "header__nav" %}
