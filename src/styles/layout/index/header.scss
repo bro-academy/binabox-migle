@@ -1,4 +1,33 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
   background-color: rgb(13 13 21 / 1);
   color: var(--primary-color);
+
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__group-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    &::before {
+      content: "";
+      width: 2px;
+      height: 24px;
+      border-radius: 1px;
+      background: rgb(208 215 251 / 0.17);
+    }
+  }
 }

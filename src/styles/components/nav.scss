@@ -2,6 +2,7 @@
 .nav {
   &__list {
     list-style-type: none;
+    display: flex;
   }
 
   &__link {

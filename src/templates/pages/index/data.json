@@ -2,11 +2,18 @@
   "site": {
     "title": "BINABOX"
   },
-  "logo": {
-    "link": "#",
-    "image": "/img/images/logotip.svg",
-    "desc": "Picture of logotip"
-  },
+  "logo": [
+    {
+      "link": "/index.html",
+      "image": "/img/images/logotip.svg",
+      "desc": "Picture of logotip"
+    },
+    {
+      "link": "/index.html",
+      "image": "/img/images/binabox.svg",
+      "desc": "Picture of binabox"
+    }
+  ],
   "navItems": [
     {
       "link": "/index.html",
