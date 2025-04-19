@@ -1,5 +1,12 @@
 @use "../base/mixins" as mixins;
 .member-card {
+  &__dl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__dt {
     @include mixins.text-style(
       var(--primary-color),
@@ -26,5 +33,11 @@
 
   &__image {
     border-radius: 56px;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -1,7 +1,7 @@
 <ul class="{{ socialClass }} social">
     {% for social in socialApps %}
         <li class="social__item">
-            <a class="social__link" href="{{ social.link}}">{{ social.app }}</a>
+            <a class="social__link" href="{{ social.link}}"><img src="{{ social.img }}" alt="{{ social.desc }}"></a>
         </li>
     {% endfor %}
 </ul>
