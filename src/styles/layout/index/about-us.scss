@@ -1,5 +1,7 @@
 @use "../base/mixins";
 .about-us {
+  padding: 64px;
+
   &__title {
     @include mixins.text-style(
       var(--text-color),
@@ -9,6 +11,7 @@
     );
     @include mixins.spacing(48px, center);
     letter-spacing: -0.5px;
+    margin-bottom: 30px;
   }
 
   &__desc {
@@ -19,6 +22,15 @@
       500
     );
     @include mixins.spacing(28px, center);
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+    gap: 32px;
   }
 
   &__list-title {
@@ -29,6 +41,7 @@
       400
     );
     @include mixins.spacing(32px, left);
+    margin-bottom: 40px;
   }
 
   &__list-desc {
@@ -44,5 +57,11 @@
   &__list-item {
     padding: 32px;
     background-color: rgba(26, 25, 37, 1);
+  }
+
+  &__button {
+    display: block;
+    width: max-content;
+    margin: 20px auto 0;
   }
 }
