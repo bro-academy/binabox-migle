@@ -131,50 +131,92 @@
       {
         "label": "NFT",
         "image": "/img/images/our-blog/face-sculpture-2x.webp",
+        "width": "736",
+        "height": "664",
         "alt": "Surreal woman's face emerging from swirling water",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/catalog/skeleton-2x.webp",
+        "width": "736",
+        "height": "198",
         "alt": "Neon glowing skull against a dark background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/catalog/cat-2x.webp",
         "alt": "Black cat with glowing green eyes",
+        "width": "736",
+        "height": "198",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/our-blog/gorilla-2x.webp",
+        "width": "736",
+        "height": "198",
         "alt": "Close-up of a monkey's face in neon hues",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/our-blog/goose-2x.webp",
+        "width": "736",
+        "height": "198",
         "alt": "White goose against a dark, neon background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/catalog/neon-cube-2x.webp",
+        "width": "736",
+        "height": "664",
         "alt": "Transparent device with glowing neon edges",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       }
     ],
     "button": {

@@ -1,5 +1,9 @@
 @use "../base/mixins";
 .blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
   &__article-writer {
     @include mixins.text-style(
       var(--card-text),
@@ -8,6 +12,7 @@
       600
     );
     @include mixins.spacing(20px, left);
+    order: -1;
   }
 
   &__date {
@@ -45,12 +50,41 @@
   }
 
   &__image {
-    &--fit {
+    &--small {
       object-fit: cover;
-    }
-
-    &--position {
+      height: 198px;
       object-position: 100% 20%;
     }
+  }
+
+  &__image-wrapper {
+    position: relative;
+  }
+
+  &__label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  &__byline-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &::before {
+      content: "";
+      width: 2px;
+      height: 16px;
+      background: rgb(208 215 251 / 0.17);
+      border-radius: 2px;
+    }
+  }
+
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 }
