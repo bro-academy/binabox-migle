@@ -1,16 +1,24 @@
 @use "../base/mixins" as mixins;
 .main-banner {
+  padding: 64px 164px;
+  display: flex;
+  flex-direction: column;
   background-color: var(--background-dark);
   background-image:
     radial-gradient(
-      circle at 55% 50%,
-      rgb(2 101 220 / 0.5),
-      rgb(2 101 220 / 0) 100%
+      50% 60% at 20% 25%,
+      rgba(2, 101, 220, 0.5) 0%,
+      rgba(2, 101, 220, 0) 100%
     ),
     url("/img/images/our-blog/main-cube-2x.webp");
   background-repeat: no-repeat;
   background-position: 90% 10%;
   background-size: contain;
+
+  &__group-btn {
+    display: flex;
+    gap: 16px;
+  }
 
   &__title {
     @include mixins.title-style(left);
