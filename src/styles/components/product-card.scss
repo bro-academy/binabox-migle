@@ -3,7 +3,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  max-width: 200px;
   gap: 20px;
   padding: 24px;
 
@@ -33,9 +32,16 @@
     line-height: 28px;
     text-align: left;
   }
+
   &__label {
     position: absolute;
     top: 35px;
-    right: 15px;
+    right: 35px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

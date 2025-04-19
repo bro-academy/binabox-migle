@@ -1,5 +1,41 @@
 @use "../base/mixins" as mixins;
 .catalog {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    &::before {
+      content: "";
+      height: 2px;
+      background: rgb(208 215 251 / 0.17);
+      width: 1000px;
+      border-radius: 2px;
+      flex-grow: 1;
+    }
+  }
+
+  &__group-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+
+    &::before {
+      content: "";
+      width: 2px;
+      height: 24px;
+      border-radius: 1px;
+      background: rgb(208 215 251 / 0.17);
+    }
+  }
+
   &__title {
     @include mixins.text-style(
       var(--text-color),
@@ -8,19 +44,21 @@
       400
     );
     line-height: 32px;
-    text-align: left;
+    order: -1;
   }
 
   &__list {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    padding: 0;
+    gap: 24px;
   }
 
   &__list-item {
     background: var(--card-background);
-    padding: 24px;
+  }
+
+  &__button {
+    order: -1;
   }
 }

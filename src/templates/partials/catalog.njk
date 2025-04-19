@@ -1,15 +1,31 @@
 <section class="catalog">
-  <h2 class="catalog__title">{{ catalog.title}}</h2>
-  {% for button in catalog.button %}
-    {% set btnClass = "catalog__button button" %}
-    {% set btnLink = button.link %}
-    {% set btnLabel = button.label %}
-    {% include "partials/button.njk" %}
-  {% endfor %}
+  <div class="catalog__wrapper">
+    <h2 class="catalog__title">{{ catalog.title}}</h2>
+    <div class="catalog__group-btn">
+      {% for button in catalog.button %}
+        {% set btnClass = "catalog__button button" %}
+        {% set btnLink = button.link %}
+        {% set btnLabel = button.label %}
+        {% include "partials/button.njk" %}
+      {% endfor %}
 
-  {% for arrow in catalog.arrow %}
-    {% include "partials/arrow-button.njk" %}
-  {% endfor %}
-
-  {% include "partials/product-card.njk" %}
+      {% for arrow in catalog.arrow %}
+        {% if arrow.desc == "Right" %}
+          {% set btnClass = "catalog__button button button--secondary" %}
+          {% set isFlipped = false %}
+        {% else %}
+          {% set btnClass = "catalog__button button" %}
+          {% set isFlipped = true %}
+        {% endif %}
+        {% include "partials/arrow-button.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+  <ul class="catalog__list">
+    {% for card in catalog.products %}
+      <li class="catalog__list-item">
+        {% include "partials/product-card.njk" %}
+      </li>
+    {% endfor %}
+  </ul>
 </section>

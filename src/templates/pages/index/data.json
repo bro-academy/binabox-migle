@@ -79,12 +79,12 @@
     ],
     "arrow": [
       {
-        "path": "/img/images/catalog/arrow-left.svg",
-        "desc": "Arrow pointing to the left"
+        "path": "/img/images/catalog/arrow.svg",
+        "desc": "Left"
       },
       {
-        "path": "/img/images/catalog/arrow-right.svg",
-        "desc": "Arrow pointing to the right"
+        "path": "/img/images/catalog/arrow.svg",
+        "desc": "Right"
       }
     ],
     "products": [
