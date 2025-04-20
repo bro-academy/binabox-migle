@@ -8,10 +8,29 @@
       400
     );
     @include mixins.spacing(48px, center);
-
     letter-spacing: -0.5px;
-
     text-transform: uppercase;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin: 64px;
+    margin-bottom: 0;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__list-item {
+    background-color: var(--card-background);
+    padding: 24px 32px;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   &__question {
@@ -25,6 +44,7 @@
   }
 
   &__answer {
+    position: relative;
     @include mixins.text-style(
       var(--primary-color),
       var(--primary-font),
@@ -32,14 +52,13 @@
       400
     );
     @include mixins.spacing(24px, left);
-  }
 
-  &__list {
-    list-style-type: none;
-  }
-
-  &__list-item {
-    background-color: var(--card-background);
-    padding: 24px 32px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 1000px;
+      height: 2px;
+      background: rgb(208 215 251 / 0.17);
+    }
   }
 }
