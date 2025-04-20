@@ -1,6 +1,7 @@
 @use "../base/mixins" as mixins;
 .footer {
   background-color: rgb(26 25 37 / 1);
+  padding: 64px;
 
   &__desc {
     @include mixins.text-style(
@@ -55,5 +56,37 @@
       color: rgb(0 84 182 / 1);
       cursor: pointer;
     }
+  }
+
+  &__wrapper-up {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__wrapper-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__wrapper-down {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 1200px;
+      height: 2px;
+      background: rgb(208 215 251 / 0.17);
+    }
+  }
+
+  &__social {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

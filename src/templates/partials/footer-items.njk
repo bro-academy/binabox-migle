@@ -1,6 +1,6 @@
-<section class="footer__wrapper">
+<section class="footer__wrapper-items">
   <ul class="footer__list">
-    {% for nav in nav %}
+    {% for nav in footer.nav %}
       <li class="footer__item">
         {% if nav.name == "Subscribe" %}
           <a class="footer__link footer__link--medium" href="{{ nav.link }}">{{ nav.name }}</a>
@@ -12,7 +12,7 @@
   </ul>
 
   <ul class="footer__list">
-    {% for info in info %}
+    {% for info in footer.info %}
       <li class="footer__item">
         {% if info.name == "Company" %}
           <a class="footer__link footer__link--medium" href="{{ info.link }}">{{ info.name }}</a>
