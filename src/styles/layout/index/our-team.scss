@@ -1,6 +1,8 @@
 @use "../base/mixins" as mixins;
 
 .our-team {
+  padding: 64px;
+
   &__title {
     @include mixins.text-style(
       var(--text-color),
@@ -10,9 +12,7 @@
     );
     @include mixins.spacing(48px, center);
     letter-spacing: -0.5px;
-    display: block;
-    width: max-content;
-    margin: 20px auto 0;
+    margin-bottom: 40px;
   }
 
   &__list {

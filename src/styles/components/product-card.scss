@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
   padding: 24px;
 
   &__price {
@@ -20,6 +20,7 @@
 
   &__image {
     object-fit: cover;
+    margin-bottom: 24px;
   }
 
   &__name {
@@ -39,9 +40,9 @@
     right: 35px;
   }
 
-  &__wrapper {
+  &__info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 8px;
   }
 }

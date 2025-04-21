@@ -23,12 +23,13 @@
           <p class="blog-card__desc">
             {{ blog.desc }}
           </p>
-
-          {% set btnClass = "blog-card__button button" %}
-          {% set btnLink = blog.button.link %}
-          {% set btnLabel = blog.button.label %}
-          {% include "partials/button.njk" %}
         </div>
+
+        {% set btnClass = "blog-card__button button" %}
+        {% set btnLink = blog.button.link %}
+        {% set btnLabel = blog.button.label %}
+        {% include "partials/button.njk" %}
+
       </article>
     </li>
   {% endfor %}

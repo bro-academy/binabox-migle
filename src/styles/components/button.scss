@@ -1,6 +1,7 @@
 @use "../base/mixins" as mixins;
 .button {
   @include mixins.button-base;
+  box-sizing: border-box;
   border: 2px solid var(--border-color);
   background: none;
   cursor: pointer;
@@ -32,5 +33,9 @@
       background: rgb(0 84 182);
       border: 2px solid var(--secondary-color);
     }
+  }
+
+  &--arrow {
+    padding: 6px 10px;
   }
 }

@@ -1,5 +1,7 @@
 @use "../base/mixins" as mixins;
 .faq {
+  padding: 64px;
+
   &__title {
     @include mixins.text-style(
       var(--text-color),
@@ -24,7 +26,7 @@
 
   &__list-item {
     background-color: var(--card-background);
-    padding: 24px 32px;
+    padding: 24px 24px 32px 24px;
   }
 
   &__details {
@@ -34,6 +36,7 @@
   }
 
   &__question {
+    position: relative;
     @include mixins.text-style(
       var(--primary-color),
       var(--secondary-font),
@@ -41,10 +44,20 @@
       400
     );
     @include mixins.spacing(32px, left);
+    padding-bottom: 20px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background: rgb(208 215 251 / 0.17);
+    }
   }
 
   &__answer {
-    position: relative;
     @include mixins.text-style(
       var(--primary-color),
       var(--primary-font),
@@ -52,13 +65,5 @@
       400
     );
     @include mixins.spacing(24px, left);
-
-    &::before {
-      content: "";
-      position: absolute;
-      width: 1000px;
-      height: 2px;
-      background: rgb(208 215 251 / 0.17);
-    }
   }
 }

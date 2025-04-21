@@ -9,8 +9,8 @@
       36px,
       400
     );
-    @include mixins.spacing(32px, center);
-    margin-bottom: 50px;
+    @include mixins.spacing(48px, center);
+    margin-bottom: 40px;
   }
 
   &__list {
@@ -18,7 +18,7 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    gap: 40px;
+    gap: 32px;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(4, auto);
   }
@@ -50,6 +50,6 @@
   &__button {
     display: block;
     width: max-content;
-    margin: 20px auto 0;
+    margin: 40px auto 0;
   }
 }

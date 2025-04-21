@@ -1,5 +1,11 @@
 @use "../base/mixins" as mixins;
 .member-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
   &__dl {
     display: flex;
     flex-direction: column;
@@ -25,6 +31,7 @@
       400
     );
     @include mixins.spacing(28px, 0);
+    margin: 0;
   }
 
   &__social {

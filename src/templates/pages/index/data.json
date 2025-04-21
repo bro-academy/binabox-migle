@@ -2,18 +2,11 @@
   "site": {
     "title": "BINABOX"
   },
-  "logo": [
-    {
-      "link": "/index.html",
-      "image": "/img/images/logotip.svg",
-      "desc": "Picture of logotip"
-    },
-    {
-      "link": "/index.html",
-      "image": "/img/images/binabox.svg",
-      "desc": "Picture of binabox"
-    }
-  ],
+  "logo": {
+    "link": "/index.html",
+    "image": "/img/images/logo-white.svg",
+    "desc": "Picture of logotip"
+  },
   "navItems": [
     {
       "link": "/index.html",
@@ -46,7 +39,7 @@
   "banner": {
     "title1": "with",
     "span": "binabox",
-    "title2": "explore nft collection",
+    "title2": "explore\nnft collection",
     "subtitle": "We are the best way to check rarity of NFT collection",
     "stats": [
       {
@@ -71,12 +64,10 @@
   ],
   "catalog": {
     "title": "Catalog",
-    "button": [
-      {
-        "link": "#",
-        "label": "See All"
-      }
-    ],
+    "button": {
+      "link": "#",
+      "label": "See All"
+    },
     "arrow": [
       {
         "path": "/img/images/catalog/arrow.svg",
@@ -265,27 +256,27 @@
         "socialApps": [
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           }
         ]
@@ -298,27 +289,27 @@
         "social": [
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           }
         ]
@@ -331,27 +322,27 @@
         "socialApps": [
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           }
         ]
@@ -364,27 +355,27 @@
         "socialApps": [
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           }
         ]
@@ -397,27 +388,27 @@
         "socialApps": [
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           }
         ]
@@ -430,27 +421,27 @@
         "socialApps": [
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           }
         ]
@@ -463,27 +454,27 @@
         "socialApps": [
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           },
           {
             "link": "#",
-            "img": "/img/images/.svg",
+            "img": "/img/images/check.svg",
             "alt": ""
           }
         ]

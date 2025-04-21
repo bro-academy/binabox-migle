@@ -1,11 +1,7 @@
 <header class="header">
-      <div class="header__logo-wrapper">
-            {% for item in logo %}
-                  {% set logoClass = "header__logo" %}
-                  {% set logo = item %}
-                  {% include "partials/logo.njk" %}
-            {% endfor %}
-      </div>
+
+      {% set logoClass = "header__logo" %}
+      {% include "partials/logo.njk" %}
 
       {% set navItems = navItems %}
       {% set navClass = "header__nav" %}

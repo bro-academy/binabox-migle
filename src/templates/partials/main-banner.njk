@@ -1,13 +1,16 @@
 <section class="main-banner">
-  <h1 class="main-banner__title">
-    {{ banner.title1 }}
-    <span class="binabox">{{ banner.span }}
-    </span>
-    {{ banner.title2 }}
-  </h1>
-  <p class="main-banner__text">
-    {{ banner.subtitle }}
-  </p>
+  <div class="main-banner__wrapper-title">
+    <h1 class="main-banner__title">
+      {{ banner.title1 }}
+      <span class="binabox">{{ banner.span }}
+      </span>
+      {{ banner.title2 | replace("\n", "<br/>")
+     | safe }}
+    </h1>
+    <p class="main-banner__text">
+      {{ banner.subtitle }}
+    </p>
+  </div>
 
   {% include "partials/banner-stats.njk" %}
   <div class="main-banner__group-btn">

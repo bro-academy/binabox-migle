@@ -2,7 +2,7 @@
 .blog-card {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 
   &__article-writer {
     @include mixins.text-style(
@@ -85,6 +85,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+  }
+
+  &__button {
+    display: inline-block;
+    width: max-content;
+    padding: 5px 12px;
   }
 }

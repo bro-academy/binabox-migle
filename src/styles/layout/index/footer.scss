@@ -1,7 +1,7 @@
 @use "../base/mixins" as mixins;
 .footer {
   background-color: rgb(26 25 37 / 1);
-  padding: 64px;
+  padding: 64px 64px 32px 64px;
 
   &__desc {
     @include mixins.text-style(
@@ -63,21 +63,30 @@
     justify-content: space-between;
   }
 
+  &__wrapper-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
   &__wrapper-items {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
   }
 
   &__wrapper-down {
     position: relative;
     display: flex;
     justify-content: space-between;
+    padding-top: 64px;
 
     &::before {
       content: "";
       position: absolute;
-      width: 1200px;
+      top: 32px;
+      width: 100%;
       height: 2px;
       background: rgb(208 215 251 / 0.17);
     }
@@ -88,5 +97,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8px;
   }
 }

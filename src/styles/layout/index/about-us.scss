@@ -11,7 +11,7 @@
     );
     @include mixins.spacing(48px, center);
     letter-spacing: -0.5px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
   }
 
   &__desc {
@@ -22,7 +22,7 @@
       500
     );
     @include mixins.spacing(28px, center);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   &__list {
@@ -41,7 +41,7 @@
       400
     );
     @include mixins.spacing(32px, left);
-    margin-bottom: 40px;
+    margin-bottom: 24px;
   }
 
   &__list-desc {
@@ -55,13 +55,13 @@
   }
 
   &__list-item {
-    padding: 32px;
+    padding: 38px;
     background-color: rgba(26, 25, 37, 1);
   }
 
   &__button {
     display: block;
     width: max-content;
-    margin: 20px auto 0;
+    margin: 40px auto 0;
   }
 }
