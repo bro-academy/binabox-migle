@@ -9,7 +9,7 @@
       {% include "partials/nav.njk" %}
 
       <div class="header__group-buttons">
-
+            {% set classForm = 'header__form-search' %}
             {% include "partials/search-bar.njk" %}
 
             {% for button in headerButtons %}
