@@ -1,6 +1,12 @@
 @use "../base/variables" as vars;
 @use "../base/mixins" as mixins;
 .page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  margin: 64px;
+
   &__article-writer,
   &__date {
     @include mixins.text-style(

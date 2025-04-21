@@ -1,15 +1,33 @@
-<aside class="page__aside aside">
-    {% set catTitle = "Categories" %}
-    <h3 class="aside__title">{{ catTitle }}</h3>
+<aside class="aside">
+    <div class="aside__categories">
+        {% set catTitle = "Categories" %}
+        <h3 class="aside__title">{{ catTitle }}</h3>
 
-    {% set asideClass = "aside__link link" %}
-    {% set Categories = Categories %}
-    {% include "partials/blog/aside-cat.njk" %}
+        <ul class="aside__list">
+            {% set listClass = "aside__item" %}
+            {% set linkClass = "aside__link" %}
+            {% set linkBordered = false %}
+            {% set Categories = Categories %}
 
-    {% set tagTitle = "Tags" %}
-    <h3 class="aside__title">{{ tagTitle }}</h3>
+            {% for item in Categories %}
+                {% include "partials/blog/aside-list.njk" %}
+            {% endfor %}
+        </ul>
+    </div>
 
-    {% set asideClass = "aside__link link link--bordered" %}
-    {% set Tags = Tags %}
-    {% include "partials/blog/aside-tag.njk" %}
+    <div class="aside__tags">
+        {% set tagTitle = "Tags" %}
+        <h3 class="aside__title">{{ tagTitle }}</h3>
+
+        <ul class="aside__list aside__list--bordered">
+            {% set listClass = "aside__item" %}
+            {% set asideClass = "aside__link" %}
+            {% set linkBordered = true %}
+            {% set Tags = Tags %}
+
+            {% for item in Tags %}
+                {% include "partials/blog/aside-list.njk" %}
+            {% endfor %}
+        </ul>
+    </div>
 </aside>
