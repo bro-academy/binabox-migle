@@ -4,7 +4,7 @@
     },
     "logo": {
         "link": "#",
-        "image": "/img/images/logotip.svg",
+        "image": "/img/images/logo-white.svg",
         "desc": "Picture of logotip"
     },
     "navItems": [
@@ -121,77 +121,88 @@
         }
     ],
     "footer": {
-        "text": "We are the best they to check rarity of \"<span> nft </span>\" collection"
-    },
-    "nav": [
-        {
-            "link": "#",
-            "name": "Subscribe"
+        "logo": {
+            "link": "/index.html",
+            "image": "/img/images/logo-blue.svg",
+            "desc": "Picture of logotip"
         },
-        {
-            "link": "#",
-            "name": "Home"
-        },
-        {
-            "link": "#",
-            "name": "Blog"
-        },
-        {
-            "link": "#",
-            "name": "Catalog"
-        },
-        {
-            "link": "#",
-            "name": "Contact us"
-        }
-    ],
-    "info": [
-        {
-            "link": "#",
-            "name": "Company"
-        },
-        {
-            "link": "#",
-            "name": "Terms Conditions"
-        },
-        {
-            "link": "#",
-            "name": "Privacy Policy"
-        },
-        {
-            "link": "#",
-            "name": "WhitePape"
-        },
-        {
-            "link": "#",
-            "name": "Help Center"
-        }
-    ],
-    "copyright": "BINABOX 2022 - All right reserved",
-    "socialApps": [
-        {
-            "link": "#",
-            "app": "Twitter"
-        },
-        {
-            "link": "#",
-            "app": "Facebook"
-        },
-        {
-            "link": "#",
-            "app": "Telegram"
-        },
-        {
-            "link": "#",
-            "app": "YouTube"
-        },
-        {
-            "link": "#",
-            "app": "TikTok"
-        },
-        {
-            "link": "#",
-            "app": "Reddit"
-        }
-    ]
+        "text": "We are the best way to check rarity of the <span> NFT </span> collection",
+        "nav": [
+            {
+                "link": "#",
+                "name": "Subscribe"
+            },
+            {
+                "link": "#",
+                "name": "Home"
+            },
+            {
+                "link": "#",
+                "name": "Blog"
+            },
+            {
+                "link": "#",
+                "name": "Catalog"
+            },
+            {
+                "link": "#",
+                "name": "Contact us"
+            }
+        ],
+        "info": [
+            {
+                "link": "#",
+                "name": "Company"
+            },
+            {
+                "link": "#",
+                "name": "Terms Conditions"
+            },
+            {
+                "link": "#",
+                "name": "Privacy Policy"
+            },
+            {
+                "link": "#",
+                "name": "WhitePape"
+            },
+            {
+                "link": "#",
+                "name": "Help Center"
+            }
+        ],
+        "copyright": "BINABOX 2022 - All right reserved",
+        "socialApps": [
+            {
+                "link": "#",
+                "img": "/img/images/check.svg",
+                "alt": ""
+            },
+            {
+                "link": "#",
+                "img": "/img/images/check.svg",
+                "alt": ""
+            },
+            {
+                "link": "#",
+                "img": "/img/images/check.svg",
+                "alt": ""
+            },
+            {
+                "link": "#",
+                "img": "/img/images/check.svg",
+                "alt": ""
+            },
+            {
+                "link": "#",
+                "img": "/img/images/check.svg",
+                "alt": ""
+            },
+            {
+                "link": "#",
+                "img": "/img/images/check.svg",
+                "alt": ""
+            }
+        ]
+    }
 }
