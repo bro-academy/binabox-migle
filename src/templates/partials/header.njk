@@ -1,32 +1,34 @@
-<header class="header">
+<div class="site-wrapper">
+      <header class="header">
 
-      {% set logoClass = "header__logo" %}
-      {% include "partials/logo.njk" %}
+            {% set logoClass = "header__logo" %}
+            {% include "partials/logo.njk" %}
 
-      {% set navItems = navItems %}
-      {% set navClass = "header__nav" %}
+            {% set navItems = navItems %}
+            {% set navClass = "header__nav" %}
 
-      {% include "partials/nav.njk" %}
+            {% include "partials/nav.njk" %}
 
-      <div class="header__group-buttons">
-            {% set classForm = 'header__form-search' %}
-            {% include "partials/search-bar.njk" %}
+            <div class="header__group-buttons">
+                  {% set classForm = 'header__form-search' %}
+                  {% include "partials/search-bar.njk" %}
 
-            {% for button in headerButtons %}
+                  {% for button in headerButtons %}
 
-                  {% set btnLink = button.link %}
-                  {% set btnLabel = button.label %}
+                        {% set btnLink = button.link %}
+                        {% set btnLabel = button.label %}
 
-                  {% if button.label == "Discord" %}
-                        {% set btnClass = "header__button button" %}
-                  {% endif %}
+                        {% if button.label == "Discord" %}
+                              {% set btnClass = "header__button button" %}
+                        {% endif %}
 
-                  {% if button.label == "Connect" %}
-                        {% set btnClass = "header__button button button--secondary" %}
-                  {% endif %}
+                        {% if button.label == "Connect" %}
+                              {% set btnClass = "header__button button button--secondary" %}
+                        {% endif %}
 
-                  {% include "partials/button.njk" %}
+                        {% include "partials/button.njk" %}
 
-            {% endfor %}
-      </div>
-</header>
+                  {% endfor %}
+            </div>
+      </header>
+</div>

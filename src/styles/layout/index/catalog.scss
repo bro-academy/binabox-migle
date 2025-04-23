@@ -15,25 +15,17 @@
       content: "";
       height: 2px;
       background: rgb(208 215 251 / 0.17);
-      width: 1000px;
       border-radius: 2px;
       flex-grow: 1;
     }
   }
 
   &__group-btn {
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 16px;
-
-    &::before {
-      content: "";
-      width: 2px;
-      height: 24px;
-      border-radius: 1px;
-      background: rgb(208 215 251 / 0.17);
-    }
   }
 
   &__title {
@@ -50,6 +42,7 @@
   &__list {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
   }

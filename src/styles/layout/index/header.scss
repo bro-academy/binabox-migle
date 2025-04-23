@@ -6,17 +6,6 @@
   background-color: rgb(13 13 21 / 1);
   color: var(--primary-color);
 
-  &__logo-wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  &__nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   &__group-buttons {
     display: flex;
     justify-content: flex-end;

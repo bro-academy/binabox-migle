@@ -1,22 +1,24 @@
-<footer class="footer">
-  <div class="footer__wrapper-up">
-    <div class="footer__wrapper-logo">
-      {% set logo = footer.logo %}
-      {% set logoClass = 'footer__logo' %}
-      {% include "partials/logo.njk" %}
+<div class="site-wrapper">
+  <footer class="footer">
+    <div class="footer__wrapper-up">
+      <div class="footer__wrapper-logo">
+        {% set logo = footer.logo %}
+        {% set logoClass = 'footer__logo' %}
+        {% include "partials/logo.njk" %}
 
-      <p class="footer__desc">
-        {{ footer.text | safe }}
-      </p>
+        <p class="footer__desc">
+          {{ footer.text | safe }}
+        </p>
+      </div>
+
+      {% include "partials/footer-items.njk" %}
     </div>
+    <div class="footer__wrapper-down">
+      <p class="footer__copyright">{{ footer.copyright }}</p>
 
-    {% include "partials/footer-items.njk" %}
-  </div>
-  <div class="footer__wrapper-down">
-    <p class="footer__copyright">{{ footer.copyright }}</p>
-
-    {% set socialClass = "footer__social" %}
-    {% set socialApps = footer.socialApps %}
-    {% include "partials/social.njk" %}
-  </div>
-</footer>
+      {% set socialClass = "footer__social" %}
+      {% set socialApps = footer.socialApps %}
+      {% include "partials/social.njk" %}
+    </div>
+  </footer>
+</div>

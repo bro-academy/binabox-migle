@@ -1,9 +1,6 @@
 @use "../base/mixins" as mixins;
 
 .search {
-  display: flex;
-  flex: 0 0 188px;
-  min-width: 188px;
   position: relative;
   order: -1;
 
@@ -20,8 +17,8 @@
   }
 
   &__input {
-    min-width: 188px;
     @include mixins.button-base;
+    width: 188px;
     box-sizing: border-box;
     border: 2px solid var(--border-color);
     padding: 8px 12px;

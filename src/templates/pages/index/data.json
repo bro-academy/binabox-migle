@@ -24,6 +24,34 @@
     {
       "link": "/contact-us.html",
       "text": "Contact us"
+    },
+    {
+      "link": "#",
+      "text": "Catalog"
+    },
+    {
+      "link": "#",
+      "text": "Career"
+    },
+    {
+      "link": "#",
+      "text": "Team"
+    },
+    {
+      "link": "#",
+      "text": "Pricing"
+    },
+    {
+      "link": "#",
+      "text": "Faq"
+    },
+    {
+      "link": "#",
+      "text": "Privacy"
+    },
+    {
+      "link": "#",
+      "text": "Services"
     }
   ],
   "headerButtons": [
