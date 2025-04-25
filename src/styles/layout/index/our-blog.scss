@@ -24,26 +24,6 @@
     background-color: var(--card-background);
     padding: 24px;
     display: flex;
-
-    &:nth-child(2) .blog-card__image {
-      object-fit: cover;
-      object-position: 100% 20%;
-    }
-
-    &:nth-child(5) .blog-card__image {
-      object-fit: cover;
-      object-position: 100% 20%;
-    }
-
-    &:nth-child(3) .blog-card__image {
-      object-fit: cover;
-      object-position: 100% 40%;
-    }
-
-    &:nth-child(4) .blog-card__image {
-      object-fit: cover;
-      object-position: 100% 40%;
-    }
   }
 
   &__button {

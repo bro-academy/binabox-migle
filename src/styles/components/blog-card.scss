@@ -80,4 +80,18 @@
     width: max-content;
     padding: 5px 12px;
   }
+
+  &__image {
+    object-fit: cover;
+
+    &--pos20 {
+      object-position: 100% 20%;
+      height: 198px;
+    }
+
+    &--pos40 {
+      object-position: 100% 40%;
+      height: 198px;
+    }
+  }
 }

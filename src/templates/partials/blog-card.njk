@@ -1,11 +1,18 @@
 <ul class="blog__list">
   {% for blog in blog.blogCards %}
+    {% set mod = ''%}
+    {% if loop.index in[2, 5] %}
+      {% set mod = 'pos20' %}
+    {% elif loop.index in[3, 4] %}
+      {% set mod = 'pos40' %}
+    {% endif %}
+
     <li class="blog__list-item">
       <article class="blog-card">
         <div class="blog-card__image-wrapper">
           <span class="blog-card__label label">{{ blog.label }}</span>
           <img
-                    class="blog-card__image"
+                    class="blog-card__image{% if mod %} blog-card__image--{{ mod }}{% endif %}"
                     src="{{ blog.image }}"
                     alt=" {{ blog.alt }}"
                     width="{{ blog.width }}"
