@@ -3,8 +3,11 @@
   background-image: url("/img/images/blog-page/blog-bg-image-2x.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 248px;
-  padding: 64px 0;
+
+  .layout-container--flex {
+    min-height: 248px;
+    padding: 64px 0;
+  }
 
   &__title {
     text-align: center;

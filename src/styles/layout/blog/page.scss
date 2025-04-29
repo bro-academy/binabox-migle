@@ -1,11 +1,13 @@
 @use "../base/variables" as vars;
 @use "../base/mixins" as mixins;
 .page {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 32px;
-  margin: 64px;
+  .layout-container--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 64px 64px 0 64px;
+  }
 
   &__article-writer,
   &__date {

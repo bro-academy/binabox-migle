@@ -7,27 +7,29 @@
     {% include "partials/blog/banner.njk" %}
 
     <section class="page">
-      <div class="page__aside">
-        {% set Categories = Categories %}
-        {% include "partials/blog/aside.njk" %}
-      </div>
+      <div class="layout-container layout-container--flex">
+        <div class="page__aside">
+          {% set Categories = Categories %}
+          {% include "partials/blog/aside.njk" %}
+        </div>
 
-      <div class="page__blog">
-        {% set item = figure %}
-        {% include "partials/blog/figure.njk" %}
+        <div class="page__blog">
+          {% set item = figure %}
+          {% include "partials/blog/figure.njk" %}
 
-        {% set section = mainSection %}
-        {% include "partials/blog/main.njk" %}
+          {% set section = mainSection %}
+          {% include "partials/blog/main.njk" %}
 
-        {% set figureList = figureList %}
-        {% include "partials/blog/figure2.njk" %}
+          {% set figureList = figureList %}
+          {% include "partials/blog/figure2.njk" %}
 
-        {% set sections = sections %}
-        {% include "partials/blog/section.njk" %}
+          {% set sections = sections %}
+          {% include "partials/blog/section.njk" %}
 
-        {% include "partials/blog/tags.njk" %}
+          {% include "partials/blog/tags.njk" %}
 
-        {% include "partials/blog/share.njk" %}
+          {% include "partials/blog/share.njk" %}
+        </div>
       </div>
     </section>
   </main>
