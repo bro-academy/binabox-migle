@@ -1,7 +1,9 @@
 @use "../base/mixins" as mixins;
 
 .our-team {
-  padding: 64px;
+  .layout-container--flex {
+    padding: 64px;
+  }
 
   &__title {
     @include mixins.text-style(

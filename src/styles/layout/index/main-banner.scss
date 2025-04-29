@@ -1,9 +1,5 @@
 @use "../base/mixins" as mixins;
 .main-banner {
-  padding: 141px 164px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
   background-color: var(--background-dark);
   background-image:
     radial-gradient(
@@ -15,6 +11,13 @@
   background-repeat: no-repeat;
   background-position: 90% 10%;
   background-size: contain;
+
+  .layout-container--flex {
+    padding: 141px 164px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
 
   &__group-btn {
     display: flex;

@@ -1,9 +1,11 @@
 @use "../base/mixins" as mixins;
 .catalog {
-  padding: 64px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+  .layout-container--flex {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
 
   &__wrapper {
     display: flex;

@@ -1,6 +1,8 @@
 @use "../base/mixins" as mixins;
 .faq {
-  padding: 64px;
+  .layout-container--flex {
+    padding: 64px;
+  }
 
   &__title {
     @include mixins.text-style(

@@ -1,7 +1,10 @@
 @use "../base/mixins" as mixins;
 .footer {
   background-color: rgb(26 25 37 / 1);
-  padding: 64px 64px 32px 64px;
+
+  .layout-container--flex {
+    padding: 64px 64px 32px 64px;
+  }
 
   &__desc {
     @include mixins.text-style(

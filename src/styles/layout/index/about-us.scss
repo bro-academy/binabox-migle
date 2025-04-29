@@ -1,9 +1,11 @@
 @use "../base/mixins";
 .about-us {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding: 64px;
+  .layout-container--flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 64px;
+  }
 
   &__title {
     @include mixins.text-style(
