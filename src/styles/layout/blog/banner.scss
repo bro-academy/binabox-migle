@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
 
   .layout-container--flex {
+    display: flex;
+    flex-direction: column;
     min-height: 248px;
     padding: 64px 0;
   }

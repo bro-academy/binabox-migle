@@ -1,7 +1,7 @@
 {% for section in sections %}
-  <h2 class="page__title">{{ section.title }}</h2>
+  <h2 class="article__subtitle">{{ section.title }}</h2>
 
   {% for paragraph in section.paragraphs %}
-    <p class="page__text">{{ paragraph }}</p>
+    <p class="article__text">{{ paragraph }}</p>
   {% endfor %}
 {% endfor %}
