@@ -1,3 +1,4 @@
-<button class="catalog__button button">
-    <img src="{{ arrow.path }}" alt="{{ arrow.desc }}"/>
+<button class="{{ btnClass }}">
+    <img class="button__arrow{% if isFlipped %} arrow--flip{% endif %}" src="{{ arrow.path }}" alt="{{ arrow.desc }}"
+/>
 </button>

@@ -1,6 +1,7 @@
 @use "../base/mixins" as mixins;
 .button {
   @include mixins.button-base;
+  box-sizing: border-box;
   border: 2px solid var(--border-color);
   background: none;
   cursor: pointer;
@@ -31,6 +32,26 @@
     :active {
       background: rgb(0 84 182);
       border: 2px solid var(--secondary-color);
+    }
+  }
+
+  &--arrow {
+    padding: 6px 10px;
+  }
+
+  &--divider {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: -10px;
+      transform: translateY(-50%);
+      width: 2px;
+      height: 24px;
+      border-radius: 1px;
+      background: rgb(208 215 251 / 0.17);
     }
   }
 }

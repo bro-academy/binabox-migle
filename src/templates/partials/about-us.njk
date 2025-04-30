@@ -1,14 +1,16 @@
 <section class="about-us">
-  <h2 class="about-us__title">{{aboutUs.title}}</h2>
-  <p class="about-us__desc">
-    {{aboutUs.desc}}
-  </p>
-  {% include "partials/about-us-card.njk" %}
+  <div class="layout-container layout-container--flex">
+    <h2 class="about-us__title">{{aboutUs.title}}</h2>
+    <p class="about-us__desc">
+      {{aboutUs.desc}}
+    </p>
+    {% include "partials/about-us-card.njk" %}
 
-  {% set btnClass = "about-us__button button" %}
-  {% set btnLink = aboutUs.button.link %}
-  {% set btnLabel = aboutUs.button.label %}
+    {% set btnClass = "about-us__button button" %}
+    {% set btnLink = aboutUs.button.link %}
+    {% set btnLabel = aboutUs.button.label %}
 
-  {% include "partials/button.njk" %}
+    {% include "partials/button.njk" %}
+  </div>
 
 </section>

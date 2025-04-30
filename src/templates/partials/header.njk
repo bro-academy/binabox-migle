@@ -1,27 +1,34 @@
 <header class="header">
-      {% include "partials/logo.njk" %}
+      <div class="layout-container layout-container--flex">
 
-      {% set navItems = navItems %}
-      {% set navClass = "header__nav" %}
+            {% set logoClass = "header__logo" %}
+            {% include "partials/logo.njk" %}
 
-      {% include "partials/nav.njk" %}
+            {% set navItems = navItems %}
+            {% set navClass = "header__nav" %}
 
-      {% include "partials/search-bar.njk" %}
+            {% include "partials/nav.njk" %}
 
-      {% for button in headerButtons %}
+            <div class="header__group-buttons">
+                  {% set classForm = 'header__form-search' %}
+                  {% include "partials/search-bar.njk" %}
 
-            {% set btnLink = button.link %}
-            {% set btnLabel = button.label %}
+                  {% for button in headerButtons %}
 
-            {% if button.label == "Discord" %}
-                  {% set btnClass = "header__button button" %}
-            {% endif %}
+                        {% set btnLink = button.link %}
+                        {% set btnLabel = button.label %}
 
-            {% if button.label == "Connect" %}
-                  {% set btnClass = "header__button button button--secondary" %}
-            {% endif %}
+                        {% if button.label == "Discord" %}
+                              {% set btnClass = "header__button button" %}
+                        {% endif %}
 
-            {% include "partials/button.njk" %}
+                        {% if button.label == "Connect" %}
+                              {% set btnClass = "header__button button button--secondary" %}
+                        {% endif %}
 
-      {% endfor %}
+                        {% include "partials/button.njk" %}
+
+                  {% endfor %}
+            </div>
+      </div>
 </header>

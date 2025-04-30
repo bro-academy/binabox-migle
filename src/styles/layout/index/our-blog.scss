@@ -1,21 +1,34 @@
 @use "../base/mixins" as mixins;
 .blog {
+  .layout-container--flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 64px;
+  }
+
   &__title {
     @include mixins.text-style(
-      var(--text-color),
+      var(--primary-color),
       var(--secondary-font),
       36px,
       400
     );
-    @include mixins.spacing(32px, center);
+    @include mixins.spacing(48px, center);
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    list-style-type: none;
   }
 
   &__list-item {
     background-color: var(--card-background);
     padding: 24px;
+    display: flex;
   }
 
-  &__list {
-    list-style-type: none;
+  &__button {
+    margin-inline: auto;
   }
 }

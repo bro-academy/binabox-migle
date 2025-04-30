@@ -1,4 +1,26 @@
 .header {
   background-color: rgb(13 13 21 / 1);
   color: var(--primary-color);
+
+  .layout-container--flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+  }
+
+  &__group-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+
+    &::before {
+      content: "";
+      width: 2px;
+      height: 24px;
+      border-radius: 1px;
+      background: rgb(208 215 251 / 0.17);
+    }
+  }
 }

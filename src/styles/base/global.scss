@@ -32,3 +32,18 @@ a {
   white-space: nowrap;
   width: 1px;
 }
+
+ul,
+ol,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.layout-container {
+  max-width: 1728px;
+  margin: 0 auto;
+}

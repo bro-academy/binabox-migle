@@ -2,14 +2,13 @@
     <select class="controls__select" id="sort" name="sort">
         <option class="controls__option" disabled selected>Sort by</option>
         {% for option in sortOptions %}
-            <option class="controls__options" value="{{ option | lower | replace(" ", "-") }}">{{ option }}</option>
+            <option class="controls__options" value="{{ option }}">{{ option }}</option>
         {% endfor %}
     </select>
-</div>
 
-<div class="controls__search">
-    <label class="controls__search-label" for="search"></label>
-    <input class="controls__search-input" type="text" placeholder="Search NFT" name="search" id="search">
-</div>
-<button class="catalog-panel__button visually-hidden" type="sumbit"></button>
+    <div class="controls__search">
+        <label class="controls__search-label" for="search"></label>
+        <input class="controls__search-input" type="text" placeholder="Search NFT" name="search" id="search">
+    </div>
+    <button class="catalog-panel__button visually-hidden" type="submit"></button>
 </form>

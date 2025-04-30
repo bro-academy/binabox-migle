@@ -2,6 +2,10 @@
 .footer {
   background-color: rgb(26 25 37 / 1);
 
+  .layout-container--flex {
+    padding: 64px 64px 32px 64px;
+  }
+
   &__desc {
     @include mixins.text-style(
       var(--primary-color),
@@ -23,18 +27,20 @@
       var(--font-small),
       400
     );
-    @include mixins.spacing(20px, 0);
+    line-height: 20px;
   }
+
   &__link {
+    display: inline-block;
     @include mixins.text-style(
       var(--primary-color),
       var(--primary-font),
       12px,
       600
     );
-    @include mixins.spacing(16px, 0);
-
+    line-height: 16px;
     border: 4px solid transparent;
+    margin-bottom: 8px;
 
     &--medium {
       font-size: 20px;
@@ -55,5 +61,47 @@
       color: rgb(0 84 182 / 1);
       cursor: pointer;
     }
+  }
+
+  &__wrapper-up {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__wrapper-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  &__wrapper-items {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__wrapper-down {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 32px;
+      width: 100%;
+      height: 2px;
+      background: rgb(208 215 251 / 0.17);
+    }
+  }
+
+  &__social {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
   }
 }

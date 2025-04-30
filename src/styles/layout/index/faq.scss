@@ -1,5 +1,9 @@
 @use "../base/mixins" as mixins;
 .faq {
+  .layout-container--flex {
+    padding: 64px;
+  }
+
   &__title {
     @include mixins.text-style(
       var(--text-color),
@@ -8,13 +12,32 @@
       400
     );
     @include mixins.spacing(48px, center);
-
     letter-spacing: -0.5px;
-
     text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--card-background);
+    padding: 24px;
+
+    &[open] .faq__question {
+      border-bottom: 1px solid rgb(208 215 251 / 0.17);
+    }
   }
 
   &__question {
+    position: relative;
     @include mixins.text-style(
       var(--primary-color),
       var(--secondary-font),
@@ -22,6 +45,28 @@
       400
     );
     @include mixins.spacing(32px, left);
+    list-style: none;
+    padding-bottom: 20px;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::marker {
+      display: none;
+    }
+
+    &::after {
+      content: "+";
+      position: absolute;
+      right: 24px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .faq__details[open] .faq__question::after {
+    content: "–";
   }
 
   &__answer {
@@ -32,14 +77,5 @@
       400
     );
     @include mixins.spacing(24px, left);
-  }
-
-  &__list {
-    list-style-type: none;
-  }
-
-  &__list-item {
-    background-color: var(--card-background);
-    padding: 24px 32px;
   }
 }

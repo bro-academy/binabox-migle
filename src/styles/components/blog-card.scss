@@ -1,5 +1,9 @@
 @use "../base/mixins";
 .blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
   &__article-writer {
     @include mixins.text-style(
       var(--card-text),
@@ -8,6 +12,7 @@
       600
     );
     @include mixins.spacing(20px, left);
+    order: -1;
   }
 
   &__date {
@@ -22,14 +27,13 @@
 
   &__title {
     @include mixins.text-style(
-      var(--secondary-font),
+      var(--primary-color),
       var(--primary-font),
       36px,
       400
     );
 
     line-height: 48px;
-    @include mixins.spacing(-0.5px, left);
   }
 
   &__desc {
@@ -39,18 +43,55 @@
       var(--font-base),
       400
     );
-
-    @include mixins.spacing(0, left);
     line-height: 24px;
   }
 
+  &__image-wrapper {
+    position: relative;
+  }
+
+  &__label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  &__byline-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &::before {
+      content: "";
+      width: 2px;
+      height: 16px;
+      background: rgb(208 215 251 / 0.17);
+      border-radius: 2px;
+    }
+  }
+
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__button {
+    display: inline-block;
+    width: max-content;
+    padding: 5px 12px;
+  }
+
   &__image {
-    &--fit {
-      object-fit: cover;
+    object-fit: cover;
+
+    &--pos20 {
+      object-position: 100% 20%;
+      height: 198px;
     }
 
-    &--position {
-      object-position: 100% 20%;
+    &--pos40 {
+      object-position: 100% 40%;
+      height: 198px;
     }
   }
 }

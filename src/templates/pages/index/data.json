@@ -3,8 +3,8 @@
     "title": "BINABOX"
   },
   "logo": {
-    "link": "#",
-    "image": "/img/images/logotip.svg",
+    "link": "/index.html",
+    "image": "/img/images/logo-white.svg",
     "desc": "Picture of logotip"
   },
   "navItems": [
@@ -39,7 +39,7 @@
   "banner": {
     "title1": "with",
     "span": "binabox",
-    "title2": "explore nft collection",
+    "title2": "explore\nnft collection",
     "subtitle": "We are the best way to check rarity of NFT collection",
     "stats": [
       {
@@ -64,20 +64,18 @@
   ],
   "catalog": {
     "title": "Catalog",
-    "button": [
-      {
-        "link": "#",
-        "label": "See All"
-      }
-    ],
+    "button": {
+      "link": "#",
+      "label": "See All"
+    },
     "arrow": [
       {
-        "path": "/img/images/catalog/arrow-left.svg",
-        "desc": "Arrow pointing to the left"
+        "path": "/img/images/catalog/arrow.svg",
+        "desc": "Left"
       },
       {
-        "path": "/img/images/catalog/arrow-right.svg",
-        "desc": "Arrow pointing to the right"
+        "path": "/img/images/catalog/arrow.svg",
+        "desc": "Right"
       }
     ],
     "products": [
@@ -124,50 +122,92 @@
       {
         "label": "NFT",
         "image": "/img/images/our-blog/face-sculpture-2x.webp",
+        "width": "736",
+        "height": "664",
         "alt": "Surreal woman's face emerging from swirling water",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/catalog/skeleton-2x.webp",
+        "width": "736",
+        "height": "664",
         "alt": "Neon glowing skull against a dark background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/catalog/cat-2x.webp",
         "alt": "Black cat with glowing green eyes",
+        "width": "736",
+        "height": "664",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/our-blog/gorilla-2x.webp",
+        "width": "736",
+        "height": "664",
         "alt": "Close-up of a monkey's face in neon hues",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/our-blog/goose-2x.webp",
+        "width": "736",
+        "height": "664",
         "alt": "White goose against a dark, neon background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       },
       {
         "label": "NFT",
         "image": "/img/images/catalog/neon-cube-2x.webp",
+        "width": "736",
+        "height": "664",
         "alt": "Transparent device with glowing neon edges",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
-        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet..."
+        "title": "Sonic live",
+        "desc": "One September 22, 2021 A volutpat nulla eros, nulla ultrices necnulla imperdiet...",
+        "button": {
+          "link": "#",
+          "label": "Read more"
+        }
       }
     ],
     "button": {
@@ -215,24 +255,29 @@
         "desc": "Co-founder",
         "socialApps": [
           {
-            "app": "Twitter",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Facebook",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Telegram",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "YouTube",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "TikTok",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           }
         ]
       },
@@ -241,26 +286,31 @@
         "alt": "Portrait of a data science team member",
         "term": "Jason Smith",
         "desc": "Co-founder",
-        "social": [
+        "socialApps": [
           {
-            "app": "Twitter",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Facebook",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Telegram",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "YouTube",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "TikTok",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           }
         ]
       },
@@ -271,24 +321,29 @@
         "desc": "Co-founder",
         "socialApps": [
           {
-            "app": "Twitter",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Facebook",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Telegram",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "YouTube",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "TikTok",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           }
         ]
       },
@@ -299,24 +354,29 @@
         "desc": "Co-founder",
         "socialApps": [
           {
-            "app": "Twitter",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Facebook",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Telegram",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "YouTube",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "TikTok",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           }
         ]
       },
@@ -327,24 +387,29 @@
         "desc": "Co-founder",
         "socialApps": [
           {
-            "app": "Twitter",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Facebook",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Telegram",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "YouTube",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "TikTok",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           }
         ]
       },
@@ -355,24 +420,29 @@
         "desc": "Co-founder",
         "socialApps": [
           {
-            "app": "Twitter",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Facebook",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Telegram",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "YouTube",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "TikTok",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           }
         ]
       },
@@ -383,24 +453,29 @@
         "desc": "Co-founder",
         "socialApps": [
           {
-            "app": "Twitter",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Facebook",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "Telegram",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "YouTube",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           },
           {
-            "app": "TikTok",
-            "link": "#"
+            "link": "#",
+            "img": "/img/images/check.svg",
+            "alt": ""
           }
         ]
       }
@@ -428,77 +503,88 @@
     ]
   },
   "footer": {
-    "text": "We are the best they to check rarity of \"<span> nft </span>\" collection"
-  },
-  "nav": [
-    {
-      "link": "#",
-      "name": "Subscribe"
+    "logo": {
+      "link": "/index.html",
+      "image": "/img/images/logo-blue.svg",
+      "desc": "Picture of logotip"
     },
-    {
-      "link": "#",
-      "name": "Home"
-    },
-    {
-      "link": "#",
-      "name": "Blog"
-    },
-    {
-      "link": "#",
-      "name": "Catalog"
-    },
-    {
-      "link": "#",
-      "name": "Contact us"
-    }
-  ],
-  "info": [
-    {
-      "link": "#",
-      "name": "Company"
-    },
-    {
-      "link": "#",
-      "name": "Terms Conditions"
-    },
-    {
-      "link": "#",
-      "name": "Privacy Policy"
-    },
-    {
-      "link": "#",
-      "name": "WhitePape"
-    },
-    {
-      "link": "#",
-      "name": "Help Center"
-    }
-  ],
-  "copyright": "BINABOX 2022 - All right reserved",
-  "socialApps": [
-    {
-      "link": "#",
-      "app": "Twitter"
-    },
-    {
-      "link": "#",
-      "app": "Facebook"
-    },
-    {
-      "link": "#",
-      "app": "Telegram"
-    },
-    {
-      "link": "#",
-      "app": "YouTube"
-    },
-    {
-      "link": "#",
-      "app": "TikTok"
-    },
-    {
-      "link": "#",
-      "app": "Reddit"
-    }
-  ]
+    "text": "We are the best way to check rarity of the <span> NFT </span> collection",
+    "nav": [
+      {
+        "link": "#",
+        "name": "Subscribe"
+      },
+      {
+        "link": "#",
+        "name": "Home"
+      },
+      {
+        "link": "#",
+        "name": "Blog"
+      },
+      {
+        "link": "#",
+        "name": "Catalog"
+      },
+      {
+        "link": "#",
+        "name": "Contact us"
+      }
+    ],
+    "info": [
+      {
+        "link": "#",
+        "name": "Company"
+      },
+      {
+        "link": "#",
+        "name": "Terms Conditions"
+      },
+      {
+        "link": "#",
+        "name": "Privacy Policy"
+      },
+      {
+        "link": "#",
+        "name": "WhitePaper"
+      },
+      {
+        "link": "#",
+        "name": "Help Center"
+      }
+    ],
+    "copyright": "BINABOX 2022 - All right reserved",
+    "socialApps": [
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      }
+    ]
+  }
 }

@@ -1,30 +1,36 @@
-<section class="main-banner">
-  <h1 class="main-banner__title">
-    {{ banner.title1 }}
-    <span class="binabox">{{ banner.span }}
-    </span>
-    {{ banner.title2 }}
-  </h1>
-  <p class="main-banner__text">
-    {{ banner.subtitle }}
-  </p>
+<section class="main-banner ">
+  <div class="layout-container layout-container--flex">
+    <div class="main-banner__wrapper-title">
+      <h1 class="main-banner__title">
+        {{ banner.title1 }}
+        <span class="binabox">{{ banner.span }}
+        </span>
+        {{ banner.title2 | replace("\n", "<br/>")
+     | safe }}
+      </h1>
+      <p class="main-banner__text">
+        {{ banner.subtitle }}
+      </p>
+    </div>
 
-  {% include "partials/banner-stats.njk" %}
+    {% include "partials/banner-stats.njk" %}
+    <div class="main-banner__group-btn">
+      {% for button in bannerButton %}
 
-  {% for button in bannerButton %}
+        {% set btnLink = button.link %}
+        {% set btnLabel = button.label %}
 
-    {% set btnLink = button.link %}
-    {% set btnLabel = button.label %}
+        {% if button.label == "Connect Wallet" %}
+          {% set btnClass = "main-banner__button button button--secondary" %}
+        {% endif %}
 
-    {% if button.label == "Connect Wallet" %}
-      {% set btnClass = "main-banner__button button button--secondary" %}
-    {% endif %}
+        {% if button.label == "Whitelist now" %}
+          {% set btnClass = "main-banner__button button" %}
+        {% endif %}
 
-    {% if button.label == "Whitelist now" %}
-      {% set btnClass = "main-banner__button button" %}
-    {% endif %}
+        {% include "partials/button.njk" %}
 
-    {% include "partials/button.njk" %}
-
-  {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
 </section>

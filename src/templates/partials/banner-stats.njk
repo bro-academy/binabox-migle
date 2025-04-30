@@ -1,6 +1,8 @@
-{% for stat in banner.stats %}
-    <dl class="main-banner__stats">
-        <dt class="main-banner__stats-title">{{ stat.term }}</dt>
-        <dd class="main-banner__stats-desc">{{ stat.desc }}</dd>
-    </dl>
-{% endfor %}
+<div class="main-banner__wrapper-stats">
+    {% for stat in banner.stats %}
+        <dl class="main-banner__stats">
+            <dt class="main-banner__stats-title">{{ stat.term }}</dt>
+            <dd class="main-banner__stats-desc">{{ stat.desc }}</dd>
+        </dl>
+    {% endfor %}
+</div>

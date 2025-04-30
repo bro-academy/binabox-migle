@@ -1,8 +1,8 @@
 @use "../base/mixins" as mixins;
 
 .our-team {
-  &__list {
-    list-style-type: none;
+  .layout-container--flex {
+    padding: 64px;
   }
 
   &__title {
@@ -14,14 +14,29 @@
     );
     @include mixins.spacing(48px, center);
     letter-spacing: -0.5px;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
   }
 
   &__list-item {
     padding: 32px;
     background-color: var(--card-background);
+    border: 4px solid transparent;
 
     &:focus {
       border: 4px solid var(--button-color);
+    }
+
+    &:focus-visible {
+      outline: none;
     }
   }
 }
