@@ -42,4 +42,19 @@
   &--paddings {
     padding: 0;
   }
+  &--divider {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: -10px;
+      transform: translateY(-50%);
+      width: 2px;
+      height: 24px;
+      border-radius: 1px;
+      background: rgb(208 215 251 / 0.17);
+    }
+  }
 }

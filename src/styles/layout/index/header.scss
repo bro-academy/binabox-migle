@@ -1,20 +1,12 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 32px;
   background-color: rgb(13 13 21 / 1);
   color: var(--primary-color);
 
-  &__logo-wrapper {
+  .layout-container--flex {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-  }
-
-  &__nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 32px;
   }
 
   &__group-buttons {

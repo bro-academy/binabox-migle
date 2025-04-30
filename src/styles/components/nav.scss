@@ -3,6 +3,7 @@
   &__list {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
   }
 
   &__link {
@@ -14,11 +15,11 @@
     );
     @include mixins.spacing(24px, center);
     padding: 4px 20px;
-    border: 4px solid transparent;
+
     &--selected {
-      text-decoration-line: underline;
-      text-decoration-color: var(--secondary-color);
+      border-bottom: 2px solid var(--secondary-color);
     }
+
     &:hover,
     &:focus,
     &:active {
@@ -31,7 +32,7 @@
 
     &:focus {
       color: var(--primary-color);
-      border: 4px solid var(--button-color);
+      outline: 4px solid var(--button-color);
       border-radius: 5px;
     }
 

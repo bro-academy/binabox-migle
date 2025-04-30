@@ -138,7 +138,7 @@
         "label": "NFT",
         "image": "/img/images/catalog/skeleton-2x.webp",
         "width": "736",
-        "height": "198",
+        "height": "664",
         "alt": "Neon glowing skull against a dark background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -154,7 +154,7 @@
         "image": "/img/images/catalog/cat-2x.webp",
         "alt": "Black cat with glowing green eyes",
         "width": "736",
-        "height": "198",
+        "height": "664",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
         "title": "Sonic live",
@@ -168,7 +168,7 @@
         "label": "NFT",
         "image": "/img/images/our-blog/gorilla-2x.webp",
         "width": "736",
-        "height": "198",
+        "height": "664",
         "alt": "Close-up of a monkey's face in neon hues",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -183,7 +183,7 @@
         "label": "NFT",
         "image": "/img/images/our-blog/goose-2x.webp",
         "width": "736",
-        "height": "198",
+        "height": "664",
         "alt": "White goose against a dark, neon background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
@@ -286,7 +286,7 @@
         "alt": "Portrait of a data science team member",
         "term": "Jason Smith",
         "desc": "Co-founder",
-        "social": [
+        "socialApps": [
           {
             "link": "#",
             "img": "/img/images/check.svg",
@@ -546,7 +546,7 @@
       },
       {
         "link": "#",
-        "name": "WhitePape"
+        "name": "WhitePaper"
       },
       {
         "link": "#",

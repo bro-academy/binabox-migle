@@ -1,9 +1,11 @@
 <section class="blog">
-    <h2 class="blog__title">{{blog.title}}</h2>
-    {% include "partials/blog-card.njk" %}
+    <div class="layout-container layout-container--flex">
+        <h2 class="blog__title">{{blog.title}}</h2>
+        {% include "partials/blog-card.njk" %}
 
-    {% set btnClass = "blog__button button" %}
-    {% set btnLink = blog.button.link %}
-    {% set btnLabel = blog.button.label %}
-    {% include "partials/button.njk" %}
+        {% set btnClass = "blog__button button" %}
+        {% set btnLink = blog.button.link %}
+        {% set btnLabel = blog.button.label %}
+        {% include "partials/button.njk" %}
+    </div>
 </section>
