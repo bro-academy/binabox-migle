@@ -1,5 +1,8 @@
 <li class="{{ listClass }}">
-  <a class="{{ linkClass }} link {% if linkBordered %} link--bordered{% endif %}" href="{{ item.link }}"  quantity="{{ item.quantity }}">
-    {{ item.name }}
+  <a class="{{ linkClass }} link {% if linkBordered %} link--bordered{% endif %}" href="{{ category.link }}">
+    {{ category.name }}
+    {% if showQuantity and category.quantity and category.quantity != "0" %}
+    ({{ category.quantity }})
+      {% endif %}
   </a>
 </li>

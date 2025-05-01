@@ -20,6 +20,8 @@
     letter-spacing: -0.5px;
     border-bottom: 1px solid rgb(191 197 238 / 0.12);
     padding: 0px 0px 16px 0px;
+    display: inline-block;
+    width: 100%;
   }
 
   &__list {
@@ -33,10 +35,6 @@
       flex-direction: row;
       flex-wrap: wrap;
       gap: 8px 12px;
-
-      > li {
-        flex: 0 0 auto;
-      }
     }
   }
 

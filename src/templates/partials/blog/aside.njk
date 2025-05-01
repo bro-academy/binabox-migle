@@ -10,6 +10,8 @@
             {% set Categories = Categories %}
 
             {% for item in Categories %}
+                {% set showQuantity = true %}
+                {% set category = item %}
                 {% include "partials/blog/aside-list.njk" %}
             {% endfor %}
         </ul>
@@ -26,6 +28,8 @@
             {% set Tags = Tags %}
 
             {% for item in Tags %}
+                {% set showQuantity = false %}
+                {% set category = item %}
                 {% include "partials/blog/aside-list.njk" %}
             {% endfor %}
         </ul>

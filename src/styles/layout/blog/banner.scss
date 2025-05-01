@@ -1,14 +1,13 @@
 .banner {
-  background-color: var(--background-dark);
-  background-image: url("/img/images/blog-page/blog-bg-image-2x.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-
   .layout-container--flex {
     display: flex;
     flex-direction: column;
     min-height: 248px;
     padding: 64px 0;
+    background-color: var(--background-dark);
+    background-image: url("/img/images/blog-page/blog-bg-image-2x.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   &__title {
