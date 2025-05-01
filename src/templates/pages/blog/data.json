@@ -145,12 +145,7 @@
       "The Basilisks that players collect are represented with NFTs on Ethereum’s blockchain...",
       "In Balthazar Dragons, players are immersed in a 3D open world... <span class=\"page__text-highlight\">game developed</span>..."
     ],
-    "bulletList": [
-      "List name 1",
-      "List name 2",
-      "List name 3",
-      "List name 4"
-    ],
+    "bulletList": ["List name 1", "List name 2", "List name 3", "List name 4"],
     "quote": {
       "text": "The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers",
       "rating": {
