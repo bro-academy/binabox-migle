@@ -1,5 +1,5 @@
 .banner {
-  .layout-container--flex {
+  &__container {
     display: flex;
     flex-direction: column;
     min-height: 248px;
@@ -27,18 +27,6 @@
     gap: 8px;
   }
 
-  &__link + &__link::before {
-    position: absolute;
-    content: "";
-    width: 2px;
-    height: 24px;
-    top: 50%;
-    left: -4px;
-    transform: translateY(-50%);
-    border-radius: 2px;
-    background: rgb(208 215 251 / 0.17);
-  }
-
   &__link {
     position: relative;
     color: var(--primary-color);
@@ -48,6 +36,18 @@
     line-height: 20px;
     padding: 6px 6px;
     cursor: pointer;
+
+    &:not(:first-child)::before {
+      position: absolute;
+      content: "";
+      width: 2px;
+      height: 24px;
+      top: 50%;
+      left: -4px;
+      transform: translateY(-50%);
+      border-radius: 2px;
+      background: rgb(208 215 251 / 0.17);
+    }
   }
 
   &__link--selected {

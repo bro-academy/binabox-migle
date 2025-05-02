@@ -6,13 +6,13 @@
     {% set bannerData = banner %}
     {% include "partials/blog/banner.njk" %}
 
-    <section class="page layout-container layout-container--flex-blog">
-      <div class="page__aside aside">
+    <section class="page layout-container">
+      <div class="page__aside">
         {% set Categories = Categories %}
         {% include "partials/blog/aside.njk" %}
       </div>
 
-      <article class="page__article article">
+      <article class="page__article">
         {% set item = figure %}
         {% include "partials/blog/figure.njk" %}
 

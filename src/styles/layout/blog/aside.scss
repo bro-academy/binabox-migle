@@ -1,13 +1,9 @@
 @use "../base/mixins" as mixins;
 @use "../base/variables" as vars;
 .aside {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 21px;
-  position: sticky;
-  top: 32px;
-  align-self: flex-start;
-  max-width: 328px;
 
   &__title {
     @include mixins.text-style(
@@ -38,8 +34,7 @@
     }
   }
 
-  &__categories,
-  &__tags {
+  &__wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;

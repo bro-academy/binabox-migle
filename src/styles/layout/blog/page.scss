@@ -1,9 +1,24 @@
 .page {
-  padding: 64px 64px 0px 64px;
-}
-
-.layout-container--flex-blog {
   display: flex;
   justify-content: center;
   gap: 32px;
+  padding: 64px 0;
+
+  &__article {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1024px;
+  }
+
+  &__aside {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 21px;
+    position: sticky;
+    top: 32px;
+    align-self: flex-start;
+    width: 328px;
+  }
 }

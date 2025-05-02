@@ -1,11 +1,6 @@
 @use "../base/variables" as vars;
 @use "../base/mixins" as mixins;
 .article {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  max-width: 1024px;
-
   &__aside {
     position: relative;
   }
@@ -54,6 +49,10 @@
 
   &__text-highlight {
     color: rgb(120 187 250);
+  }
+
+  &__text-highlight-attention {
+    background: var(--secondary-color);
   }
 
   &__list {
@@ -106,7 +105,6 @@
   &__footer {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 64px;
   }
 
   &__footer-title {
