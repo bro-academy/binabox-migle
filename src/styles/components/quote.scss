@@ -1,0 +1,21 @@
+@use "../base/variables" as vars;
+@use "../base/mixins" as mixins;
+.quote {
+  &__text {
+    @include mixins.text-style(
+      vars.$text-color,
+      vars.$secondary-font,
+      vars.$font-medium,
+      400
+    );
+    margin-bottom: 8px;
+  }
+
+  &__raiting {
+    font-style: var(--primary-font);
+    color: var(--card-text);
+    font-size: var(--font-small);
+    font-weight: 600;
+    @include mixins.spacing(20px, left);
+  }
+}

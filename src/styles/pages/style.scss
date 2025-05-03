@@ -6,11 +6,12 @@
 @use "../layout/blog/banner";
 @use "../layout/index/catalog";
 @use "../layout/blog/aside";
+@use "../layout/blog/article";
+@use "../layout/blog/page";
 @use "../layout/index/about-us";
 @use "../layout/index/our-blog";
 @use "../layout/index/our-team";
 @use "../layout/index/faq";
-@use "../layout/blog/text";
 @use "../layout/contact-us/contact-form";
 @use "../layout/explore-catalog/side-bar";
 @use "../layout/explore-catalog/catalog-panel";
@@ -23,10 +24,11 @@
 @use "../components/product-card";
 @use "../components/blog-card";
 @use "../components/member-card";
-@use "../components/aside-link";
 @use "../components/socials";
 @use "../components/search";
 @use "../components/form";
+@use "../components/quote";
+@use "../components/link";
 
 @use "../base/variables";
 @use "../base/mixins";
