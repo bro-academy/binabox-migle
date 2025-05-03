@@ -2,28 +2,36 @@
 
 {% block content %}
   <main class="main">
-    <section class="page">
-      {% set bannerData = banner %}
-      {% include "partials/blog/banner.njk" %}
 
-      {% set Categories = Categories %}
-      {% include "partials/blog/aside.njk" %}
+    {% set bannerData = banner %}
+    {% include "partials/blog/banner.njk" %}
 
-      {% set item = figure %}
-      {% include "partials/blog/figure.njk" %}
+    <section class="page layout-container">
+      <div class="page__aside">
+        {% set Categories = Categories %}
+        {% include "partials/blog/aside.njk" %}
+      </div>
 
-      {% set section = mainSection %}
-      {% include "partials/blog/main.njk" %}
+      <article class="page__article">
+        {% set item = figure %}
+        {% include "partials/blog/figure.njk" %}
 
-      {% set figureList = figureList %}
-      {% include "partials/blog/figure2.njk" %}
+        {% set section = mainSection %}
+        {% include "partials/blog/main.njk" %}
 
-      {% set sections = sections %}
-      {% include "partials/blog/section.njk" %}
+        <div class="article__images">
+          {% set figureList = figureList %}
+          {% include "partials/blog/figure2.njk" %}
+        </div>
 
-      {% include "partials/blog/tags.njk" %}
+        {% set sections = sections %}
+        {% include "partials/blog/section.njk" %}
+        <div class="article__footer">
+          {% include "partials/blog/tags.njk" %}
 
-      {% include "partials/blog/share.njk" %}
+          {% include "partials/blog/share.njk" %}
+        </div>
+      </article>
     </section>
   </main>
 {% endblock %}

@@ -1,0 +1,130 @@
+@use "../base/variables" as vars;
+@use "../base/mixins" as mixins;
+.article {
+  &__aside {
+    position: relative;
+  }
+
+  &__button {
+    align-self: flex-start;
+  }
+
+  &__byline {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  &__writer,
+  &__date {
+    position: relative;
+    @include mixins.text-style(
+      vars.$primary-color,
+      vars.$primary-font,
+      14px,
+      600
+    );
+    @include mixins.spacing(20px, left);
+  }
+
+  &__date {
+    &::before {
+      position: absolute;
+      content: "";
+      width: 2px;
+      height: 16px;
+      top: 50%;
+      left: -8px;
+      transform: translateY(-50%);
+      border-radius: 2px;
+      background: rgb(208 215 251 / 0.17);
+    }
+  }
+
+  &__text,
+  &__list {
+    @include mixins.text-style(vars.$text-color, vars.$primary-font, 18px, 400);
+    @include mixins.spacing(28px, left);
+  }
+
+  &__text-highlight {
+    color: rgb(120 187 250);
+  }
+
+  &__text-highlight-attention {
+    background: var(--secondary-color);
+  }
+
+  &__list {
+    list-style-position: inside;
+  }
+
+  &__list-item {
+    text-indent: -24px;
+    padding-left: 24px;
+  }
+
+  &__title {
+    @include mixins.text-style(vars.$text-color, vars.$primary-font, 48px, 400);
+    @include mixins.spacing(48px, left);
+  }
+
+  &__subtitle {
+    @include mixins.text-style(vars.$text-color, vars.$primary-font, 28px, 400);
+    @include mixins.spacing(36px, left);
+  }
+
+  &__caption {
+    @include mixins.text-style(
+      vars.$text-color,
+      vars.$primary-font,
+      vars.$font-base,
+      500
+    );
+    @include mixins.spacing(24px, left);
+  }
+
+  &__quote {
+    @include mixins.text-style(
+      vars.$text-color,
+      vars.$secondary-font,
+      28px,
+      400
+    );
+    @include mixins.spacing(36px, left);
+    border-radius: 16px;
+    background-color: rgba(0 39 84);
+    padding: 16px;
+  }
+
+  &__images {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__footer-title {
+    font-style: var(--primary-font);
+    font-weight: 400;
+    font-size: var(--font-base);
+    line-height: 24px;
+    margin: 0;
+  }
+
+  &__shares-wrapper,
+  &__tags-wrapper {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__shares,
+  &__tags {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+  }
+}

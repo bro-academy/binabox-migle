@@ -1,0 +1,53 @@
+@use "../base/mixins" as mixins;
+@use "../base/variables" as vars;
+.link {
+  @include mixins.text-style(
+    vars.$primary-color,
+    vars.$primary-font,
+    vars.$font-small,
+    600
+  );
+  @include mixins.spacing(20px, left);
+  cursor: pointer;
+  padding: 4px 12px;
+
+  &:hover {
+    color: rgb(56 146 243);
+    cursor: pointer;
+  }
+
+  &:active {
+    color: rgb(0 84 182);
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: 4px solid rgb(56 146 243);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  &--bordered {
+    border: 2px solid rgb(208 215 251 / 0.17);
+    padding: 6px 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    &:hover {
+      color: rgb(56 146 243);
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: 4px solid rgb(56 146 243);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    &:active {
+      color: rgb(0 84 182);
+      cursor: pointer;
+    }
+  }
+}

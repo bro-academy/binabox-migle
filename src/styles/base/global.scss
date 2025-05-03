@@ -38,7 +38,8 @@ ol,
 h1,
 h2,
 h3,
-p {
+p,
+figure {
   margin: 0;
   padding: 0;
 }
@@ -46,4 +47,5 @@ p {
 .layout-container {
   max-width: 1728px;
   margin: 0 auto;
+  padding-inline: 64px;
 }
