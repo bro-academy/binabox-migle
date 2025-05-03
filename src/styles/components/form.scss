@@ -1,9 +1,42 @@
 @use "../base/mixins" as mixins;
 @use "../base/variables" as vars;
 .form {
+  margin: 0 auto;
+  max-width: 640px;
+  align-items: center;
+  gap: 24px;
+
+  &__header {
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    @include mixins.title-style(center);
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: none;
+  }
+
+  &__title-desc {
+    font-style: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+  }
+
   &__consent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     background-color: rgb(29 28 40);
-    padding: 20px;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+
+  &__toggle {
+    margin-right: 40px;
   }
 
   &__slider-label {
@@ -37,15 +70,17 @@
   }
 
   &__item {
-    position: relative;
-    margin: 40px;
-    gap: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 4px;
   }
 
   &__item-label {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    font-style: var(--primary-font);
+    font-weight: 400;
+    font-size: var(--font-small);
+    line-height: 20px;
   }
 
   &__item-input {
@@ -71,14 +106,86 @@
     }
   }
 
+  &__item-radio {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__item-radio-label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    color: var(--primary-color);
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 3px;
+      left: 0;
+      width: 16px;
+      height: 16px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 2px solid rgb(212 217 242 / 0.26);
+      cursor: pointer;
+    }
+  }
+
+  &__item-radio-input:checked + &__item-radio-label::before {
+    border: 5px solid rgb(2 101 220);
+    background-color: rgb(13 13 21);
+  }
+
   &__item-textarea {
+    max-width: 100%;
     width: 640px;
-    height: 160px;
-    resize: horizontal;
+    height: 188px;
+    background: transparent;
+    border: 2px solid rgb(208 215 251 / 0.17);
+    color: var(--primary-color);
 
     &:focus-visible {
       outline: none;
       box-shadow: none;
     }
+  }
+
+  &__item-checkbox-label {
+    position: relative;
+    padding-left: 28px;
+    font-style: var(--primary-font);
+    font-weight: 400;
+    font-size: var(--font-small);
+    line-height: 20px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 3px;
+      width: 20px;
+      height: 20px;
+      border: 2px solid rgb(212 217 242 / 0.26);
+      border-radius: 4px;
+      background-color: rgb(13 13 21);
+      cursor: pointer;
+    }
+  }
+
+  &__item-checkbox-input:checked + &__item-checkbox-label::before {
+    background-color: rgb(2 101 220);
+    background-image: url("/img/images/check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8px 6px;
+    cursor: pointer;
+  }
+
+  &__item-button {
+    width: 100%;
   }
 }
