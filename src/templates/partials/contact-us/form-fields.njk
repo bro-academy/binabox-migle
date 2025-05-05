@@ -2,16 +2,22 @@
     <div class="form__item">
         {% if field.type == 'radio' %}
             <p class="form__item-title">{{ field.label }}</p>
+
             {% for option in field.options %}
-                <input class="form__item-input" type="radio" name="{{ field.name }}" value="{{ option.value }}" id="{{ option.id }}">
-                <label class="form__item-label" for="{{ option.id }}">{{ option.label }}</label>
+                <div class="form__item-radio">
+                    <input class="form__item-radio-input visually-hidden" type="radio" name="{{ field.name }}" value="{{ option.value }}" id="{{ option.id }}">
+                    <label class="form__item-radio-label" for="{{ option.id }}">{{ option.label }}</label>
+                </div>
             {% endfor %}
+
         {% elif field.type == 'textarea' %}
             <label class="form__item-label" for="{{ field.id }}">{{ field.label }}</label>
             <textarea class="form__item-textarea" name="{{ field.name }}" id="{{ field.id }}"></textarea>
         {% elif field.type == 'checkbox' %}
-            <input class="form__item-input" type="checkbox" name="{{ field.name }}" value="{{ field.value }}" id="{{ field.id }}" required>
-            <label class="form__item-label" for="{{ field.id }}">{{ field.label | safe }}</label>
+            <div class="form__checkbox">
+                <input class="form__item-checkbox-input visually-hidden" type="checkbox" name="{{ field.name }}" value="{{ field.value }}" id="{{ field.id }}" required>
+                <label class="form__item-checkbox-label" for="{{ field.id }}">{{ field.label | safe }}</label>
+            </div>
         {% else %}
             <label class="form__item-label" for="{{ field.id }}">{{ field.label }}</label>
             <input class="form__item-input"

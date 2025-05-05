@@ -16,14 +16,11 @@
     @include mixins.spacing(24px, center);
     padding: 4px 20px;
 
-    &--selected {
-      border-bottom: 2px solid var(--secondary-color);
-    }
-
     &:hover,
     &:focus,
     &:active {
       cursor: pointer;
+      border-bottom: 2px solid var(--secondary-color);
     }
 
     &:hover {
@@ -38,6 +35,7 @@
 
     &:active {
       color: rgb(0 84 182);
+      border-bottom: 2px solid var(--secondary-color);
     }
   }
 }

@@ -94,16 +94,29 @@ const getDataForFile = (file) => {
     dirname(file.relative),
     "data.json",
   );
-  let fileContent;
+  const commonFilePath = join(
+    cwd(),
+    paths.viewsDir,
+    "partials",
+    "common",
+    "data.json",
+  );
+  let fileContent = {};
+  let commonFileContent = {};
 
   try {
-    fileContent = readFileSync(filePath, "utf8");
+    fileContent = JSON.parse(readFileSync(filePath, "utf8"));
   } catch (error) {
-    fileContent = "{}";
     if (args.debug) console.warn(error.message);
   }
 
-  return JSON.parse(fileContent);
+  try {
+    commonFileContent = JSON.parse(readFileSync(commonFilePath, "utf8"));
+  } catch (error) {
+    if (args.debug) console.warn(error.message);
+  }
+
+  return Object.assign(commonFileContent, fileContent);
 };
 
 function htmllintReporter(results) {
@@ -181,13 +194,7 @@ function htmllintReporter(results) {
 }
 
 export const styles = () =>
-  src(paths.dev.styles, { sourcemaps: true, since: lastRun(styles) })
-    .pipe(
-      sass({
-        outputStyle: "expanded",
-        indentWidth: 4,
-      }).on("error", sass.logError),
-    )
+  src(paths.dev.styles, { sourcemaps: true })
     .pipe(
       postcss(
         [
@@ -204,6 +211,12 @@ export const styles = () =>
         ],
         { syntax: postcssScss },
       ),
+    )
+    .pipe(
+      sass({
+        outputStyle: "expanded",
+        indentWidth: 4,
+      }).on("error", sass.logError),
     )
     .pipe(dest(paths.dist.styles, { sourcemaps: true }))
     .pipe(gulpif(args.debug, size(sizeOptions)))

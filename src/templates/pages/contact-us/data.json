@@ -1,208 +1,225 @@
 {
-    "site": {
-        "title": "BINABOX"
+  "site": {
+    "title": "BINABOX"
+  },
+  "logo": {
+    "link": "#",
+    "image": "/img/images/logo-white.svg",
+    "desc": "Picture of logotip"
+  },
+  "navItems": [
+    {
+      "link": "/index.html",
+      "text": "Home",
+      "state": "selected"
     },
-    "logo": {
-        "link": "#",
-        "image": "/img/images/logo-white.svg",
-        "desc": "Picture of logotip"
+    {
+      "link": "/blog.html",
+      "text": "Blog"
     },
-    "navItems": [
-        {
-            "link": "/index.html",
-            "text": "Home",
-            "state": "selected"
-        },
-        {
-            "link": "/blog.html",
-            "text": "Blog"
-        },
-        {
-            "link": "/explore-catalog.html",
-            "text": "Catalog"
-        },
-        {
-            "link": "/contact-us.html",
-            "text": "Contact us"
-        }
-    ],
-    "headerButtons": [
-        {
-            "label": "Discord",
-            "link": "#"
-        },
-        {
-            "label": "Connect",
-            "link": "#"
-        }
-    ],
-    "banner": {
-        "title": "Contact Us",
-        "links": [
-            {
-                "link": "./index.html",
-                "name": "Home"
-            },
-            {
-                "link": "#",
-                "name": "Contact Us"
-            }
-        ]
+    {
+      "link": "/explore-catalog.html",
+      "text": "Catalog"
     },
-    "fields": [
-        {
-            "type": "text",
-            "name": "name",
-            "id": "name",
-            "label": "Name",
-            "required": true,
-            "minlength": 2
-        },
-        {
-            "type": "text",
-            "name": "surname",
-            "id": "surname",
-            "label": "Last name",
-            "required": true,
-            "minlength": 2
-        },
-        {
-            "type": "date",
-            "name": "birthday",
-            "id": "birthday",
-            "label": "Date of birth",
-            "required": true,
-            "max": "2025-04-01"
-        },
-        {
-            "type": "radio",
-            "name": "gender",
-            "label": "Gender",
-            "options": [
-                {
-                    "label": "Male",
-                    "value": "male",
-                    "id": "male"
-                },
-                {
-                    "label": "Female",
-                    "value": "female",
-                    "id": "female"
-                }
-            ]
-        },
-        {
-            "type": "email",
-            "name": "email",
-            "id": "email",
-            "label": "Email",
-            "required": true
-        },
-        {
-            "type": "tel",
-            "name": "tel",
-            "id": "tel",
-            "label": "Phone number",
-            "required": true,
-            "minlength": 9
-        },
-        {
-            "type": "textarea",
-            "name": "message",
-            "id": "message",
-            "label": "Message"
-        },
-        {
-            "type": "checkbox",
-            "name": "terms",
-            "value": "agree",
-            "id": "terms",
-            "label": "By clicking on the <strong>Send Message</strong> button I agree to <a href='#'>all the terms of the security policy</a>"
-        }
-    ],
-    "footer": {
-        "logo": {
-            "link": "/index.html",
-            "image": "/img/images/logo-blue.svg",
-            "desc": "Picture of logotip"
-        },
-        "text": "We are the best way to check rarity of the <span> NFT </span> collection",
-        "nav": [
-            {
-                "link": "#",
-                "name": "Subscribe"
-            },
-            {
-                "link": "#",
-                "name": "Home"
-            },
-            {
-                "link": "#",
-                "name": "Blog"
-            },
-            {
-                "link": "#",
-                "name": "Catalog"
-            },
-            {
-                "link": "#",
-                "name": "Contact us"
-            }
-        ],
-        "info": [
-            {
-                "link": "#",
-                "name": "Company"
-            },
-            {
-                "link": "#",
-                "name": "Terms Conditions"
-            },
-            {
-                "link": "#",
-                "name": "Privacy Policy"
-            },
-            {
-                "link": "#",
-                "name": "WhitePape"
-            },
-            {
-                "link": "#",
-                "name": "Help Center"
-            }
-        ],
-        "copyright": "BINABOX 2022 - All right reserved",
-        "socialApps": [
-            {
-                "link": "#",
-                "img": "/img/images/check.svg",
-                "alt": ""
-            },
-            {
-                "link": "#",
-                "img": "/img/images/check.svg",
-                "alt": ""
-            },
-            {
-                "link": "#",
-                "img": "/img/images/check.svg",
-                "alt": ""
-            },
-            {
-                "link": "#",
-                "img": "/img/images/check.svg",
-                "alt": ""
-            },
-            {
-                "link": "#",
-                "img": "/img/images/check.svg",
-                "alt": ""
-            },
-            {
-                "link": "#",
-                "img": "/img/images/check.svg",
-                "alt": ""
-            }
-        ]
+    {
+      "link": "/contact-us.html",
+      "text": "Contact us"
     }
+  ],
+  "headerButtons": [
+    {
+      "label": "Discord",
+      "link": "#"
+    },
+    {
+      "label": "Connect",
+      "link": "#"
+    }
+  ],
+  "banner": {
+    "title": "Contact Us",
+    "links": [
+      {
+        "link": "./index.html",
+        "name": "Home"
+      },
+      {
+        "link": "#",
+        "name": "Contact Us"
+      }
+    ]
+  },
+  "contacts": [
+    {
+      "icon": "location.svg",
+      "title": "Location",
+      "text": "2163 Phillips Gap Rd"
+    },
+    {
+      "icon": "email.svg",
+      "title": "Email",
+      "text": "info.avitex@gmail.com"
+    },
+    {
+      "icon": "phone.svg",
+      "title": "Phone",
+      "text": "+1 666 8888"
+    }
+  ],
+  "fields": [
+    {
+      "type": "text",
+      "name": "name",
+      "id": "name",
+      "label": "Name",
+      "required": true,
+      "minlength": 2
+    },
+    {
+      "type": "text",
+      "name": "surname",
+      "id": "surname",
+      "label": "Last name",
+      "required": true,
+      "minlength": 2
+    },
+    {
+      "type": "date",
+      "name": "birthday",
+      "id": "birthday",
+      "label": "Date of birth",
+      "required": true,
+      "max": "2025-04-01"
+    },
+    {
+      "type": "radio",
+      "name": "gender",
+      "label": "Gender",
+      "options": [
+        {
+          "label": "Male",
+          "value": "male",
+          "id": "male"
+        },
+        {
+          "label": "Female",
+          "value": "female",
+          "id": "female"
+        }
+      ]
+    },
+    {
+      "type": "email",
+      "name": "email",
+      "id": "email",
+      "label": "Email",
+      "required": true
+    },
+    {
+      "type": "tel",
+      "name": "tel",
+      "id": "tel",
+      "label": "Phone number",
+      "required": true,
+      "minlength": 9
+    },
+    {
+      "type": "textarea",
+      "name": "message",
+      "id": "message",
+      "label": "Message"
+    },
+    {
+      "type": "checkbox",
+      "name": "terms",
+      "value": "agree",
+      "id": "terms",
+      "label": "By clicking on the <strong>Send Message</strong> button I agree to <a href='#'>all the terms of the security policy</a>"
+    }
+  ],
+  "footer": {
+    "logo": {
+      "link": "/index.html",
+      "image": "/img/images/logo-blue.svg",
+      "desc": "Picture of logotip"
+    },
+    "text": "We are the best way to check rarity of the <span> NFT </span> collection",
+    "nav": [
+      {
+        "link": "#",
+        "name": "Subscribe"
+      },
+      {
+        "link": "#",
+        "name": "Home"
+      },
+      {
+        "link": "#",
+        "name": "Blog"
+      },
+      {
+        "link": "#",
+        "name": "Catalog"
+      },
+      {
+        "link": "#",
+        "name": "Contact us"
+      }
+    ],
+    "info": [
+      {
+        "link": "#",
+        "name": "Company"
+      },
+      {
+        "link": "#",
+        "name": "Terms Conditions"
+      },
+      {
+        "link": "#",
+        "name": "Privacy Policy"
+      },
+      {
+        "link": "#",
+        "name": "WhitePape"
+      },
+      {
+        "link": "#",
+        "name": "Help Center"
+      }
+    ],
+    "copyright": "BINABOX 2022 - All right reserved",
+    "socialApps": [
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      },
+      {
+        "link": "#",
+        "img": "/img/images/check.svg",
+        "alt": ""
+      }
+    ]
+  }
 }

@@ -7,12 +7,10 @@
     {% include "partials/blog/banner.njk" %}
 
     <section class="page layout-container">
-      <div class="page__aside">
-        {% set Categories = Categories %}
-        {% include "partials/blog/aside.njk" %}
-      </div>
+      {% set Categories = Categories %}
+      {% include "partials/blog/aside.njk" %}
 
-      <article class="page__article">
+      <article class="article">
         {% set item = figure %}
         {% include "partials/blog/figure.njk" %}
 

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "cross-env NODE_ENV=production gulp build",
-    "dev": "gulp serve --lint",
+    "dev": "npx gulp serve --lint",
     "format": "prettier --write ."
   },
   "author": "",
@@ -44,8 +44,5 @@
   },
   "volta": {
     "node": "22.14.0"
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
   }
 }

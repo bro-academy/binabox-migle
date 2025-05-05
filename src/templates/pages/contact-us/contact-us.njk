@@ -2,13 +2,32 @@
 
 {% block content %}
     <main class="main">
-        <section>
-            {% set bannerData = banner %}
-            {% include "partials/blog/banner.njk" %}
-        </section>
-        <section>
-            {% set formClass = 'search-bar__form' %}
-            {% include "partials/contact-us/contact-form.njk" %}
-        </section>
-    </main>
-{% endblock %}
+        <section class="banner">
+            <div class="banner__container layout-container">
+                {% set bannerData = banner %}
+                {% include "partials/contact-us/banner.njk" %}
+            </section>
+            <section class="contact-info">
+                <div class="layout-container">
+                    <ul class="contact-info__list">
+                        {% for contact in contacts %}
+                            <li class="contact-info__item">
+                                <svg class="contact-info__icon">
+                                    <use>{{ contact.icon }}
+                                    </use>
+                                </svg>
+                                <h3 class="contact-info__title">{{ contact.title }}</h3>
+                                <p class="contact-info__text">{{ contact.text }}</p>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
+            <section class="get-in-touch">
+                <div class="get-in-touch__container layout-container">
+                    {% set formClass = 'get-in-touch__form' %}
+                    {% include "partials/contact-us/contact-form.njk" %}
+                </div>
+            </section>
+        </main>
+    {% endblock %}
