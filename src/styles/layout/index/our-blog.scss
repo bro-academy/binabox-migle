@@ -1,6 +1,6 @@
 @use "../base/mixins" as mixins;
 .blog {
-  .layout-container--flex {
+  &__container {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -20,12 +20,25 @@
 
   &__list {
     list-style-type: none;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
   }
 
   &__list-item {
     background-color: var(--card-background);
     padding: 24px;
-    display: flex;
+
+    &:first-child {
+      grid-row: 1 / span 2;
+    }
+
+    &:last-child {
+      grid-row: 3 / span 2;
+      grid-column: 2 / span 1;
+    }
   }
 
   &__button {

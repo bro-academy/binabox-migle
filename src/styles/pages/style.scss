@@ -2,7 +2,6 @@
 @use "../layout/index/footer";
 @use "../layout/index/main";
 @use "../layout/index/main-banner";
-
 @use "../layout/blog/banner";
 @use "../layout/index/catalog";
 @use "../layout/blog/aside";
@@ -18,7 +17,6 @@
 @use "../layout/explore-catalog/side-bar";
 @use "../layout/explore-catalog/catalog-panel";
 @use "../layout/explore-catalog/search-section";
-
 @use "../components/nav";
 @use "../components/button";
 @use "../components/label";
@@ -31,7 +29,6 @@
 @use "../components/form";
 @use "../components/quote";
 @use "../components/link";
-
 @use "../base/variables";
 @use "../base/mixins";
 @use "../base/global";
