@@ -16,7 +16,9 @@
         {% elif field.type == 'checkbox' %}
             <div class="form__checkbox">
                 <input class="form__item-checkbox-input visually-hidden" type="checkbox" name="{{ field.name }}" value="{{ field.value }}" id="{{ field.id }}" required>
-                <label class="form__item-checkbox-label" for="{{ field.id }}">{{ field.label | safe }}</label>
+                <label class="form__item-checkbox-label" for="{{ field.id }}">
+                    {{  field.label | replace('<a ', '<a class="form__link" ') | safe }}
+                </label>
             </div>
         {% else %}
             <label class="form__item-label" for="{{ field.id }}">{{ field.label }}</label>

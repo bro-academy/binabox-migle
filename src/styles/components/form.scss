@@ -156,13 +156,7 @@
     }
   }
 
-  &__checkbox {
-    display: flex;
-    justify-content: flex-start;
-    gap: 4px;
-  }
-
-  .form__item-checkbox-label a {
+  &__link {
     color: rgb(120 187 250);
   }
 
@@ -175,7 +169,6 @@
     line-height: 20px;
 
     &::before {
-      position: absolute;
       content: "";
       position: absolute;
       left: 0;
