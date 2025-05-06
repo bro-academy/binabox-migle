@@ -2,11 +2,11 @@
   background-color: rgb(13 13 21 / 1);
   color: var(--primary-color);
 
-  .layout-container--flex {
+  &__layout {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 32px 0;
   }
 
   &__group-buttons {

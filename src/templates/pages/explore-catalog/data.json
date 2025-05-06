@@ -36,15 +36,38 @@
       "link": "#"
     }
   ],
+  "banner": {
+    "title": "Explore catalog",
+    "links": [
+      {
+        "link": "./index.html",
+        "name": "Home"
+      },
+      {
+        "link": "#",
+        "name": "Catalog"
+      }
+    ]
+  },
   "sidebar": [
     {
       "title": "Clothing",
-      "options": ["Combatant", "King", "Queen", "Robot"]
+      "options": [
+        "Combatant",
+        "King",
+        "Queen",
+        "Robot"
+      ]
     },
     {
       "title": "Eyes",
       "inputType": "radio",
-      "options": ["Yellow", "Green", "Mix", "Orange"]
+      "options": [
+        "Yellow",
+        "Green",
+        "Mix",
+        "Orange"
+      ]
     },
     {
       "title": "Face"
@@ -57,7 +80,12 @@
     },
     {
       "title": "Special",
-      "options": ["Yellow", "Green", "Mix", "Orange"]
+      "options": [
+        "Yellow",
+        "Green",
+        "Mix",
+        "Orange"
+      ]
     }
   ],
   "sortOptions": [
@@ -65,6 +93,94 @@
     "Most popular",
     "Increasing in price",
     "Lowering the price"
+  ],
+  "selectedTags": [
+    "NFT",
+    "ICO",
+    "Crypto"
+  ],
+  "products": [
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "272"
+    },
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "272"
+    },
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "272"
+    },
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "272"
+    },
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "272"
+    },
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "367"
+    },
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "367"
+    },
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "367"
+    },
+    {
+      "label": "New",
+      "image": "/img/images/our-blog/face-sculpture-2x.webp",
+      "alt": "A stylized skeletal figure on a dark teal background",
+      "price": "$199",
+      "name": "Name product",
+      "height": "367",
+      "width": "367"
+    }
   ],
   "footer": {
     "logo": {

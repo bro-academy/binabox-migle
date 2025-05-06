@@ -14,14 +14,15 @@
 @use "../layout/contact-us/get-in-touch";
 @use "../layout/contact-us/banner-contact-us";
 @use "../layout/contact-us/contact-info";
+@use "../layout/explore-catalog/banner-catalog";
 @use "../layout/explore-catalog/side-bar";
-@use "../layout/explore-catalog/catalog-panel";
-@use "../layout/explore-catalog/search-section";
+@use "../layout/explore-catalog/catalog-page-controls";
 @use "../components/nav";
 @use "../components/button";
 @use "../components/label";
 @use "../components/arrow-button";
 @use "../components/product-card";
+@use "../components/controls";
 @use "../components/blog-card";
 @use "../components/member-card";
 @use "../components/socials";

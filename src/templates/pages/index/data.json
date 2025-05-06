@@ -84,35 +84,45 @@
         "image": "/img/images/catalog/skeleton-2x.webp",
         "alt": "A stylized skeletal figure on a dark teal background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       },
       {
         "label": "New",
         "image": "/img/images/catalog/cat-2x.webp",
         "alt": "A black cat with glowiteal eyes, set against a dark background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       },
       {
         "label": "Sold out",
         "image": "/img/images/catalog/scissors-2x.webp",
         "alt": "A pair of teal-toned scissors on a dark background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       },
       {
         "label": "New",
         "image": "/img/images/catalog/neon-card-2x.webp",
         "alt": "A glowing teal rectangular card design against a dark background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       },
       {
         "label": "New",
         "image": "/img/images/catalog/neon-cube-2x.webp",
         "alt": "A transparent cube with bright teal circuitry on a dark background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       }
     ]
   },

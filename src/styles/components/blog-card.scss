@@ -83,6 +83,7 @@
 
   &__image {
     object-fit: cover;
+    max-width: 100%;
 
     &--pos20 {
       object-position: 100% 20%;
