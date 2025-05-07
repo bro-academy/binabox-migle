@@ -2,11 +2,11 @@
   background-color: rgb(13 13 21 / 1);
   color: var(--primary-color);
 
-  .layout-container--flex {
+  &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 32px;
+    padding: 32px 0;
   }
 
   &__group-buttons {
@@ -21,6 +21,173 @@
       height: 24px;
       border-radius: 1px;
       background: rgb(208 215 251 / 0.17);
+    }
+  }
+}
+
+@media (max-width: 678px) {
+  .header {
+    &__container {
+      padding: 16px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__logo {
+      flex-shrink: 0;
+    }
+
+    &__nav {
+      display: none;
+    }
+
+    &__button:nth-child(2) {
+      text-indent: -100px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    &__group-buttons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 16px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    &__form-search {
+      display: none;
+    }
+
+    &__burger-wrapper {
+      display: flex;
+      gap: 16px;
+    }
+
+    &__burger-label {
+      box-sizing: border-box;
+      display: block;
+      text-indent: -9999px;
+      width: 48px;
+      height: 48px;
+      background: transparent;
+      border: 2px solid rgba(29 54 83 / 0.17);
+      cursor: pointer;
+      position: relative;
+
+      background-image: linear-gradient(rgb(245 248 251), rgb(245 248 251));
+      background-size: 37% 2px;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 14px;
+        right: 14px;
+        top: 14px;
+        border: 1px solid rgb(245 248 251);
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        left: 14px;
+        right: 14px;
+        top: 28px;
+        border: 1px solid rgb(245 248 251);
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    &__container {
+      padding: 16px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__image {
+      content: url("/img/images/logotip.svg");
+      max-width: 42px;
+    }
+
+    &__nav {
+      display: none;
+    }
+
+    &__button:nth-child(2) {
+      text-indent: -100px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    &__button:nth-child(3) {
+      text-indent: -120px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    &__group-buttons {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 16px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    &__form-search {
+      display: none;
+    }
+
+    &__burger-wrapper {
+      display: flex;
+      gap: 16px;
+    }
+
+    &__burger-label {
+      box-sizing: border-box;
+      display: block;
+      text-indent: -9999px;
+      width: 48px;
+      height: 48px;
+      background: transparent;
+      border: 2px solid rgba(29 54 83 / 0.17);
+      cursor: pointer;
+      position: relative;
+
+      background-image: linear-gradient(rgb(245 248 251), rgb(245 248 251));
+      background-size: 37% 2px;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 14px;
+        right: 14px;
+        top: 14px;
+        border: 1px solid rgb(245 248 251);
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        left: 14px;
+        right: 14px;
+        top: 28px;
+        border: 1px solid rgb(245 248 251);
+      }
     }
   }
 }
