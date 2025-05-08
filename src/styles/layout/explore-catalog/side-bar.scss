@@ -1,14 +1,13 @@
 .sidebar {
-  display: flex;
   max-width: 320px;
+  width: 100%;
   flex-shrink: 0;
 
   &__form {
     display: flex;
     flex-direction: column;
-    width: 320px;
-    flex-shrink: 0;
-    gap: 21px;
+    width: 100%;
+    gap: 20px;
   }
 
   &__title {

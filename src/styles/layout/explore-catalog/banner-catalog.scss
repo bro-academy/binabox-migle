@@ -26,11 +26,11 @@
     font-size: var(--font-small);
     font-weight: 600;
     line-height: 20px;
-    padding: 6px 6px;
+    padding: 6px;
     cursor: pointer;
 
     &--selected {
-      color: rgba(231 238 247 / 0.66);
+      color: rgb(231 238 247 / 0.66);
     }
 
     &:not(:first-child)::before {

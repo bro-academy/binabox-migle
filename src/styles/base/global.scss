@@ -48,4 +48,12 @@ figure {
   max-width: 1728px;
   margin: 0 auto;
   padding-inline: 64px;
+
+  &--padding-small {
+    padding-inline: 32px;
+  }
+
+  &--padding-large {
+    padding-inline: 164px;
+  }
 }
