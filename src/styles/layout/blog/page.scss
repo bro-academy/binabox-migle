@@ -1,6 +1,8 @@
 .page {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-  padding: 64px 0;
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-block: 64px;
+  }
 }

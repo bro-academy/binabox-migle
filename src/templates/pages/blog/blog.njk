@@ -6,30 +6,32 @@
     {% set bannerData = banner %}
     {% include "partials/blog/banner.njk" %}
 
-    <section class="page layout-container">
-      {% set Categories = Categories %}
-      {% include "partials/blog/aside.njk" %}
+    <section class="page">
+      <div class="page__container layout-container">
+        {% set Categories = Categories %}
+        {% include "partials/blog/aside.njk" %}
 
-      <article class="article">
-        {% set item = figure %}
-        {% include "partials/blog/figure.njk" %}
+        <article class="article">
+          {% set item = figure %}
+          {% include "partials/blog/figure.njk" %}
 
-        {% set section = mainSection %}
-        {% include "partials/blog/main.njk" %}
+          {% set section = mainSection %}
+          {% include "partials/blog/main.njk" %}
 
-        <div class="article__images">
-          {% set figureList = figureList %}
-          {% include "partials/blog/figure2.njk" %}
-        </div>
+          <div class="article__images">
+            {% set figureList = figureList %}
+            {% include "partials/blog/figure2.njk" %}
+          </div>
 
-        {% set sections = sections %}
-        {% include "partials/blog/section.njk" %}
-        <div class="article__footer">
-          {% include "partials/blog/tags.njk" %}
+          {% set sections = sections %}
+          {% include "partials/blog/section.njk" %}
+          <div class="article__footer">
+            {% include "partials/blog/tags.njk" %}
 
-          {% include "partials/blog/share.njk" %}
-        </div>
-      </article>
+            {% include "partials/blog/share.njk" %}
+          </div>
+        </article>
+      </div>
     </section>
   </main>
 {% endblock %}

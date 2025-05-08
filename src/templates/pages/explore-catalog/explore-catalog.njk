@@ -1,39 +1,39 @@
 {% extends "layouts/base.njk" %}
 {% block content %}
     <main class="main">
-        <section class="catalog-page__container layout-container">
-            {% set bannerData = banner %}
-            {% include "partials/explore-catalog/banner-catalog.njk" %}
-            <div class="catalog-page__wrapper">
-                <aside class="catalog-page__sidebar sidebar">
-                    {% set sidebar = sidebar %}
-                    {% include "partials/explore-catalog/side-bar.njk" %}
-                </aside>
-                <article class="catalog-page__article">
-                    {% include "partials/explore-catalog/search-section.njk" %}
-                    <ul class="catalog-page__tags">
-
-                        {% for tag in selectedTags %}
-                            <li class="catalog-page__item">
-                                <button class="catalog-page__button" type="button">
-                                    {{ tag }}
-                                    <span class="catalog-page__close">×</span>
-                                </button>
-                            </li>
-                        {% endfor %}
-                        <button class="catalog-page__clear" type="button">Clear all</button>
-
-                    </ul>
-                    <ul class="catalog-page__products">
-                        {% for card in products %}
-                            <li class="catalog-page__list-item">
-                                {% include "partials/product-card.njk" %}
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </article>
-
-            </div>
-        </section>
-    </main>
-{% endblock %}
+        <section class="catalog-page__banner">
+            <div class="catalog-page__banner-container layout-container layout-container--none">
+                {% set bannerData = banner %}
+                {% include "partials/explore-catalog/banner-catalog.njk" %}
+            </section>
+            <section class="catalog-page">
+                <div class="catalog-page__container layout-container">
+                    <aside class="catalog-page__sidebar sidebar">
+                        {% set sidebar = sidebar %}
+                        {% include "partials/explore-catalog/side-bar.njk" %}
+                    </aside>
+                    <article class="catalog-page__article">
+                        {% include "partials/explore-catalog/search-section.njk" %}
+                        <ul class="catalog-page__tags">
+                            {% for tag in selectedTags %}
+                                <li class="catalog-page__item">
+                                    <button class="catalog-page__button" type="button">
+                                        {{ tag }}
+                                        <span class="catalog-page__close">×</span>
+                                    </button>
+                                </li>
+                            {% endfor %}
+                            <button class="catalog-page__clear" type="button">Clear all</button>
+                        </ul>
+                        <ul class="catalog-page__products">
+                            {% for card in products %}
+                                <li class="catalog-page__list-item">
+                                    {% include "partials/product-card.njk" %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </article>
+                </div>
+            </section>
+        </main>
+    {% endblock %}

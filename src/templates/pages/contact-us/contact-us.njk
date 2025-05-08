@@ -2,13 +2,13 @@
 
 {% block content %}
     <main class="main">
-        <section class="banner layout-container">
-            <div class="banner__container ">
+        <section class="banner">
+            <div class="banner__container layout-container layout-container--padding-none">
                 {% set bannerData = banner %}
                 {% include "partials/contact-us/banner.njk" %}
             </section>
             <section class="contact-info">
-                <div class="layout-container">
+                <div class="contact-info__container layout-container">
                     <ul class="contact-info__list">
                         {% for contact in contacts %}
                             <li class="contact-info__item">
