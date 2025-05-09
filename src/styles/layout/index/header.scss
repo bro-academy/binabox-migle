@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
 .header {
   background-color: rgb(13 13 21 / 1);
   color: var(--primary-color);
@@ -25,7 +27,7 @@
   }
 }
 
-@media (max-width: 678px) {
+@include tablet {
   .header {
     &__container {
       padding: 16px 0;
@@ -105,7 +107,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@include phone {
   .header {
     &__container {
       padding: 16px 0;
