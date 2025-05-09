@@ -2,14 +2,11 @@
   {% for blog in blog.blogCards %}
     {% set itemMod = '' %}
     {% set imageMod = '' %}
-    {% if loop.first %}
-      {% set itemMod = 'first-span' %}
-    {% endif %}
-    {% if loop.last %}
-      {% set itemMod = 'last-span' %}
+    {% if loop.index in[1, 5] %}
+      {% set itemMod = 'large' %}
     {% endif %}
 
-    {% if loop.index in[2, 5] %}
+    {% if loop.index in[2, 6] %}
       {% set imageMod = 'pos20' %}
     {% elif loop.index in[3, 4] %}
       {% set imageMod = 'pos40' %}
