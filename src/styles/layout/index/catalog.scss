@@ -1,7 +1,7 @@
 @use "../base/mixins" as mixins;
 .catalog {
-  .layout-container--flex {
-    padding: 64px;
+  &__container {
+    padding-block: 64px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -43,9 +43,9 @@
 
   &__list {
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    justify-content: center;
     gap: 24px;
   }
 

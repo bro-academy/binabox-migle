@@ -2,8 +2,8 @@
 .main-banner {
   background-color: var(--background-dark);
 
-  .layout-container--flex {
-    padding: 141px 164px;
+  &__container {
+    padding-block: 140px;
     display: flex;
     flex-direction: column;
     gap: 32px;

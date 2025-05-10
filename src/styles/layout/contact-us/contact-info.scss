@@ -1,6 +1,11 @@
 @use "../base/mixins" as mixins;
 .contact-info {
   background-color: var(--background-dark);
+
+  &__container {
+    padding-top: 64px;
+  }
+
   &__list {
     display: flex;
     justify-content: center;

@@ -1,10 +1,10 @@
 @use "../base/mixins" as mixins;
 .blog {
-  .layout-container--flex {
+  &__container {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 64px;
+    padding-block: 64px;
   }
 
   &__title {
@@ -20,12 +20,19 @@
 
   &__list {
     list-style-type: none;
+    display: grid;
+    gap: 32px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
   }
 
   &__list-item {
     background-color: var(--card-background);
     padding: 24px;
-    display: flex;
+
+    &--large {
+      grid-row: span 2;
+    }
   }
 
   &__button {
