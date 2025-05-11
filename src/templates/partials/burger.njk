@@ -1,4 +1,15 @@
 <div class="header__burger-toggle">
     <input class="header__burger-input visually-hidden" type="checkbox" id="burger-toggle"  >
     <label class="header__burger-label" for="burger-toggle"></label>
+    <div class="header__burger-panel">
+        {% set classForm = 'header__burger-search' %}
+        {% include "partials/search-bar.njk" %}
+        <ul class="header__burger-nav nav">
+            {%for nav in navItems%}
+                <li class="nav__item">
+                    <a class="nav__link{% if nav.state == 'selected' %} nav__link--selected{% endif %}" href="{{ nav.link }}" >{{ nav.text}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
