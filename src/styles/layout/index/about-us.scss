@@ -1,10 +1,10 @@
 @use "../base/mixins";
 .about-us {
-  .layout-container--flex {
+  &__container {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 64px;
+    padding-block: 64px;
   }
 
   &__title {
@@ -32,6 +32,11 @@
 
   &__list {
     list-style-type: none;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
   }
 
   &__list-title {
@@ -56,8 +61,8 @@
   }
 
   &__list-item {
-    padding: 38px;
-    background-color: rgba(26, 25, 37, 1);
+    padding: 32px;
+    background-color: rgb(26 25 37);
   }
 
   &__button {

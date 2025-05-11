@@ -1,0 +1,13 @@
+<section class="catalog-page__banner">
+    <h1 class="catalog-page__banner-title">{{ bannerData.title }}</h1>
+    <div class="catalog-page__banner-links">
+        {% for btn in bannerData.links %}
+            {% set btnClass = "catalog-page__banner-link catalog-page__banner-link--selected" if btn.name == "Catalog" else "catalog-page__banner-link" %}
+            {% set btnLink = btn.link %}
+            {% set btnLabel = btn.name %}
+
+            {%include "partials/button.njk"%}
+
+        {% endfor %}
+    </div>
+</section>

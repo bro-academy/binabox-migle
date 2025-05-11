@@ -1,7 +1,8 @@
 .get-in-touch {
-  &__form {
+  &__container {
     display: flex;
     flex-direction: column;
-    padding: 64px 0 104px;
+    padding-top: 64px;
+    padding-bottom: 104px;
   }
 }

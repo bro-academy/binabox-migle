@@ -84,35 +84,45 @@
         "image": "/img/images/catalog/skeleton-2x.webp",
         "alt": "A stylized skeletal figure on a dark teal background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       },
       {
         "label": "New",
         "image": "/img/images/catalog/cat-2x.webp",
         "alt": "A black cat with glowiteal eyes, set against a dark background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       },
       {
         "label": "Sold out",
         "image": "/img/images/catalog/scissors-2x.webp",
         "alt": "A pair of teal-toned scissors on a dark background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       },
       {
         "label": "New",
         "image": "/img/images/catalog/neon-card-2x.webp",
         "alt": "A glowing teal rectangular card design against a dark background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       },
       {
         "label": "New",
         "image": "/img/images/catalog/neon-cube-2x.webp",
         "alt": "A transparent cube with bright teal circuitry on a dark background",
         "price": "$199",
-        "name": "Name product"
+        "name": "Name product",
+        "height": "324",
+        "width": "253"
       }
     ]
   },
@@ -181,10 +191,10 @@
       },
       {
         "label": "NFT",
-        "image": "/img/images/our-blog/goose-2x.webp",
+        "image": "/img/images/catalog/neon-cube-2x.webp",
         "width": "736",
         "height": "664",
-        "alt": "White goose against a dark, neon background",
+        "alt": "Transparent device with glowing neon edges",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
         "title": "Sonic live",
@@ -196,10 +206,10 @@
       },
       {
         "label": "NFT",
-        "image": "/img/images/catalog/neon-cube-2x.webp",
+        "image": "/img/images/our-blog/goose-2x.webp",
         "width": "736",
         "height": "664",
-        "alt": "Transparent device with glowing neon edges",
+        "alt": "White goose against a dark, neon background",
         "writer": "Tony Nguyen",
         "date": "20 Jun 2022",
         "title": "Sonic live",

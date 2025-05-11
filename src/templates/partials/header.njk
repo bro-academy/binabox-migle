@@ -2,37 +2,38 @@
       <div class="header__container layout-container">
             <div class="header__burger-wrapper">
                   {% include "partials/burger.njk" %}
+                  <div class="header__container layout-container layout-container--padding-small ">
 
-                  {% set imgClass = "header__image" %}
-                  {% set logoClass = "header__logo" %}
-                  {% include "partials/logo.njk" %}
+                        {% set imgClass = "header__image" %}
+                        {% set logoClass = "header__logo" %}
+                        {% include "partials/logo.njk" %}
+                  </div>
+
+                  {% set navItems = navItems %}
+                  {% set navClass = "header__nav" %}
+
+                  {% include "partials/nav.njk" %}
+
+                  <div class="header__group-buttons">
+                        {% set classForm = 'header__form-search' %}
+                        {% include "partials/search-bar.njk" %}
+
+                        {% for button in headerButtons %}
+
+                              {% set btnLink = button.link %}
+                              {% set btnLabel = button.label %}
+
+                              {% if button.label == "Discord" %}
+                                    {% set btnClass = "header__button button" %}
+                              {% endif %}
+
+                              {% if button.label == "Connect" %}
+                                    {% set btnClass = "header__button button button--secondary" %}
+                              {% endif %}
+
+                              {% include "partials/button.njk" %}
+
+                        {% endfor %}
+                  </div>
             </div>
-
-            {% set navItems = navItems %}
-            {% set navClass = "header__nav" %}
-
-            {% include "partials/nav.njk" %}
-
-            <div class="header__group-buttons">
-                  {% set classForm = 'header__form-search' %}
-                  {% include "partials/search-bar.njk" %}
-
-                  {% for button in headerButtons %}
-
-                        {% set btnLink = button.link %}
-                        {% set btnLabel = button.label %}
-
-                        {% if button.label == "Discord" %}
-                              {% set btnClass = "header__button button" %}
-                        {% endif %}
-
-                        {% if button.label == "Connect" %}
-                              {% set btnClass = "header__button button button--secondary" %}
-                        {% endif %}
-
-                        {% include "partials/button.njk" %}
-
-                  {% endfor %}
-            </div>
-      </div>
-</header>
+      </header>

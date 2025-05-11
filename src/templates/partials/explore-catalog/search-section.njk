@@ -1,14 +1,17 @@
-<form class="catalog-panel__controls controls" action="https://some-url.com" method="get" >
-    <select class="controls__select" id="sort" name="sort">
-        <option class="controls__option" disabled selected>Sort by</option>
-        {% for option in sortOptions %}
-            <option class="controls__options" value="{{ option }}">{{ option }}</option>
-        {% endfor %}
-    </select>
+<form class="catalog-page__controls controls" action="#" method="get" >
+    <h3 class="controls__title">All item</h3>
+    <div class="controls__wrapper">
+        <select class="controls__select" id="sort" name="sort">
+            <option class="controls__option" disabled selected>Sort by</option>
+            {% for option in sortOptions %}
+                <option class="controls__options" value="{{ option }}">{{ option }}</option>
+            {% endfor %}
+        </select>
 
-    <div class="controls__search">
-        <label class="controls__search-label" for="search"></label>
-        <input class="controls__search-input" type="text" placeholder="Search NFT" name="search" id="search">
+        <div class="controls__search">
+            <label class="controls__search-label" for="search"></label>
+            <input class="controls__search-input" type="text" placeholder="Search NFT" name="search" id="search">
+        </div>
+        <button class="catalog-panel__button visually-hidden" type="submit"></button>
     </div>
-    <button class="catalog-panel__button visually-hidden" type="submit"></button>
 </form>

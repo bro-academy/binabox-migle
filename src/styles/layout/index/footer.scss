@@ -2,8 +2,9 @@
 .footer {
   background-color: rgb(26 25 37 / 1);
 
-  .layout-container--flex {
-    padding: 64px 64px 32px 64px;
+  &__container {
+    padding-top: 64px;
+    padding-bottom: 32px;
   }
 
   &__desc {
