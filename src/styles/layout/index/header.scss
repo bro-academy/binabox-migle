@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 32px 0;
+    padding-block: 32px;
   }
 
   &__group-buttons {
@@ -25,12 +25,16 @@
       background: rgb(208 215 251 / 0.17);
     }
   }
+
+  &__image {
+    display: block;
+  }
 }
 
 @include tablet {
   .header {
     &__container {
-      padding: 16px 0;
+      padding-block: 16px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -69,6 +73,7 @@
     &__burger-wrapper {
       display: flex;
       gap: 16px;
+      align-items: center;
     }
 
     &__burger-label {
@@ -110,11 +115,7 @@
 @include phone {
   .header {
     &__container {
-      padding: 16px 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
+      padding-block: 16px;
     }
 
     &__image {

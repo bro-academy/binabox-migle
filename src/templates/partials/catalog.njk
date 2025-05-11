@@ -21,12 +21,14 @@
         {% endfor %}
       </div>
     </div>
-    <ul class="catalog__list">
-      {% for card in catalog.products %}
-        <li class="catalog__list-item">
-          {% include "partials/product-card.njk" %}
-        </li>
-      {% endfor %}
-    </ul>
+    <div class="catalog__list-wrapper">
+      <ul class="catalog__list">
+        {% for card in catalog.products %}
+          <li class="catalog__list-item">
+            {% include "partials/product-card.njk" %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </section>

@@ -1,3 +1,4 @@
+@use "../base/mixins" as *;
 :root {
   --primary-color: rgb(245 248 251);
   --secondary-color: rgb(2 101 220);
@@ -59,5 +60,48 @@ figure {
 
   &--padding-none {
     padding-inline: 0;
+  }
+}
+
+@include laptop {
+  .layout-container {
+    max-width: 1728px;
+    margin: 0 auto;
+    padding-inline: 64px;
+
+    &--padding-large {
+      padding-inline: 118px;
+    }
+  }
+}
+
+@include tablet {
+  .layout-container {
+    max-width: 1728px;
+    margin: 0 auto;
+    padding-inline: 24px;
+
+    &--padding-small {
+      padding-inline: 16px;
+    }
+    &--padding-large {
+      padding-inline: 24px;
+    }
+  }
+}
+
+@include phone {
+  .layout-container {
+    max-width: 1728px;
+    margin: 0 auto;
+    padding-inline: 16px;
+
+    &--padding-small {
+      padding-inline: 16px;
+    }
+
+    &--padding-large {
+      padding-inline: 16px;
+    }
   }
 }
