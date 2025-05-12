@@ -1,4 +1,4 @@
-@use "../base/mixins" as mixins;
+@use "../base/mixins" as *;
 .catalog {
   &__container {
     padding-block: 64px;
@@ -31,12 +31,7 @@
   }
 
   &__title {
-    @include mixins.text-style(
-      var(--text-color),
-      var(--secondary-font),
-      24px,
-      400
-    );
+    @include text-style(var(--text-color), var(--secondary-font), 24px, 400);
     line-height: 32px;
     order: -1;
   }
@@ -44,12 +39,103 @@
   &__list {
     list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     gap: 24px;
   }
 
   &__list-item {
     background: var(--card-background);
+  }
+}
+
+@include laptop {
+  .catalog {
+    &__list {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: calc((100% - 72px) / 4);
+      gap: 24px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      width: max-content;
+    }
+
+    &__list-wrapper {
+      overflow-x: auto;
+    }
+
+    &__list-item {
+      scroll-snap-align: start;
+      max-width: 270px;
+    }
+  }
+}
+
+@include tablet {
+  .catalog {
+    &__container {
+      padding-top: 0;
+    }
+
+    &__list {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: calc((100% - 48px) / 2);
+      gap: 24px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      width: max-content;
+    }
+
+    &__list-wrapper {
+      overflow-x: auto;
+    }
+
+    &__list-item {
+      scroll-snap-align: start;
+      max-width: 300px;
+    }
+  }
+}
+
+@include phone {
+  .catalog {
+    &__container {
+      padding-block: 32px;
+    }
+
+    &__list-wrapper {
+      overflow-x: auto;
+    }
+
+    &__list {
+      gap: 16px;
+    }
+
+    &__list-item {
+      scroll-snap-align: start;
+    }
+
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+
+    &__group-btn {
+      width: 100%;
+    }
+
+    &__button {
+      &:first-child {
+        display: block;
+        flex-grow: 1;
+        text-align: center;
+      }
+    }
+
+    &__title {
+      font-size: 24px;
+      line-height: 32px;
+    }
   }
 }

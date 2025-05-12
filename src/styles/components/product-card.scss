@@ -47,3 +47,29 @@
     gap: 8px;
   }
 }
+
+@include mixins.phone {
+  .product-card {
+    gap: 16px;
+    padding: 16px;
+
+    &__img-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__price {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    &__name {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    &__info {
+      gap: 24px;
+    }
+  }
+}

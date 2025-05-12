@@ -1,8 +1,19 @@
+@use "../base/mixins" as mixins;
 .page {
   &__container {
     display: flex;
     justify-content: center;
     gap: 32px;
     padding-block: 64px;
+  }
+}
+
+@include mixins.tablet {
+  .page {
+    &__container {
+      flex-direction: column;
+      padding-block: 24px;
+      align-items: center;
+    }
   }
 }

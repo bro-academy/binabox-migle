@@ -134,7 +134,7 @@
       "name": "terms",
       "value": "agree",
       "id": "terms",
-      "label": "By clicking on the <strong>Send Message</strong> button I agree to <a href='#'>all the terms of the security policy</a>"
+      "label": "By clicking on the <strong>Send Message</strong> button I agree to <a href=\"#\">all the terms of the security policy</a>"
     }
   ],
   "footer": {

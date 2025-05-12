@@ -15,11 +15,14 @@
   }
 
   &__item {
+    box-sizing: border-box;
     border: 1px solid rgb(212 217 242 / 0.26);
     padding: 40px 32px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 328px;
+    width: 100%;
   }
 
   &__title {
@@ -29,5 +32,50 @@
       36px,
       400
     );
+  }
+}
+
+@include mixins.tablet {
+  .contact-info {
+    &__container {
+      padding-top: 24px;
+    }
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      justify-content: center;
+      gap: 24px;
+    }
+
+    &__item {
+      justify-self: center;
+      width: 100%;
+      max-width: 307px;
+    }
+
+    &__item:last-child {
+      grid-column: 1 / -1;
+    }
+  }
+}
+
+@include mixins.phone {
+  .contact-info {
+    &__container {
+      padding-block: 0;
+    }
+    &__list {
+      grid-template-columns: 1fr;
+    }
+
+    &__item {
+      justify-self: center;
+      width: 100%;
+      max-width: 328px;
+    }
+
+    &__item:last-child {
+      grid-column: span 0;
+    }
   }
 }

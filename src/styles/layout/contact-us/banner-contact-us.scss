@@ -1,13 +1,10 @@
+@use "../base/mixins" as *;
 .banner {
   &__container {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    background-color: var(--background-dark);
-    background-image: url("/img/images/blog-page/blog-bg-image-2x.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
     min-height: 310px;
     padding-top: 64px;
   }
@@ -32,6 +29,34 @@
       transform: translateY(-50%);
       border-radius: 2px;
       background: rgb(208 215 251 / 0.17);
+    }
+  }
+}
+
+@include tablet {
+  .banner {
+    &__container {
+      min-height: 0;
+      padding-top: 16px;
+      padding-bottom: 96px;
+    }
+
+    &__title {
+      font-size: 36px;
+      line-height: 48px;
+    }
+  }
+}
+
+@include phone {
+  .banner {
+    &__container {
+      min-height: 0;
+      padding-block: 16px 48px;
+    }
+    &__title {
+      font-size: 28px;
+      line-height: 36px;
     }
   }
 }

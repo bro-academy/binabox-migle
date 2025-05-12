@@ -48,3 +48,20 @@
     gap: 16px;
   }
 }
+
+@include mixins.tablet {
+  .aside {
+    position: static;
+    max-width: 550px;
+    width: 100%;
+    align-self: center;
+  }
+}
+
+@include mixins.phone {
+  .aside {
+    position: static;
+    min-width: 328px;
+    align-self: center;
+  }
+}
