@@ -52,8 +52,8 @@
 @include mixins.tablet {
   .aside {
     position: static;
-    min-width: 550px;
-    flex-shrink: 1;
+    max-width: 550px;
+    width: 100%;
     align-self: center;
   }
 }
@@ -62,7 +62,6 @@
   .aside {
     position: static;
     min-width: 328px;
-    flex-shrink: 1;
     align-self: center;
   }
 }

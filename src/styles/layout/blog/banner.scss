@@ -1,14 +1,15 @@
 @use "../base/mixins" as mixins;
 .banner {
+  background-color: var(--background-dark);
+  background-image: url("/img/images/blog-page/blog-bg-image-2x.webp");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
   &__container-blog {
     display: flex;
     flex-direction: column;
     min-height: 248px;
-    background-color: var(--background-dark);
-    background-image: url("/img/images/blog-page/blog-bg-image-2x.webp");
-    background-size: cover;
-    background-position: bottom center;
-    background-repeat: no-repeat;
     padding-top: 64px;
   }
 
@@ -76,10 +77,7 @@
   .banner {
     &__container-blog {
       padding-top: 24px;
-      padding-bottom: 0;
-      min-height: 215px;
-      background-size: contain;
-      background-position: inherit;
+      padding-bottom: 106px;
     }
 
     &__title {
@@ -89,12 +87,6 @@
 
     &__links {
       flex-wrap: wrap;
-    }
-
-    &__link--selected {
-      flex-basis: 100%;
-      text-align: center;
-      color: rgb(231 238 247 / 0.66);
     }
 
     &__link {
@@ -118,6 +110,12 @@
         border-radius: 2px;
         background: rgb(208 215 251 / 0.17);
       }
+    }
+
+    &__link--selected {
+      flex-basis: 100%;
+      text-align: center;
+      color: rgb(231 238 247 / 0.66);
     }
   }
 }
