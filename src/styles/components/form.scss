@@ -1,6 +1,8 @@
 @use "../base/mixins" as mixins;
 @use "../base/variables" as vars;
 .form {
+  display: flex;
+  flex-direction: column;
   margin-inline: auto;
   max-width: 640px;
   align-items: center;
@@ -78,6 +80,11 @@
     gap: 4px;
   }
 
+  &__item-input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    opacity: 0;
+  }
+
   &__item-label {
     font-style: var(--primary-font);
     font-weight: 400;
@@ -89,6 +96,7 @@
     color: vars.$primary-color;
     background: transparent;
     border: 2px solid rgb(208 215 251 / 0.17);
+    padding: 10px 12px;
 
     &:focus-visible {
       outline: none;
@@ -194,5 +202,18 @@
 
   &__item-button {
     width: 100%;
+  }
+}
+
+@include mixins.phone {
+  .form {
+    &__title {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    &__title-desc {
+      text-align: center;
+    }
   }
 }
