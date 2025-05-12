@@ -9,13 +9,13 @@
                             <input
                             class="sidebar__input visually-hidden"
                             type="{{ item.inputType or 'checkbox' }}"
-                            id="{{ item.title | lower }}-{{ loop.index }}"
+                            id="{{ item.title | lower }}_{{ loop.index }}"
                             name="{{ item.title | lower }}"
                             value="{{ option }}"
                             >
                             <label 
                             class="sidebar__label" 
-                            for="{{ item.title | lower }}-{{ loop.index }}">
+                            for="{{ item.title | lower }}_{{ loop.index }}">
                                 {{ option }}
                             </label>
                         </li>

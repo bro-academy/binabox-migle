@@ -1,7 +1,7 @@
 <a href="#">
   <article class="product-card">
     <div class="product-card__img-wrapper">
-      <span class="product-card__label label {% if card.label == 'Sold out' %}label--updated{% endif %}">{{ card.label }}</span>
+      <span class="product-card__label label{% if card.label == 'Sold out' %} label--updated{% endif %}">{{ card.label }}</span>
       <img
                 class="product-card__image"
                 src="{{ card.image }}"
