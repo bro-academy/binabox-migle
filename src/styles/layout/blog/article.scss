@@ -135,3 +135,35 @@
     gap: 12px;
   }
 }
+
+@include mixins.laptop {
+  .article {
+    max-width: 792px;
+  }
+}
+@include mixins.tablet {
+  .article {
+    max-width: 550px;
+    &__images {
+      flex-direction: column;
+      display: block;
+      object-fit: cover;
+    }
+  }
+}
+
+@include mixins.phone {
+  .article {
+    max-width: 328px;
+    &__images {
+      flex-direction: column;
+      display: block;
+      object-fit: cover;
+    }
+
+    &__footer {
+      flex-direction: column;
+      gap: 24px;
+    }
+  }
+}

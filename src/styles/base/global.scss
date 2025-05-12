@@ -72,6 +72,10 @@ figure {
     &--padding-large {
       padding-inline: 118px;
     }
+
+    &--padding-none {
+      padding-inline: 0;
+    }
   }
 }
 
@@ -86,6 +90,9 @@ figure {
     }
     &--padding-large {
       padding-inline: 24px;
+    }
+    &--padding-none {
+      padding-inline: 0;
     }
   }
 }
@@ -102,6 +109,10 @@ figure {
 
     &--padding-large {
       padding-inline: 16px;
+    }
+
+    &--padding-none {
+      padding-inline: 0;
     }
   }
 }
