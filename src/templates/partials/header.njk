@@ -1,8 +1,11 @@
 <header class="header">
-      <div class="header__container layout-container layout-container--padding-small ">
-
-            {% set logoClass = "header__logo" %}
-            {% include "partials/logo.njk" %}
+      <div class="header__container layout-container layout-container--padding-small">
+            <div class="header__burger-wrapper">
+                  {% include "partials/burger.njk" %}
+                  {% set imgClass = "header__image" %}
+                  {% set logoClass = "header__logo" %}
+                  {% include "partials/logo.njk" %}
+            </div>
 
             {% set navItems = navItems %}
             {% set navClass = "header__nav" %}

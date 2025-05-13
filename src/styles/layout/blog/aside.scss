@@ -1,5 +1,6 @@
 @use "../base/mixins" as mixins;
 @use "../base/variables" as vars;
+
 .aside {
   display: flex;
   flex-direction: column;

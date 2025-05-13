@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 @mixin button-base {
   color: var(--primary-color);
   font-family: var(--primary-font);
@@ -28,4 +30,26 @@
 @mixin spacing($line-height, $text-align) {
   line-height: $line-height;
   text-align: $text-align;
+}
+
+@mixin desk {
+  @media screen and (max-width: #{$screen-desk}) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (max-width: #{$screen-laptop}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: #{$screen-tab}) {
+    @content;
+  }
+}
+@mixin phone {
+  @media screen and (max-width: #{$screen-phone}) {
+    @content;
+  }
 }

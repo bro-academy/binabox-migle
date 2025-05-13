@@ -1,4 +1,5 @@
 @use "../base/mixins" as mixins;
+
 .footer {
   background-color: rgb(26 25 37 / 1);
 
@@ -78,7 +79,6 @@
 
   &__wrapper-items {
     display: flex;
-    align-items: center;
     gap: 24px;
   }
 
@@ -104,5 +104,26 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+  }
+}
+
+@include mixins.tablet {
+  .footer {
+    &__wrapper-up {
+      gap: 36px;
+      flex-direction: column;
+    }
+  }
+}
+
+@include mixins.phone {
+  .footer {
+    &__wrapper-down {
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__social {
+      justify-content: flex-start;
+    }
   }
 }

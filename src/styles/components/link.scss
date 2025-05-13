@@ -1,15 +1,16 @@
 @use "../base/mixins" as mixins;
 @use "../base/variables" as vars;
+
 .link {
   @include mixins.text-style(
     vars.$primary-color,
     vars.$primary-font,
     vars.$font-small,
-    600
+    400
   );
-  @include mixins.spacing(20px, left);
+  @include mixins.spacing(16px, left);
   cursor: pointer;
-  padding: 4px 12px;
+  padding: 6px 12px;
 
   &:hover {
     color: rgb(56 146 243);

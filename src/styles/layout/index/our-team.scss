@@ -40,3 +40,32 @@
     }
   }
 }
+
+@include mixins.tablet {
+  .our-team {
+    &__container {
+      padding-top: 0;
+    }
+    &__list {
+      gap: 16px;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+    }
+
+    &__list-item {
+      box-sizing: border-box;
+      width: 293px;
+      height: 316px;
+      flex: 0 0 auto;
+    }
+  }
+}
+
+@include mixins.phone {
+  .our-team {
+    &__list-item {
+      padding: 16px;
+    }
+  }
+}

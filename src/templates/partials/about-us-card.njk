@@ -1,6 +1,6 @@
 <ol class="about-us__list">
   {% for about in aboutUs.cards %}
-    <li class="about-us__list-item" tabindex="0">
+    <li class="about-us__list-item{% if about.number == '04' %} about-us__list-item--last{% endif %}" tabindex="0">
       <p class="about-us__list-number">{{ about.number }}</p>
       <h3 class="about-us__list-title">{{ about.title }}</h3>
       <p class="about-us__list-desc">
