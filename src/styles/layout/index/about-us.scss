@@ -1,4 +1,5 @@
 @use "../base/mixins" as *;
+
 .about-us {
   &__container {
     display: flex;
@@ -55,11 +56,8 @@
     &__list {
       grid-template-columns: repeat(3, 1fr);
     }
-    &__list-item {
-      &:last-child {
-        grid-column: span 3;
-        grid-row-start: 2;
-      }
+    &__list-item--last {
+      grid-column: 1 / -1;
     }
   }
 }
@@ -70,11 +68,9 @@
       grid-template-columns: 1fr;
     }
 
-    &__list-item {
-      &:last-child {
-        grid-column: auto;
-        grid-row-start: auto;
-      }
+    &__list-item--last {
+      grid-column: auto;
+      grid-row-start: auto;
     }
   }
 }

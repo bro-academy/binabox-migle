@@ -1,5 +1,6 @@
 @use "../base/variables" as *;
 @use "../base/mixins" as *;
+
 .header {
   background-color: rgb(13 13 21 / 1);
   color: var(--primary-color);

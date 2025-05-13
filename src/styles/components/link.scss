@@ -1,5 +1,6 @@
 @use "../base/mixins" as mixins;
 @use "../base/variables" as vars;
+
 .link {
   @include mixins.text-style(
     vars.$primary-color,
