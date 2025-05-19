@@ -21,12 +21,14 @@
   }
 
   &__title {
-    @include text-style(var(--primary-color), var(--primary-font), 36px, 400);
-
+    @include text-style(var(--primary-color), var(--secondary-font), 36px, 400);
     line-height: 48px;
+    letter-spacing: -0.5px;
   }
 
   &__desc {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
     display: -webkit-box;
     -webkit-box-orient: vertical;

@@ -21,7 +21,6 @@
 
   &__image {
     object-fit: cover;
-    margin-bottom: 24px;
     max-width: 100%;
   }
 
@@ -38,8 +37,8 @@
 
   &__label {
     position: absolute;
-    top: 35px;
-    right: 35px;
+    top: 40px;
+    right: 40px;
   }
 
   &__info {

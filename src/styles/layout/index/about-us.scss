@@ -12,13 +12,11 @@
     @include text-style(var(--primary-color), var(--secondary-font), 36px, 400);
     @include spacing(48px, center);
     letter-spacing: -0.5px;
-    margin-bottom: 16px;
   }
 
   &__desc {
     @include text-style(var(--card-text), var(--primary-font), 20px, 500);
     @include spacing(28px, center);
-    margin-bottom: 40px;
   }
 
   &__list {

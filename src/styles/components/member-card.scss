@@ -2,6 +2,7 @@
 
 .member-card {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -47,5 +48,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8px;
   }
 }
