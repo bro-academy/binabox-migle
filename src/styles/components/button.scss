@@ -1,4 +1,5 @@
 @use "../base/mixins" as mixins;
+
 .button {
   @include mixins.button-base;
   box-sizing: border-box;

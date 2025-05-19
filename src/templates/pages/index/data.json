@@ -40,7 +40,7 @@
     "title1": "with",
     "span": "binabox",
     "title2": "explore\nnft collection",
-    "subtitle": "We are the best way to check rarity of NFT collection",
+    "subtitle": "We are the best way to check the rarity of NFT collection",
     "stats": [
       {
         "term": "2240+",
@@ -66,7 +66,7 @@
     "title": "Catalog",
     "button": {
       "link": "#",
-      "label": "See All"
+      "label": "See all"
     },
     "arrow": [
       {
@@ -518,7 +518,7 @@
       "image": "/img/images/logo-blue.svg",
       "desc": "Picture of logotip"
     },
-    "text": "We are the best way to check rarity of the <span> NFT </span> collection",
+    "text": "We are the best way to check the rarity of <span> NFT </span> <br> collection",
     "nav": [
       {
         "link": "#",

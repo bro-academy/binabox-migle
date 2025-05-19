@@ -1,4 +1,5 @@
 @use "../base/mixins" as mixins;
+
 .faq {
   &__container {
     padding-block: 64px;
@@ -77,5 +78,22 @@
       400
     );
     @include mixins.spacing(24px, left);
+  }
+}
+
+@include mixins.tablet {
+  .faq {
+    &__title {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+}
+
+@include mixins.phone {
+  .faq {
+    &__details {
+      padding: 16px;
+    }
   }
 }

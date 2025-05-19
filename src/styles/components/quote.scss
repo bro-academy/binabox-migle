@@ -1,5 +1,6 @@
 @use "../base/variables" as vars;
 @use "../base/mixins" as mixins;
+
 .quote {
   &__text {
     @include mixins.text-style(

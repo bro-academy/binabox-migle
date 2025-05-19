@@ -1,4 +1,5 @@
 @use "../base/mixins" as mixins;
+
 .footer {
   background-color: rgb(26 25 37 / 1);
 
@@ -19,6 +20,7 @@
 
   &__list {
     list-style-type: none;
+    min-width: 150px;
   }
 
   &__copyright {
@@ -78,7 +80,6 @@
 
   &__wrapper-items {
     display: flex;
-    align-items: center;
     gap: 24px;
   }
 
@@ -86,12 +87,12 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-top: 64px;
+    padding-top: 96px;
 
     &::before {
       content: "";
       position: absolute;
-      top: 32px;
+      top: 62px;
       width: 100%;
       height: 2px;
       background: rgb(208 215 251 / 0.17);
@@ -104,5 +105,26 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+  }
+}
+
+@include mixins.tablet {
+  .footer {
+    &__wrapper-up {
+      gap: 36px;
+      flex-direction: column;
+    }
+  }
+}
+
+@include mixins.phone {
+  .footer {
+    &__wrapper-down {
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__social {
+      justify-content: flex-start;
+    }
   }
 }
